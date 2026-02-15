@@ -1,11 +1,34 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mountain } from 'lucide-react';
+import { Mountain, MapPin, TrendingUp } from 'lucide-react';
+import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { NPS_API_KEY, NPS_BASE_URL } from '../config/npsConfig';
+
+const FAMOUS_LANDMARKS = {
+    'yose': ['Half Dome', 'El Capitan', 'Yosemite Falls', 'Mirror Lake'],
+    'grca': ['Mather Point', 'Bright Angel Trail', 'Desert View Watchtower', 'Havasu Falls'],
+    'romo': ['Longs Peak', 'Bear Lake', 'Trail Ridge Road', 'Dream Lake'],
+    'acad': ['Cadillac Mountain', 'Jordan Pond', 'Thunder Hole', 'Beehive Trail'],
+    'zion': ['Angels Landing', 'The Narrows', 'Observation Point', 'Zion Canyon'],
+    'glac': ['Logan Pass', 'Lake McDonald', 'Going-to-the-Sun Road', 'Many Glacier'],
+    'olym': ['Hurricane Ridge', 'Hoh Rain Forest', 'Ruby Beach', 'Mount Olympus'],
+    'yell': ['Old Faithful', 'Grand Prismatic Spring', 'Yellowstone Falls', 'Lamar Valley']
+};
+
+const generateVisitorData = () => {
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    return months.map((month, index) => {
+        // Simple bell curve logic to simulate peaks in summer
+        const distFromJuly = Math.abs(index - 6);
+        const visitors = Math.max(10, 100 - (distFromJuly * 12)) + Math.floor(Math.random() * 10);
+        return { month, visitors };
+    });
+};
 
 const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
     const [npsData, setNpsData] = useState(null);
     const [loading, setLoading] = useState(false);
+    const visitorData = useMemo(() => generateVisitorData(), []);
 
     useEffect(() => {
         if (!isSelected || npsData) return;
@@ -26,6 +49,8 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
 
         fetchData();
     }, [isSelected, park.parkCode, npsData]);
+
+    const landmarks = FAMOUS_LANDMARKS[park.parkCode] || [];
 
     return (
         <motion.div
@@ -93,7 +118,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
                                 </motion.div>
                             </div>
                         ) : (
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
 
                                 {/* --- DISCOVERY PHOTO --- */}
                                 {npsData?.images?.[0] && (
@@ -149,15 +174,80 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
                                 </div>
 
                                 <div style={{
-                                    fontSize: '1.2rem',
+                                    fontSize: '1.25rem',
                                     color: '#444',
                                     lineHeight: '1.4',
                                     fontFamily: '"Caveat", cursive',
                                     background: '#fcfaf2',
-                                    padding: '10px',
+                                    padding: '12px',
                                     borderLeft: '3px solid #e6e2d3'
                                 }}>
                                     {npsData?.description || park.description}
+                                </div>
+
+                                {/* --- FAMOUS LANDMARKS --- */}
+                                {landmarks.length > 0 && (
+                                    <div style={{ background: '#fcfcfc', border: '1px solid #eee', padding: '12px' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '10px', fontSize: '0.7rem', fontFamily: '"PT Sans Narrow", sans-serif', fontWeight: 'bold', color: '#cd5c5c', letterSpacing: '1px' }}>
+                                            <MapPin size={12} /> FAMOUS PINNACLES & TRAILS
+                                        </div>
+                                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
+                                            {landmarks.map((item, i) => (
+                                                <div key={i} style={{
+                                                    fontSize: '0.8rem',
+                                                    color: '#555',
+                                                    fontFamily: '"PT Serif", serif',
+                                                    fontStyle: 'italic',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    gap: '5px'
+                                                }}>
+                                                    <span style={{ color: '#cd5c5c' }}>•</span> {item}
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+
+                                {/* --- VISITOR FREQUENCY GRAPH --- */}
+                                <div style={{ background: '#fcfcfc', border: '1px solid #eee', padding: '12px' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '10px', fontSize: '0.7rem', fontFamily: '"PT Sans Narrow", sans-serif', fontWeight: 'bold', color: '#cd5c5c', letterSpacing: '1px' }}>
+                                        <TrendingUp size={12} /> SEASONAL VISITOR TRAFFIC
+                                    </div>
+                                    <div style={{ width: '100%', height: '120px' }}>
+                                        <ResponsiveContainer width="100%" height="100%">
+                                            <AreaChart data={visitorData} margin={{ top: 5, right: 5, left: -30, bottom: 0 }}>
+                                                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#eee" />
+                                                <XAxis
+                                                    dataKey="month"
+                                                    axisLine={false}
+                                                    tickLine={false}
+                                                    tick={{ fontSize: 9, fill: '#999', fontFamily: '"PT Sans Narrow", sans-serif' }}
+                                                />
+                                                <YAxis
+                                                    axisLine={false}
+                                                    tickLine={false}
+                                                    tick={{ fontSize: 9, fill: '#999', fontFamily: '"PT Sans Narrow", sans-serif' }}
+                                                />
+                                                <Tooltip
+                                                    contentStyle={{
+                                                        fontSize: '10px',
+                                                        fontFamily: '"PT Sans Narrow", sans-serif',
+                                                        border: '1px solid #eee',
+                                                        boxShadow: '2px 2px 8px rgba(0,0,0,0.05)'
+                                                    }}
+                                                />
+                                                <Area
+                                                    type="monotone"
+                                                    dataKey="visitors"
+                                                    stroke="#cd5c5c"
+                                                    fill="#cd5c5c"
+                                                    fillOpacity={0.1}
+                                                    strokeWidth={2}
+                                                />
+                                            </AreaChart>
+                                        </ResponsiveContainer>
+                                    </div>
                                 </div>
 
                                 <div style={{

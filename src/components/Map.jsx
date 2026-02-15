@@ -3,6 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { MAP_TOKEN, MAP_STYLES, DEFAULT_STYLE } from '../config/mapStyles';
 import { NATIONAL_PARKS } from '../data/parks';
+import { Compass, Mountain, Trees, Waves } from 'lucide-react';
 import ParkCard from './ParkCard';
 import './Map.css';
 
@@ -249,7 +250,63 @@ const Map = () => {
                 msOverflowStyle: 'none',  /* IE and Edge */
                 scrollbarWidth: 'none'  /* Firefox */
             }}>
-                <div style={{ padding: '20px', flexGrow: 1 }}>
+                <div style={{ padding: '30px 20px', flexGrow: 1 }}>
+                    {/* --- APP HEADER --- */}
+                    <h1 style={{
+                        fontFamily: '"Londrina Solid", cursive',
+                        fontSize: '3.5rem',
+                        color: '#cd5c5c',
+                        textAlign: 'left',
+                        margin: '0 0 20px 0',
+                        lineHeight: '1',
+                        letterSpacing: '2px',
+                        textTransform: 'uppercase'
+                    }}>
+                        SUMMIT SCOUT
+                    </h1>
+
+                    {/* --- FILTER BUTTONS --- */}
+                    <div style={{
+                        display: 'flex',
+                        justifyContent: 'flex-start',
+                        gap: '12px',
+                        marginBottom: '30px'
+                    }}>
+                        {[
+                            { icon: <Compass size={20} />, label: 'All' },
+                            { icon: <Mountain size={20} />, label: 'Peaks' },
+                            { icon: <Trees size={20} />, label: 'Forests' },
+                            { icon: <Waves size={20} />, label: 'Water' }
+                        ].map((filter, i) => (
+                            <button
+                                key={i}
+                                style={{
+                                    width: '40px',
+                                    height: '40px',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    background: 'transparent',
+                                    border: '1px solid #cd5c5c',
+                                    color: '#cd5c5c',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.2s ease',
+                                    borderRadius: '0'
+                                }}
+                                onMouseEnter={(e) => {
+                                    e.currentTarget.style.background = '#cd5c5c';
+                                    e.currentTarget.style.color = '#fff';
+                                }}
+                                onMouseLeave={(e) => {
+                                    e.currentTarget.style.background = 'transparent';
+                                    e.currentTarget.style.color = '#cd5c5c';
+                                }}
+                            >
+                                {filter.icon}
+                            </button>
+                        ))}
+                    </div>
+
                     {NATIONAL_PARKS.map(park => (
                         <ParkCard
                             key={park.id}
