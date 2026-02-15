@@ -144,6 +144,32 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
                 </motion.div>
             )}
 
+            {viewMode === 'weather' && (
+                <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    style={{
+                        marginTop: '10px',
+                        background: '#f8f9fa',
+                        padding: '8px 12px',
+                        borderLeft: '3px solid #00ccff',
+                        fontFamily: '"PT Sans Narrow", sans-serif',
+                        fontSize: '0.75rem',
+                        color: '#444',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '2px'
+                    }}
+                >
+                    <div style={{ color: '#00ccff', fontWeight: 'bold', fontSize: '0.65rem', letterSpacing: '1px' }}>LIVE CLIMATE LOG</div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '2px' }}>
+                        <span>TEMP: <b style={{ color: '#333' }}>{park.weather?.temp}°F</b></span>
+                        <span>WIND: <b style={{ color: '#333' }}>{park.weather?.wind}MPH</b></span>
+                        <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{park.weather?.status.toUpperCase()}</span>
+                    </div>
+                </motion.div>
+            )}
+
             <AnimatePresence>
                 {isSelected && (
                     <motion.div

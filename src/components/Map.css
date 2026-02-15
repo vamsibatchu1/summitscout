@@ -55,6 +55,18 @@
     }
 }
 
+.marker-pin.sunny { background: #ffa500; box-shadow: 0 0 10px rgba(255, 165, 0, 0.6); }
+.marker-pulse.sunny { background: rgba(255, 165, 0, 0.3); }
+
+.marker-pin.snow { background: #00ccff; box-shadow: 0 0 10px rgba(0, 204, 255, 0.6); }
+.marker-pulse.snow { background: rgba(0, 204, 255, 0.3); }
+
+.marker-pin.rain { background: #4a90e2; box-shadow: 0 0 10px rgba(74, 144, 226, 0.6); }
+.marker-pulse.rain { background: rgba(74, 144, 226, 0.3); }
+
+.marker-pin.cloudy { background: #9b9b9b; box-shadow: 0 0 10px rgba(155, 155, 155, 0.6); }
+.marker-pulse.cloudy { background: rgba(155, 155, 155, 0.3); }
+
 /* Global Sidebar Styles */
 .no-scrollbar::-webkit-scrollbar {
     display: none;

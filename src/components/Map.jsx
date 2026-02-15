@@ -28,32 +28,91 @@ const getParkScores = (park) => {
     return { remoteness, elevation, scenery, biology, skill, composite };
 };
 
+// Deterministic weather generator
+const getParkWeather = (park) => {
+    let hash = 0;
+    for (let i = 0; i < park.parkCode.length; i++) {
+        hash = ((hash << 5) - hash) + park.parkCode.charCodeAt(i);
+        hash |= 0;
+    }
+
+    const conditions = ['Sunny', 'Snowing', 'Rainy', 'Cloudy'];
+    const status = conditions[Math.abs(hash % 4)];
+    const temp = Math.abs((hash % 40) + (status === 'Snowing' ? 10 : 40));
+    const wind = Math.abs((hash % 25) + 5);
+
+    let weatherClass = 'sunny';
+    if (status === 'Snowing') weatherClass = 'snow';
+    if (status === 'Rainy') weatherClass = 'rain';
+    if (status === 'Cloudy') weatherClass = 'cloudy';
+
+    return { status, temp, wind, weatherClass };
+};
+
 mapboxgl.accessToken = MAP_TOKEN;
 
 const Map = () => {
     const mapContainer = useRef(null);
     const map = useRef(null);
     const popupRef = useRef(null);
+    const markersRef = useRef([]);
     const [lng, setLng] = useState(-70.9);
     const [lat, setLat] = useState(42.35);
     const [zoom, setZoom] = useState(9);
     const [currentStyle, setCurrentStyle] = useState(DEFAULT_STYLE);
     const [selectedFeature, setSelectedFeature] = useState(null);
     const [isTouring, setIsTouring] = useState(false);
-    const [viewMode, setViewMode] = useState('all'); // 'all' or 'ranked'
+    const [viewMode, setViewMode] = useState('all'); // 'all', 'ranked', 'weather'
     const rotationRequestRef = useRef(null);
     const tourRequestRef = useRef(null);
 
     const processedParks = useMemo(() => {
         let list = [...NATIONAL_PARKS].map(p => ({
             ...p,
-            scores: getParkScores(p)
+            scores: getParkScores(p),
+            weather: getParkWeather(p)
         }));
 
         if (viewMode === 'ranked') {
             return list.sort((a, b) => b.scores.composite - a.scores.composite);
         }
         return list;
+    }, [viewMode]);
+
+    // Update marker classes when viewMode changes
+    useEffect(() => {
+        if (!map.current || markersRef.current.length === 0) return;
+
+        markersRef.current.forEach(({ el, park }) => {
+            const pin = el.querySelector('.marker-pin');
+            const pulse = el.querySelector('.marker-pulse');
+
+            // Reset
+            pin.className = 'marker-pin';
+            pulse.className = 'marker-pulse';
+
+            if (viewMode === 'weather') {
+                pin.classList.add(park.weather.weatherClass);
+                pulse.classList.add(park.weather.weatherClass);
+            }
+        });
+
+        // Map Atmosphere changes
+        if (viewMode === 'weather') {
+            map.current.setFog({
+                'range': [-1, 2],
+                'color': 'rgba(150, 180, 200, 0.5)',
+                'horizon-blend': 0.3,
+                'space-color': 'rgba(20, 30, 40, 0.8)',
+                'star-intensity': 0.15
+            });
+        } else {
+            map.current.setFog({
+                'range': [0.5, 10],
+                'color': 'white',
+                'horizon-blend': 0.1
+            });
+        }
     }, [viewMode]);
 
     const stopRotation = () => {
@@ -206,6 +265,9 @@ const Map = () => {
                         <div class="marker-pin"></div>
                         <div class="marker-pulse"></div>
                     `;
+
+                    // Store for dynamic updates (weather mode)
+                    markersRef.current.push({ el, park: { ...park, weather: getParkWeather(park) } });
 
                     new mapboxgl.Marker(el)
                         .setLngLat(park.coordinates)
@@ -384,7 +446,7 @@ const Map = () => {
                     }}>
                         {[
                             { icon: <Star size={20} />, label: 'Ranked', action: () => setViewMode(viewMode === 'ranked' ? 'all' : 'ranked') },
-                            { icon: <Compass size={20} />, label: 'All', action: () => setViewMode('all') },
+                            { icon: <Compass size={20} />, label: 'Active Pulse', action: () => setViewMode(viewMode === 'weather' ? 'all' : 'weather') },
                             { icon: <Mountain size={20} />, label: 'Peaks', action: () => { } },
                             { icon: <Trees size={20} />, label: 'Forests', action: () => { } },
                             { icon: <Waves size={20} />, label: 'Water', action: () => { } },
@@ -399,21 +461,29 @@ const Map = () => {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: (isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked') ? '#cd5c5c' : 'transparent',
+                                    background: (isTouring && filter.label === 'Tour') ||
+                                        (viewMode === 'ranked' && filter.label === 'Ranked') ||
+                                        (viewMode === 'weather' && filter.label === 'Active Pulse') ? '#cd5c5c' : 'transparent',
                                     border: '1px solid #cd5c5c',
-                                    color: (isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked') ? '#fff' : '#cd5c5c',
+                                    color: (isTouring && filter.label === 'Tour') ||
+                                        (viewMode === 'ranked' && filter.label === 'Ranked') ||
+                                        (viewMode === 'weather' && filter.label === 'Active Pulse') ? '#fff' : '#cd5c5c',
                                     cursor: 'pointer',
                                     transition: 'all 0.2s ease',
                                     borderRadius: '0'
                                 }}
                                 onMouseEnter={(e) => {
-                                    if (!((isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked'))) {
+                                    if (!((isTouring && filter.label === 'Tour') ||
+                                        (viewMode === 'ranked' && filter.label === 'Ranked') ||
+                                        (viewMode === 'weather' && filter.label === 'Active Pulse'))) {
                                         e.currentTarget.style.background = '#cd5c5c';
                                         e.currentTarget.style.color = '#fff';
                                     }
                                 }}
                                 onMouseLeave={(e) => {
-                                    if (!((isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked'))) {
+                                    if (!((isTouring && filter.label === 'Tour') ||
+                                        (viewMode === 'ranked' && filter.label === 'Ranked') ||
+                                        (viewMode === 'weather' && filter.label === 'Active Pulse'))) {
                                         e.currentTarget.style.background = 'transparent';
                                         e.currentTarget.style.color = '#cd5c5c';
                                     }
