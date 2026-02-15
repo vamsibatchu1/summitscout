@@ -3,8 +3,9 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { MAP_TOKEN, MAP_STYLES, DEFAULT_STYLE } from '../config/mapStyles';
 import { NATIONAL_PARKS } from '../data/parks';
-import { Compass, Mountain, Trees, Waves } from 'lucide-react';
+import { Compass, Mountain, Trees, Waves, Map as MapIcon } from 'lucide-react';
 import ParkCard from './ParkCard';
+import * as turf from '@turf/turf';
 import './Map.css';
 
 mapboxgl.accessToken = MAP_TOKEN;
@@ -18,13 +19,89 @@ const Map = () => {
     const [zoom, setZoom] = useState(9);
     const [currentStyle, setCurrentStyle] = useState(DEFAULT_STYLE);
     const [selectedFeature, setSelectedFeature] = useState(null);
+    const [isTouring, setIsTouring] = useState(false);
     const rotationRequestRef = useRef(null);
+    const tourRequestRef = useRef(null);
 
     const stopRotation = () => {
         if (rotationRequestRef.current) {
             cancelAnimationFrame(rotationRequestRef.current);
             rotationRequestRef.current = null;
         }
+        if (tourRequestRef.current) {
+            cancelAnimationFrame(tourRequestRef.current);
+            tourRequestRef.current = null;
+            setIsTouring(false);
+            if (map.current.getLayer('tour-path')) map.current.removeLayer('tour-path');
+            if (map.current.getSource('tour-path')) map.current.removeSource('tour-path');
+        }
+    };
+
+    const startTour = () => {
+        if (!map.current) return;
+        stopRotation();
+        setIsTouring(true);
+
+        // West-to-East sorting for a natural cross-country flow
+        const sortedParks = [...NATIONAL_PARKS].sort((a, b) => a.coordinates[0] - b.coordinates[0]);
+        const coords = sortedParks.map(p => p.coordinates);
+
+        // Use turf to create a smooth path
+        const line = turf.lineString(coords);
+        const distance = turf.length(line);
+        const steps = 2000; // Total frames for the tour
+
+        // Add visual path to the map
+        if (map.current.getSource('tour-path')) {
+            map.current.removeLayer('tour-path');
+            map.current.removeSource('tour-path');
+        }
+
+        map.current.addSource('tour-path', {
+            type: 'geojson',
+            data: line
+        });
+
+        map.current.addLayer({
+            id: 'tour-path',
+            type: 'line',
+            source: 'tour-path',
+            paint: {
+                'line-color': '#cd5c5c',
+                'line-width': 2,
+                'line-opacity': 0.6,
+                'line-dasharray': [2, 2]
+            }
+        });
+
+        let step = 0;
+        const animate = () => {
+            if (step >= steps || !isTouring) {
+                stopRotation();
+                return;
+            }
+
+            const currentPos = turf.along(line, (step / steps) * distance).geometry.coordinates;
+            const lookAheadPos = turf.along(line, Math.min(((step + 20) / steps) * distance, distance)).geometry.coordinates;
+
+            const camera = map.current.getFreeCameraOptions();
+
+            // Position camera slightly behind and above
+            const cameraPos = mapboxgl.MercatorCoordinate.fromLngLat(
+                [currentPos[0], currentPos[1] - 0.5], // Offset south for better view
+                15000 // 15km altitude for overview
+            );
+
+            camera.position = cameraPos;
+            camera.lookAtPoint(lookAheadPos);
+
+            map.current.setFreeCameraOptions(camera);
+
+            step++;
+            tourRequestRef.current = requestAnimationFrame(animate);
+        };
+
+        animate();
     };
 
     const startRotation = () => {
@@ -273,33 +350,39 @@ const Map = () => {
                         marginBottom: '30px'
                     }}>
                         {[
-                            { icon: <Compass size={20} />, label: 'All' },
-                            { icon: <Mountain size={20} />, label: 'Peaks' },
-                            { icon: <Trees size={20} />, label: 'Forests' },
-                            { icon: <Waves size={20} />, label: 'Water' }
+                            { icon: <Compass size={20} />, label: 'All', action: () => { } },
+                            { icon: <Mountain size={20} />, label: 'Peaks', action: () => { } },
+                            { icon: <Trees size={20} />, label: 'Forests', action: () => { } },
+                            { icon: <Waves size={20} />, label: 'Water', action: () => { } },
+                            { icon: <MapIcon size={20} />, label: 'Tour', action: startTour }
                         ].map((filter, i) => (
                             <button
                                 key={i}
+                                onClick={filter.action}
                                 style={{
                                     width: '40px',
                                     height: '40px',
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: 'transparent',
+                                    background: isTouring && filter.label === 'Tour' ? '#cd5c5c' : 'transparent',
                                     border: '1px solid #cd5c5c',
-                                    color: '#cd5c5c',
+                                    color: isTouring && filter.label === 'Tour' ? '#fff' : '#cd5c5c',
                                     cursor: 'pointer',
                                     transition: 'all 0.2s ease',
                                     borderRadius: '0'
                                 }}
                                 onMouseEnter={(e) => {
-                                    e.currentTarget.style.background = '#cd5c5c';
-                                    e.currentTarget.style.color = '#fff';
+                                    if (!(isTouring && filter.label === 'Tour')) {
+                                        e.currentTarget.style.background = '#cd5c5c';
+                                        e.currentTarget.style.color = '#fff';
+                                    }
                                 }}
                                 onMouseLeave={(e) => {
-                                    e.currentTarget.style.background = 'transparent';
-                                    e.currentTarget.style.color = '#cd5c5c';
+                                    if (!(isTouring && filter.label === 'Tour')) {
+                                        e.currentTarget.style.background = 'transparent';
+                                        e.currentTarget.style.color = '#cd5c5c';
+                                    }
                                 }}
                             >
                                 {filter.icon}
