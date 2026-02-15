@@ -1,12 +1,32 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { MAP_TOKEN, MAP_STYLES, DEFAULT_STYLE } from '../config/mapStyles';
 import { NATIONAL_PARKS } from '../data/parks';
-import { Compass, Mountain, Trees, Waves, Map as MapIcon } from 'lucide-react';
+import { Compass, Mountain, Trees, Waves, Map as MapIcon, Star } from 'lucide-react';
 import ParkCard from './ParkCard';
 import * as turf from '@turf/turf';
 import './Map.css';
+
+// Deterministic ranking generator
+const getParkScores = (park) => {
+    let hash = 0;
+    for (let i = 0; i < park.parkCode.length; i++) {
+        hash = ((hash << 5) - hash) + park.parkCode.charCodeAt(i);
+        hash |= 0;
+    }
+    const getScore = (offset, range = 4, min = 6) => {
+        const val = Math.abs((hash + offset) % 10);
+        return parseFloat((min + (val / 10) * range).toFixed(1));
+    };
+    const remoteness = getScore(10, 4, 5.5);
+    const elevation = getScore(20, 3.5, 6.2);
+    const scenery = getScore(30, 3, 6.8);
+    const biology = getScore(40, 2.5, 7.0);
+    const skill = getScore(50, 3, 6.5);
+    const composite = parseFloat(((remoteness + elevation + scenery + biology + skill) / 5).toFixed(1));
+    return { remoteness, elevation, scenery, biology, skill, composite };
+};
 
 mapboxgl.accessToken = MAP_TOKEN;
 
@@ -20,8 +40,21 @@ const Map = () => {
     const [currentStyle, setCurrentStyle] = useState(DEFAULT_STYLE);
     const [selectedFeature, setSelectedFeature] = useState(null);
     const [isTouring, setIsTouring] = useState(false);
+    const [viewMode, setViewMode] = useState('all'); // 'all' or 'ranked'
     const rotationRequestRef = useRef(null);
     const tourRequestRef = useRef(null);
+
+    const processedParks = useMemo(() => {
+        let list = [...NATIONAL_PARKS].map(p => ({
+            ...p,
+            scores: getParkScores(p)
+        }));
+
+        if (viewMode === 'ranked') {
+            return list.sort((a, b) => b.scores.composite - a.scores.composite);
+        }
+        return list;
+    }, [viewMode]);
 
     const stopRotation = () => {
         if (rotationRequestRef.current) {
@@ -350,7 +383,8 @@ const Map = () => {
                         marginBottom: '30px'
                     }}>
                         {[
-                            { icon: <Compass size={20} />, label: 'All', action: () => { } },
+                            { icon: <Star size={20} />, label: 'Ranked', action: () => setViewMode(viewMode === 'ranked' ? 'all' : 'ranked') },
+                            { icon: <Compass size={20} />, label: 'All', action: () => setViewMode('all') },
                             { icon: <Mountain size={20} />, label: 'Peaks', action: () => { } },
                             { icon: <Trees size={20} />, label: 'Forests', action: () => { } },
                             { icon: <Waves size={20} />, label: 'Water', action: () => { } },
@@ -365,21 +399,21 @@ const Map = () => {
                                     display: 'flex',
                                     alignItems: 'center',
                                     justifyContent: 'center',
-                                    background: isTouring && filter.label === 'Tour' ? '#cd5c5c' : 'transparent',
+                                    background: (isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked') ? '#cd5c5c' : 'transparent',
                                     border: '1px solid #cd5c5c',
-                                    color: isTouring && filter.label === 'Tour' ? '#fff' : '#cd5c5c',
+                                    color: (isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked') ? '#fff' : '#cd5c5c',
                                     cursor: 'pointer',
                                     transition: 'all 0.2s ease',
                                     borderRadius: '0'
                                 }}
                                 onMouseEnter={(e) => {
-                                    if (!(isTouring && filter.label === 'Tour')) {
+                                    if (!((isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked'))) {
                                         e.currentTarget.style.background = '#cd5c5c';
                                         e.currentTarget.style.color = '#fff';
                                     }
                                 }}
                                 onMouseLeave={(e) => {
-                                    if (!(isTouring && filter.label === 'Tour')) {
+                                    if (!((isTouring && filter.label === 'Tour') || (viewMode === 'ranked' && filter.label === 'Ranked'))) {
                                         e.currentTarget.style.background = 'transparent';
                                         e.currentTarget.style.color = '#cd5c5c';
                                     }
@@ -390,11 +424,12 @@ const Map = () => {
                         ))}
                     </div>
 
-                    {NATIONAL_PARKS.map(park => (
+                    {processedParks.map(park => (
                         <ParkCard
                             key={park.id}
                             park={park}
                             isSelected={selectedFeature?.properties?.name === park.name}
+                            viewMode={viewMode}
                             onClick={() => {
                                 if (selectedFeature?.properties?.name === park.name) {
                                     setSelectedFeature(null);

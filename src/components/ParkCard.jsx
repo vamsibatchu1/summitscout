@@ -25,10 +25,12 @@ const generateVisitorData = () => {
     });
 };
 
-const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
+const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
     const [npsData, setNpsData] = useState(null);
     const [loading, setLoading] = useState(false);
     const visitorData = useMemo(() => generateVisitorData(), []);
+
+    const { remoteness, elevation, scenery, biology, skill, composite } = park.scores || {};
 
     useEffect(() => {
         if (!isSelected || npsData) return;
@@ -66,11 +68,29 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
                 borderRadius: '0',
                 boxShadow: isSelected ? '4px 4px 0 rgba(205, 92, 92, 0.2)' : '2px 2px 0 rgba(0,0,0,0.05)',
                 transition: 'border-color 0.2s ease, box-shadow 0.2s ease',
-                overflow: 'hidden'
+                overflow: 'hidden',
+                position: 'relative'
             }}
             whileHover={{ y: isSelected ? 0 : -2, boxShadow: '4px 4px 0 rgba(205, 92, 92, 0.2)', borderColor: '#cd5c5c' }}
         >
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+            {viewMode === 'ranked' && (
+                <div style={{
+                    position: 'absolute',
+                    top: '15px',
+                    right: '15px',
+                    background: '#cd5c5c',
+                    color: '#fff',
+                    padding: '4px 8px',
+                    fontSize: '0.9rem',
+                    fontFamily: '"PT Sans Narrow", sans-serif',
+                    fontWeight: 'bold',
+                    zIndex: 2
+                }}>
+                    SC {composite}
+                </div>
+            )}
+
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px', paddingRight: viewMode === 'ranked' ? '60px' : '0' }}>
                 <Mountain
                     size={16}
                     strokeWidth={isSelected ? 2.5 : 2}
@@ -87,16 +107,42 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
                 </motion.h3>
             </div>
 
-            <motion.p layout="position" style={{
-                margin: 0,
-                fontFamily: '"PT Sans Narrow", sans-serif',
-                fontSize: '0.9rem',
-                color: '#666',
-                lineHeight: '1.4',
-                textTransform: 'uppercase'
-            }}>
-                {park.location}
-            </motion.p>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                <motion.p layout="position" style={{
+                    margin: 0,
+                    fontFamily: '"PT Sans Narrow", sans-serif',
+                    fontSize: '0.9rem',
+                    color: '#666',
+                    lineHeight: '1.4',
+                    textTransform: 'uppercase'
+                }}>
+                    {park.location}
+                </motion.p>
+            </div>
+
+            {viewMode === 'ranked' && (
+                <motion.div
+                    initial={{ opacity: 0, y: 5 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    style={{
+                        marginTop: '10px',
+                        display: 'grid',
+                        gridTemplateColumns: 'repeat(2, 1fr)',
+                        gap: '4px 12px',
+                        fontSize: '0.65rem',
+                        fontFamily: '"PT Sans Narrow", sans-serif',
+                        color: '#999',
+                        borderTop: '1px solid #f0f0f0',
+                        paddingTop: '8px'
+                    }}
+                >
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>REMOTENESS <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{remoteness}</span></div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>ELEVATION <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{elevation}</span></div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>SCENERY <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{scenery}</span></div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>BIODIVERSITY <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{biology}</span></div>
+                    <div style={{ display: 'flex', justifyContent: 'space-between' }}>TECHNICALITY <span style={{ color: '#cd5c5c', fontWeight: 'bold' }}>{skill}</span></div>
+                </motion.div>
+            )}
 
             <AnimatePresence>
                 {isSelected && (
