@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
 import { MAP_TOKEN, MAP_STYLES, DEFAULT_STYLE } from '../config/mapStyles';
 import { NATIONAL_PARKS } from '../data/parks';
-import { Compass, Mountain, Trees, Waves, Map as MapIcon, Star } from 'lucide-react';
+import { Compass, Mountain, Trees, Waves, Map as MapIcon, Star, List } from 'lucide-react';
 import ParkCard from './ParkCard';
 import * as turf from '@turf/turf';
 import './Map.css';
@@ -63,6 +63,7 @@ const Map = () => {
     const [selectedFeature, setSelectedFeature] = useState(null);
     const [isTouring, setIsTouring] = useState(false);
     const [viewMode, setViewMode] = useState('all'); // 'all', 'ranked', 'weather'
+    const [mobileTab, setMobileTab] = useState('map'); // 'map' or 'list'
     const rotationRequestRef = useRef(null);
     const tourRequestRef = useRef(null);
 
@@ -404,9 +405,13 @@ const Map = () => {
 
     return (
         <div className="app-layout" style={{ display: 'flex', width: '100vw', height: '100vh', overflow: 'hidden' }}>
-            <div ref={mapContainer} className="map-container" style={{ flex: '0 0 70%', height: '100%', position: 'relative' }} />
+            <div
+                ref={mapContainer}
+                className={`map-container ${mobileTab !== 'map' ? 'mobile-hidden' : ''}`}
+                style={{ flex: '0 0 70%', height: '100%', position: 'relative' }}
+            />
 
-            <div className="sidebar no-scrollbar" style={{
+            <div className={`sidebar no-scrollbar ${mobileTab !== 'list' ? 'mobile-hidden' : ''}`} style={{
                 flex: '0 0 30%',
                 height: '100%',
                 overflowY: 'auto',
@@ -422,7 +427,7 @@ const Map = () => {
                 msOverflowStyle: 'none',  /* IE and Edge */
                 scrollbarWidth: 'none'  /* Firefox */
             }}>
-                <div style={{ padding: '30px 20px', flexGrow: 1 }}>
+                <div style={{ padding: '30px 20px', flexGrow: 1, paddingBottom: '80px' }}>
                     {/* --- APP HEADER --- */}
                     <h1 style={{
                         fontFamily: '"Londrina Solid", cursive',
@@ -442,7 +447,8 @@ const Map = () => {
                         display: 'flex',
                         justifyContent: 'flex-start',
                         gap: '12px',
-                        marginBottom: '30px'
+                        marginBottom: '30px',
+                        flexWrap: 'wrap'
                     }}>
                         {[
                             { icon: <Star size={20} />, label: 'Ranked', action: () => setViewMode(viewMode === 'ranked' ? 'all' : 'ranked') },
@@ -507,12 +513,32 @@ const Map = () => {
                                     map.current.flyTo({ zoom: 4, pitch: 0, bearing: 0 });
                                 } else {
                                     handleParkClick(park);
+                                    // Auto-switch to map on mobile when a park is selected
+                                    if (window.innerWidth <= 768) setMobileTab('map');
                                 }
                             }}
                             activeStyle={currentStyle.id}
                         />
                     ))}
                 </div>
+            </div>
+
+            {/* --- MOBILE NAVIGATION --- */}
+            <div className="mobile-nav">
+                <button
+                    className={`mobile-nav-item ${mobileTab === 'map' ? 'active' : ''}`}
+                    onClick={() => setMobileTab('map')}
+                >
+                    <MapIcon size={20} />
+                    <span>Map</span>
+                </button>
+                <button
+                    className={`mobile-nav-item ${mobileTab === 'list' ? 'active' : ''}`}
+                    onClick={() => setMobileTab('list')}
+                >
+                    <List size={20} />
+                    <span>List</span>
+                </button>
             </div>
         </div>
     );

@@ -67,12 +67,68 @@
 .marker-pin.cloudy { background: #9b9b9b; box-shadow: 0 0 10px rgba(155, 155, 155, 0.6); }
 .marker-pulse.cloudy { background: rgba(155, 155, 155, 0.3); }
 
-/* Global Sidebar Styles */
-.no-scrollbar::-webkit-scrollbar {
-    display: none;
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .app-layout {
+        flex-direction: column !important;
+    }
+
+    .map-container.mobile-hidden,
+    .sidebar.mobile-hidden {
+        display: none !important;
+    }
+
+    .sidebar {
+        flex: 1 1 auto !important;
+        width: 100% !important;
+        height: 100vh !important;
+        border-left: none !important;
+    }
+
+    .map-container {
+        flex: 1 1 auto !important;
+        width: 100% !important;
+        height: 100vh !important;
+    }
+
+    .mobile-nav {
+        display: flex !important;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 60px;
+        background: #fff;
+        border-top: 1px solid #d4d4d4;
+        z-index: 100;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .mobile-nav-item {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        background: none;
+        border: none;
+        color: #888;
+        font-family: "PT Sans Narrow", sans-serif;
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .mobile-nav-item.active {
+        color: #cd5c5c;
+        font-weight: bold;
+    }
 }
 
-.no-scrollbar {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+/* Hide mobile nav on desktop */
+.mobile-nav {
+    display: none;
 }
