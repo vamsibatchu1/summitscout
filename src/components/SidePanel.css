@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400;700&display=swap');
+
+/* === OIL COMPANY (ATLAS / ROAD MAP) THEME === */
+.oil-panel {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    bottom: 20px;
+    width: 380px; 
+    
+    background-color: #f2efe9;
+    
+    color: #333333;
+    
+    /* Content Font: PT Sans Narrow */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    
+    border: 1px solid #d4d4d4;
+    
+    padding: 0; 
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
+    z-index: 1000;
+    animation: slideIn 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.oil-panel::-webkit-scrollbar {
+    display: none;
+}
+
+/* Embedded Mode for Sidebar Layout */
+.oil-panel.embedded {
+    position: relative;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+    max-height: none; /* Let it grow naturally */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+/* === HEADER === */
+.oil-panel-header {
+    background-color: #f2efe9;
+    padding: 24px 24px 16px 24px;
+    border-bottom: 3px double #cd5c5c; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.oil-panel.embedded .oil-panel-header {
+    padding: 20px 16px;
+}
+
+.oil-header-meta {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* Header Meta: PT Sans Narrow */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 600;
+    font-size: 0.75rem; /* slightly larger for readability */
+    color: #888;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.oil-id-badge {
+    background: #cd5c5c;
+    color: #fff;
+    padding: 1px 4px;
+    border-radius: 2px;
+    font-weight: 700;
+    font-family: 'PT Sans Narrow', sans-serif; /* Keep badge readable */
+}
+
+.oil-panel-title {
+    /* Main Title: PT Serif Bold Italic (Map Feature Style) */
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #2c2c2c;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 6px;
+    border-bottom: 1px solid transparent; 
+}
+
+.oil-subtitle {
+    /* Subtitle: PT Sans Narrow */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.9rem;
+    color: #cd5c5c;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.oil-close-btn {
+    display: none; 
+}
+
+
+/* === CONTENT === */
+.oil-panel-content {
+    padding: 24px;
+    background: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d4d4d4' fill-opacity='0.1' fill-rule='evenodd'%3E%3Ccircle cx='3' cy='3' r='1'/%3E%3C/g%3E%3C/svg%3E");
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.oil-panel.embedded .oil-panel-content {
+    padding: 16px;
+}
+
+.oil-section {
+    margin-bottom: 30px;
+}
+
+.oil-divider-title {
+    /* Section Headers: PT Serif Bold Italic */
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #666;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d4d4d4;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
+
+/* === GRID STATS === */
+.oil-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    row-gap: 20px;
+}
+
+.oil-stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.oil-stat span {
+    /* Stat Labels: PT Sans Narrow */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.7rem;
+    color: #cd5c5c;
+    margin-bottom: 2px;
+    letter-spacing: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.oil-stat b {
+    /* Stat Values: PT Serif */
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem; /* Slightly smaller than newsreader */
+    font-weight: 400;
+    color: #333;
+    background-color: rgba(255,255,255,0.6);
+    padding: 2px 4px;
+    border: 1px solid #e0e0e0;
+}
+
+/* === REPORT BLOCK === */
+.oil-report-block {
+    background: #fff;
+    border: 1px solid #d4d4d4;
+    padding: 10px;
+    box-shadow: 2px 2px 0px rgba(0,0,0,0.05);
+}
+
+.oil-report-row {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px dotted #ccc;
+}
+.oil-report-row:Last-child { border-bottom: none; }
+
+.oil-icon {
+    font-size: 1.2rem;
+    color: #888;
+    margin-right: 12px;
+    width: 24px;
+    text-align: center;
+}
+
+.oil-report-detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.oil-report-detail .label {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.7rem;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    margin-bottom: 2px;
+}
+.oil-report-detail .value {
+    font-family: 'PT Serif', serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444;
+}
+
+/* === LEGEND & NARRATIVE === */
+.oil-legend-compact {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 15px;
+    font-family: 'PT Sans Narrow', sans-serif; /* Legend text */
+}
+
+.legend-pair {
+    display: flex;
+    align-items: center;
+    width: 48%;
+    margin-bottom: 6px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+.oil-narrative {
+    background: #fcfcfc;
+    border-left: 3px solid #cd5c5c;
+    padding: 10px;
+    font-size: 0.95rem; 
+    font-style: italic;
+    color: #444;
+    line-height: 1.5;
+    font-family: 'PT Serif', serif; /* Narrative text usually serif */
+}
+
+/* === FOOTER === */
+.oil-footer {
+    margin-top: auto;
+    border-top: 1px solid #d4d4d4;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 0.7rem;
+    color: #888;
+    text-transform: uppercase;
+}
+
+.oil-signature {
+    font-weight: bold;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(20px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+
+/* --- Field Notes Popup Styles --- */
+.mapboxgl-popup.field-note-popup {
+    max-width: 320px !important; /* Force width */
+    z-index: 2000;
+}
+
+.field-note-popup .mapboxgl-popup-content {
+    background: #fffdf0; /* Light yellow/cream post-it color */
+    color: #444;
+    padding: 20px;
+    border-radius: 2px; /* Slight rounding but mostly square like paper */
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.25);
+    border: 1px solid #d4d4d4;
+    transform: rotate(-1deg); /* Slight tilt for "handwritten note" feel */
+}
+
+.field-note-popup .mapboxgl-popup-tip {
+    border-top-color: #fffdf0;
+}
