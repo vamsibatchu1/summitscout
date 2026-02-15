@@ -250,21 +250,6 @@ const Map = () => {
                 scrollbarWidth: 'none'  /* Firefox */
             }}>
                 <div style={{ padding: '20px', flexGrow: 1 }}>
-                    <h2 style={{
-                        fontFamily: '"PT Serif", serif',
-                        fontStyle: 'italic',
-                        textAlign: 'center',
-                        color: '#cd5c5c',
-                        borderBottom: '1px solid #ddd',
-                        paddingBottom: '10px',
-                        marginBottom: '20px',
-                        fontSize: '1.4rem',
-                        fontWeight: '700',
-                        letterSpacing: '1px'
-                    }}>
-                        NATIONAL PARKS
-                    </h2>
-
                     {NATIONAL_PARKS.map(park => (
                         <ParkCard
                             key={park.id}

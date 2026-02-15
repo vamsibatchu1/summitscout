@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Mountain } from 'lucide-react';
 import { NPS_API_KEY, NPS_BASE_URL } from '../config/npsConfig';
 
 const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
     const [npsData, setNpsData] = useState(null);
-    const [alerts, setAlerts] = useState([]);
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
@@ -13,16 +13,10 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const [parkRes, alertsRes] = await Promise.all([
-                    fetch(`${NPS_BASE_URL}/parks?parkCode=${park.parkCode}&api_key=${NPS_API_KEY}`),
-                    fetch(`${NPS_BASE_URL}/alerts?parkCode=${park.parkCode}&api_key=${NPS_API_KEY}`)
-                ]);
-
+                const parkRes = await fetch(`${NPS_BASE_URL}/parks?parkCode=${park.parkCode}&api_key=${NPS_API_KEY}`);
                 const parkJson = await parkRes.json();
-                const alertsJson = await alertsRes.json();
 
                 if (parkJson.data?.[0]) setNpsData(parkJson.data[0]);
-                if (alertsJson.data) setAlerts(alertsJson.data);
             } catch (err) {
                 console.error("Error fetching NPS data:", err);
             } finally {
@@ -51,15 +45,22 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
             }}
             whileHover={{ y: isSelected ? 0 : -2, boxShadow: '4px 4px 0 rgba(205, 92, 92, 0.2)', borderColor: '#cd5c5c' }}
         >
-            <motion.h3 layout="position" style={{
-                margin: '0 0 4px 0',
-                fontFamily: '"PT Serif", serif',
-                fontSize: '1rem',
-                fontWeight: '700',
-                color: isSelected ? '#cd5c5c' : '#333'
-            }}>
-                {park.name.toUpperCase()}
-            </motion.h3>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px' }}>
+                <Mountain
+                    size={16}
+                    strokeWidth={isSelected ? 2.5 : 2}
+                    color={isSelected ? '#cd5c5c' : '#888'}
+                />
+                <motion.h3 layout="position" style={{
+                    margin: 0,
+                    fontFamily: '"PT Serif", serif',
+                    fontSize: '1rem',
+                    fontWeight: '700',
+                    color: isSelected ? '#cd5c5c' : '#333'
+                }}>
+                    {park.name.toUpperCase()}
+                </motion.h3>
+            </div>
 
             <motion.p layout="position" style={{
                 margin: 0,
@@ -93,37 +94,59 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle }) => {
                             </div>
                         ) : (
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
-                                {/* --- NPS HEADER --- */}
-                                <div style={{
-                                    fontSize: '0.7rem',
-                                    fontFamily: '"PT Sans Narrow", sans-serif',
-                                    color: '#cd5c5c',
-                                    letterSpacing: '2px',
-                                    fontWeight: 'bold',
-                                    borderBottom: '1px solid #eee',
-                                    paddingBottom: '5px',
-                                    marginBottom: '5px'
-                                }}>
-                                    OFFICIAL NPS FIELD DATA
-                                </div>
 
-                                {alerts.length > 0 && (
+                                {/* --- DISCOVERY PHOTO --- */}
+                                {npsData?.images?.[0] && (
                                     <div style={{
-                                        background: '#fff3cd',
-                                        padding: '10px',
-                                        fontSize: '0.75rem',
-                                        color: '#856404',
-                                        border: '1px solid #ffeeba',
-                                        fontFamily: '"PT Sans Narrow", sans-serif'
+                                        position: 'relative',
+                                        width: '100%',
+                                        height: '140px',
+                                        overflow: 'hidden',
+                                        border: '4px solid #fff',
+                                        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+                                        transform: 'rotate(-1deg)',
+                                        marginBottom: '5px'
                                     }}>
-                                        {alerts.slice(0, 1).map((a, i) => (
-                                            <div key={i} style={{ display: 'flex', gap: '8px' }}>
-                                                <span>⚠️</span>
-                                                <strong>{a.title.toUpperCase()}</strong>
-                                            </div>
-                                        ))}
+                                        <img
+                                            src={npsData.images[0].url}
+                                            alt={npsData.images[0].altText}
+                                            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                        />
+                                        <div style={{
+                                            position: 'absolute',
+                                            bottom: 0,
+                                            left: 0,
+                                            right: 0,
+                                            background: 'linear-gradient(transparent, rgba(0,0,0,0.6))',
+                                            padding: '10px',
+                                            color: '#fff',
+                                            fontSize: '0.65rem',
+                                            fontFamily: '"PT Sans Narrow", sans-serif',
+                                            textTransform: 'uppercase',
+                                            letterSpacing: '1px'
+                                        }}>
+                                            {npsData.images[0].title}
+                                        </div>
                                     </div>
                                 )}
+
+                                {/* --- HIGHLIGHT TAGS --- */}
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                                    {npsData?.activities?.slice(0, 4).map((act, i) => (
+                                        <span key={i} style={{
+                                            fontSize: '0.6rem',
+                                            background: '#f0f0f0',
+                                            color: '#666',
+                                            padding: '2px 8px',
+                                            borderRadius: '2px',
+                                            fontFamily: '"PT Sans Narrow", sans-serif',
+                                            fontWeight: 'bold',
+                                            letterSpacing: '0.5px'
+                                        }}>
+                                            {act.name.toUpperCase()}
+                                        </span>
+                                    ))}
+                                </div>
 
                                 <div style={{
                                     fontSize: '1.2rem',
