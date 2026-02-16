@@ -1,0 +1,1514 @@
+{
+  "acad": {
+    "summary": {
+      "elevation": "0–1,530 ft (Cadillac Mountain)",
+      "peakSeason": "June–October",
+      "weather": "Coastal fog and nor'easters bring rapid shifts; winter lows near 0°F, summer highs around 80°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Bangor International (BGR) – 1 hr drive",
+      "transport": "Car rental essential; Island Explorer shuttle runs June–Oct (free).",
+      "stay": "Lodges (Jordan Pond House area), campgrounds (Blackwoods, Seawall), Bar Harbor town."
+    },
+    "reports": {
+      "reddit": "Arrive at Cadillac Summit by 3:45 AM for sunrise—parking fills by 4:15 AM even with reservations.",
+      "google": "Side Street Café in Bar Harbor serves lobster mac & cheese that rivals any waterfront spot at half the price.",
+      "offbeat": "The Wonderland Trail at low tide exposes massive tidal pools most visitors skip entirely."
+    },
+    "combos": ["Cuyahoga Valley (cuva)", "Shenandoah (shen)"]
+  },
+  "arch": {
+    "summary": {
+      "elevation": "3,960–5,653 ft",
+      "peakSeason": "April–May, September–October",
+      "weather": "Desert extremes: summer highs exceed 100°F, winter drops below 0°F with occasional snow."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Grand Junction Regional (GJT) – 1 hr 45 min; Salt Lake City (SLC) – 4 hr drive.",
+      "transport": "Car rental required; timed entry reservations mandatory April–October.",
+      "stay": "Moab hotels and vacation rentals, Devils Garden Campground (reserve early), BLM land off UT-128."
+    },
+    "reports": {
+      "reddit": "Skip Delicate Arch at midday—go 1 hour before sunset for golden light and thinner crowds.",
+      "google": "Milt's Stop & Eat in Moab has legendary fresh-squeezed lemonade and burgers post-hike.",
+      "offbeat": "Tower Arch in the Klondike Bluffs section sees a fraction of the traffic of the main arches."
+    },
+    "combos": ["Canyonlands (cany)", "Capitol Reef (care)"]
+  },
+  "badl": {
+    "summary": {
+      "elevation": "2,460–3,282 ft",
+      "peakSeason": "May–September",
+      "weather": "Extreme continental climate: summer temps exceed 100°F, winter plunges to -40°F with blizzards."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Rapid City Regional (RAP) – 1 hr drive.",
+      "transport": "Car rental required; no public transit to or within the park.",
+      "stay": "Cedar Pass Lodge (in-park), Cedar Pass Campground, Wall and Interior towns."
+    },
+    "reports": {
+      "reddit": "Drive the unpaved Sage Creek Rim Road at dusk—bison herds congregate and the sunset over the formations is unmatched.",
+      "google": "Wall Drug in Wall, SD is a tourist trap worth the stop for free ice water and 5-cent coffee tradition.",
+      "offbeat": "The Notch Trail's log ladder section and canyon slot deliver adventure most families bypass."
+    },
+    "combos": ["Wind Cave (wica)", "Theodore Roosevelt (thro)"]
+  },
+  "bibe": {
+    "summary": {
+      "elevation": "1,800–7,832 ft (Emory Peak)",
+      "peakSeason": "October–April",
+      "weather": "Desert heat exceeds 110°F in summer; Chisos Mountains can see snow and freezing temps in winter."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Midland International (MAF) – 3.5 hr drive; El Paso (ELP) – 5 hr drive.",
+      "transport": "Car rental mandatory; fill your gas tank before entering—no fuel for 100+ miles.",
+      "stay": "Chisos Mountains Lodge (in-park), Cottonwood/Rio Grande Village campgrounds, Terlingua ghost town."
+    },
+    "reports": {
+      "reddit": "Carry twice the water you think you need—desert dehydration is the #1 rescue trigger here.",
+      "google": "Starlight Theatre in Terlingua serves incredible Tex-Mex under the stars with live music nightly.",
+      "offbeat": "The Outer Mountain Loop is a 30-mile backpacking circuit that most visitors never attempt—solitude guaranteed."
+    },
+    "combos": ["Guadalupe Mountains (gumo)", "Carlsbad Caverns (cave)"]
+  },
+  "bisc": {
+    "summary": {
+      "elevation": "0–10 ft",
+      "peakSeason": "December–April",
+      "weather": "Subtropical with summer temps reaching 95°F and extreme humidity; hurricane season June–November."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Miami International (MIA) – 45 min drive.",
+      "transport": "Car to Convoy Point; boat or kayak needed for island access. Book boat tours through park concession.",
+      "stay": "Boca Chita Key camping (boat-in only), Homestead/Florida City hotels, Elliott Key primitive camping."
+    },
+    "reports": {
+      "reddit": "The snorkeling at the Maritime Heritage Trail lets you explore shipwrecks—bring your own gear for the best experience.",
+      "google": "Robert Is Here fruit stand on SW 344th St. has legendary milkshakes made from exotic tropical fruits.",
+      "offbeat": "Paddle the Jones Lagoon mangrove tunnel at high tide for an otherworldly kayaking corridor."
+    },
+    "combos": ["Everglades (ever)", "Dry Tortugas (drto)"]
+  },
+  "blca": {
+    "summary": {
+      "elevation": "5,412–8,563 ft",
+      "peakSeason": "May–October",
+      "weather": "High-altitude cold with winter temps below 0°F; summer thunderstorms hit the canyon rim daily by 2 PM."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Montrose Regional (MTJ) – 30 min drive; Grand Junction (GJT) – 1.5 hr drive.",
+      "transport": "Car rental required; South Rim road is paved, East Portal road is steep (no trailers).",
+      "stay": "South Rim Campground, East Portal Campground, Montrose town lodging."
+    },
+    "reports": {
+      "reddit": "The Gunnison Route down to the river is unmarked Class III scrambling—not a trail, an ordeal. Respect it.",
+      "google": "Colorado Boy Brewery in nearby Ridgway serves craft pints with a stunning Cimarron Range backdrop.",
+      "offbeat": "North Rim's rarely-visited Chasm View Nature Trail offers a vertigo-inducing 2,000-ft drop overlook with almost no one around."
+    },
+    "combos": ["Great Sand Dunes (grsa)", "Mesa Verde (meve)"]
+  },
+  "brca": {
+    "summary": {
+      "elevation": "6,620–9,115 ft",
+      "peakSeason": "May–September",
+      "weather": "High elevation means cool summers (80°F) and bitter winters (-20°F); 200+ days of freezing temps annually."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "St. George Regional (SGU) – 2.5 hr; Las Vegas (LAS) – 4 hr drive.",
+      "transport": "Car rental to the park; free shuttle runs along the main road May–October.",
+      "stay": "The Lodge at Bryce Canyon (in-park), North/Sunset campgrounds, Bryce Canyon City motels."
+    },
+    "reports": {
+      "reddit": "Do the Navajo Loop + Queens Garden combo clockwise—the Wall Street switchbacks are easier on the knees going down.",
+      "google": "Bryce Canyon Pines restaurant off UT-12 serves homemade pie that outclasses every park cafeteria within 200 miles.",
+      "offbeat": "The 8-mile Fairyland Loop from Fairyland Point to Tower Bridge is jaw-dropping and sees a tenth of the rim trail traffic."
+    },
+    "combos": ["Zion (zion)", "Capitol Reef (care)"]
+  },
+  "cany": {
+    "summary": {
+      "elevation": "3,700–6,987 ft",
+      "peakSeason": "April–May, September–October",
+      "weather": "Desert climate with 100°F+ summers and sub-zero winter nights; flash flood risk in slot canyons."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Grand Junction (GJT) – 2 hr; Salt Lake City (SLC) – 4 hr drive.",
+      "transport": "Car rental required; high-clearance 4WD needed for White Rim and Needles backcountry.",
+      "stay": "Willow Flat/Squaw Flat campgrounds (in-park), Moab town, Dead Horse Point State Park camping."
+    },
+    "reports": {
+      "reddit": "Apply for White Rim Trail permits exactly 4 months out at midnight—they sell out in minutes.",
+      "google": "Quesadilla Mobilla food truck in Moab serves enormous, creative quesadillas perfect for post-trail refueling.",
+      "offbeat": "The Confluence Overlook Trail in the Needles district is 10 miles round-trip of solitude ending at the Green/Colorado river merge."
+    },
+    "combos": ["Arches (arch)", "Capitol Reef (care)"]
+  },
+  "care": {
+    "summary": {
+      "elevation": "3,880–8,960 ft",
+      "peakSeason": "March–May, September–November",
+      "weather": "Desert climate with summer highs over 100°F in canyon bottoms and sub-freezing winter nights."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Grand Junction (GJT) – 2.5 hr; Salt Lake City (SLC) – 3.5 hr drive.",
+      "transport": "Car rental required; high-clearance 4WD for Cathedral Valley and Notom-Bullfrog Road.",
+      "stay": "Fruita Campground (in-park), Torrey town lodging, BLM dispersed camping on Notom Road."
+    },
+    "reports": {
+      "reddit": "Pick free fruit from the historic Fruita orchards when in season (June–Oct)—it's legal and encouraged by the NPS.",
+      "google": "Café Diablo in Torrey serves upscale Southwestern cuisine that's wildly unexpected for a town of 200 people.",
+      "offbeat": "Cathedral Valley's Temples of the Sun and Moon are among the most photogenic formations in Utah, yet see almost no visitors."
+    },
+    "combos": ["Bryce Canyon (brca)", "Canyonlands (cany)"]
+  },
+  "cave": {
+    "summary": {
+      "elevation": "4,400–6,368 ft",
+      "peakSeason": "May–September",
+      "weather": "Semi-arid with summer highs near 100°F; cave interior is a constant 56°F year-round."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "El Paso International (ELP) – 2.5 hr drive.",
+      "transport": "Car rental required; no public transit. The 9-mile scenic entrance road is steep and winding.",
+      "stay": "Carlsbad city hotels, BLM land near Whites City, no in-park lodging."
+    },
+    "reports": {
+      "reddit": "See the bat flight program at sunset (May–Oct)—sit in the amphitheater 30 min early and watch 400,000+ bats spiral out.",
+      "google": "The Trinity Hotel restaurant in downtown Carlsbad is a hidden fine-dining gem in a converted bank building.",
+      "offbeat": "The Kings Palace guided tour takes you 830 ft underground into decorated chambers most self-guided visitors never see."
+    },
+    "combos": ["Guadalupe Mountains (gumo)", "Big Bend (bibe)"]
+  },
+  "chis": {
+    "summary": {
+      "elevation": "0–2,450 ft (Mt. Diablo, Santa Cruz Island)",
+      "peakSeason": "April–November",
+      "weather": "Mediterranean maritime climate; fog-shrouded mornings give way to 70°F days; ocean crossings can be rough."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Santa Barbara Airport (SBA) – 30 min to Ventura Harbor; LAX – 1.5 hr drive.",
+      "transport": "Island Packers ferry from Ventura Harbor is the only public access; book weeks in advance.",
+      "stay": "Primitive island campgrounds (reserve on recreation.gov), Ventura/Oxnard hotels."
+    },
+    "reports": {
+      "reddit": "Take Dramamine 1 hour before the boat crossing—even seasoned sailors get queasy in the channel.",
+      "google": "Ventura's Spencer Makenzie's Fish Company serves award-winning fish tacos 5 minutes from the ferry terminal.",
+      "offbeat": "Scorpion Canyon on Santa Cruz Island has sea caves accessible by kayak that rival any in the world."
+    },
+    "combos": ["Pinnacles (pinn)", "Joshua Tree (jotr)"]
+  },
+  "cong": {
+    "summary": {
+      "elevation": "0–143 ft",
+      "peakSeason": "October–May",
+      "weather": "Subtropical swamp: summer heat index exceeds 110°F with intense mosquitoes; mild dry winters."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Columbia Metropolitan (CAE) – 1.5 hr drive; Charleston (CHS) – 2 hr drive.",
+      "transport": "Car rental required; canoe/kayak recommended for Cedar Creek.",
+      "stay": "Longleaf and Bluff campgrounds (in-park), Hopkins/Columbia hotels."
+    },
+    "reports": {
+      "reddit": "Go in fall when water levels drop—it reveals the full buttressed trunks of ancient bald cypress trees.",
+      "google": "McCutcheon's Country Store in nearby Hopkins sells fresh boiled peanuts and homemade jams.",
+      "offbeat": "The Cedar Creek Canoe Trail is a 15-mile paddle through old-growth floodplain forest that feels prehistoric."
+    },
+    "combos": ["Great Smoky Mountains (grsm)", "Shenandoah (shen)"]
+  },
+  "crla": {
+    "summary": {
+      "elevation": "5,187–8,929 ft",
+      "peakSeason": "July–September",
+      "weather": "Record snowfall (44 ft/year average); roads often closed Oct–June; summer days reach 80°F at the rim."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Rogue Valley International (MFR) – 1.5 hr drive; Eugene (EUG) – 3 hr drive.",
+      "transport": "Car rental required; Rim Drive (33 mi) is the primary scenic route—no shuttles.",
+      "stay": "Crater Lake Lodge (in-park, reserve 1 year ahead), Mazama Campground, Prospect/Klamath Falls towns."
+    },
+    "reports": {
+      "reddit": "The Cleetwood Cove Trail is the ONLY legal lake access—it's a steep 1.1-mile descent; boat tours depart from the bottom.",
+      "google": "Beckie's Café at Union Creek Resort serves legendary homemade pies—the marionberry is the one to get.",
+      "offbeat": "The Watchman Peak Trail at sunset offers the iconic caldera view without the Garfield Peak crowds."
+    },
+    "combos": ["Lassen Volcanic (lavo)", "North Cascades (noca)"]
+  },
+  "cuva": {
+    "summary": {
+      "elevation": "650–1,100 ft",
+      "peakSeason": "June–October",
+      "weather": "Humid continental: summer highs near 85°F, winter lows below 10°F with heavy lake-effect snow."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Cleveland Hopkins International (CLE) – 30 min drive.",
+      "transport": "Car rental or Cuyahoga Valley Scenic Railroad runs through the park with trailhead stops.",
+      "stay": "Stanford Hostel (in-park), Inn at Brandywine Falls, Peninsula/Akron hotels."
+    },
+    "reports": {
+      "reddit": "Bike the entire 20-mile Towpath Trail one-way and take the scenic railroad back—logistically perfect.",
+      "google": "Fisher's Café & Pub in Peninsula village serves comfort food in a 19th-century storefront steps from the trail.",
+      "offbeat": "The Ledges Trail loop through Sharon Conglomerate rock formations is the most scenic 2 miles in Ohio."
+    },
+    "combos": ["Indiana Dunes (indu)", "Shenandoah (shen)"]
+  },
+  "deva": {
+    "summary": {
+      "elevation": "-282–11,049 ft (Telescope Peak)",
+      "peakSeason": "November–March",
+      "weather": "Hottest place on Earth: summer temps hit 134°F; elevation swings of 11,000 ft create micro-climates."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Las Vegas (LAS) – 2 hr drive.",
+      "transport": "Car rental mandatory; gas up before entering—fuel is extremely limited and expensive inside the park.",
+      "stay": "The Inn at Death Valley, Ranch at Death Valley, Furnace Creek/Stovepipe Wells campgrounds, Beatty NV motels."
+    },
+    "reports": {
+      "reddit": "Visit Badwater Basin at sunrise—you'll have the lowest point in North America to yourself before tour buses arrive.",
+      "google": "Death Valley Nut & Candy Co. in Beatty sells date shakes and local jerky that fuels the drive back.",
+      "offbeat": "Mosaic Canyon's narrow marble walls are a stunning 2-mile round-trip that most visitors skip for the viewpoints."
+    },
+    "combos": ["Joshua Tree (jotr)", "Sequoia & Kings Canyon (seki)"]
+  },
+  "dena": {
+    "summary": {
+      "elevation": "1,500–20,310 ft (Denali)",
+      "peakSeason": "June–mid-September",
+      "weather": "Subarctic extremes: winter hits -50°F; Denali creates its own weather with 100+ mph summit winds."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Fairbanks International (FAI) – 2 hr drive; Anchorage (ANC) – 4.5 hr drive.",
+      "transport": "Private vehicles restricted past Mile 15; park transit/tour buses mandatory beyond that.",
+      "stay": "Wilderness Access Center area lodges, Riley Creek Campground, Healy/Cantwell towns."
+    },
+    "reports": {
+      "reddit": "Only 30% of visitors see Denali's summit due to clouds—check webcams the night before and be ready to pivot your day.",
+      "google": "49th State Brewing in Healy has mountain views from the back deck and serves solid Alaskan craft beer.",
+      "offbeat": "Exit the bus at the Eielson Visitor Center and hike off-trail toward the Muldrow Glacier for total wilderness immersion."
+    },
+    "combos": ["Kenai Fjords (kefj)", "Wrangell–St. Elias (wrst)"]
+  },
+  "drto": {
+    "summary": {
+      "elevation": "0–10 ft",
+      "peakSeason": "December–April",
+      "weather": "Tropical marine: summer highs near 90°F with intense sun; hurricane season June–November."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Key West International (EYW) – ferry/seaplane departure point.",
+      "transport": "Yankee Freedom III ferry (2.5 hrs from Key West) or seaplane (45 min); no cars on the island.",
+      "stay": "Primitive camping on Garden Key (11 sites, first-come), Key West hotels for day trips."
+    },
+    "reports": {
+      "reddit": "Camp overnight—the ferry crowds leave by 3 PM and you'll have Fort Jefferson and pristine snorkeling entirely to yourself.",
+      "google": "Grab Cuban sandwiches from Sandy's Café in Key West before boarding the morning ferry.",
+      "offbeat": "Snorkel the moat wall of Fort Jefferson at dawn—nurse sharks, sea turtles, and massive barracuda patrol untouched coral."
+    },
+    "combos": ["Biscayne (bisc)", "Everglades (ever)"]
+  },
+  "ever": {
+    "summary": {
+      "elevation": "0–8 ft",
+      "peakSeason": "December–April",
+      "weather": "Subtropical wetland: summer heat index exceeds 105°F with monsoon rains; dry season is mosquito-free."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Miami International (MIA) – 1 hr drive to main entrance.",
+      "transport": "Car rental required; airboat tours available outside park boundaries at Shark Valley.",
+      "stay": "Flamingo Lodge area (in-park), Long Pine Key Campground, Homestead/Florida City hotels."
+    },
+    "reports": {
+      "reddit": "Visit in January–February for the absolute peak wildlife concentration—animals cluster around shrinking water holes.",
+      "google": "Robert Is Here fruit stand also serves as a mini-zoo with exotic birds and tortoises—perfect pre-park stop.",
+      "offbeat": "The 99-mile Wilderness Waterway is a backcountry kayak route through mangrove tunnels few people ever complete."
+    },
+    "combos": ["Biscayne (bisc)", "Dry Tortugas (drto)"]
+  },
+  "gaar": {
+    "summary": {
+      "elevation": "600–8,510 ft (Mt. Igikpak)",
+      "peakSeason": "June–August",
+      "weather": "Arctic conditions: winter darkness lasts months at -60°F; summer brings 24-hr daylight and 50-70°F temps."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Fairbanks (FAI) – then bush plane to Bettles/Anaktuvuk Pass.",
+      "transport": "No roads, trails, or facilities. Air taxi from Bettles is the only practical access.",
+      "stay": "Bettles Lodge (gateway), backcountry camping only inside the park—fully self-supported."
+    },
+    "reports": {
+      "reddit": "This is America's least-visited park—budget $500+ for bush plane charters and bring a satellite communicator.",
+      "google": "Bettles Lodge is the only food option for 100+ miles; they serve hearty home-cooked Alaskan meals.",
+      "offbeat": "The Arrigetch Peaks are granite spires rivaling Patagonia, yet fewer than 1,000 people see them annually."
+    },
+    "combos": ["Kobuk Valley (kova)", "Denali (dena)"]
+  },
+  "jeff": {
+    "summary": {
+      "elevation": "400–630 ft",
+      "peakSeason": "April–October",
+      "weather": "Humid continental: summer highs near 95°F with high humidity; winter averages around 30°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "St. Louis Lambert International (STL) – 20 min drive.",
+      "transport": "MetroLink light rail stops at the park; car also easy with free parking.",
+      "stay": "Downtown St. Louis hotels, no in-park camping."
+    },
+    "reports": {
+      "reddit": "Take the tram ride to the top early on weekday mornings—waits drop from 2 hours to under 15 minutes.",
+      "google": "Pappy's Smokehouse, 10 minutes from the Arch, is consistently ranked among the best BBQ in the country.",
+      "offbeat": "The underground museum beneath the Arch is vastly expanded and world-class—most people rush through it."
+    },
+    "combos": ["Mammoth Cave (maca)", "Hot Springs (hosp)"]
+  },
+  "glba": {
+    "summary": {
+      "elevation": "0–15,325 ft (Mt. Fairweather)",
+      "peakSeason": "June–August",
+      "weather": "Maritime subarctic: rain falls 60%+ of summer days; temps range 40-60°F; icebergs calve into the bay."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Juneau International (JNU) – then 30-min flight or fast ferry to Gustavus.",
+      "transport": "Alaska Airlines jet or small plane to Gustavus; day-cruise boats from Juneau; no road access.",
+      "stay": "Glacier Bay Lodge (only in-park lodging, seasonal), Gustavus B&Bs, backcountry camping."
+    },
+    "reports": {
+      "reddit": "Kayak to the Beardslee Islands for world-class camping among humpback whales—permits are free and easy to get.",
+      "google": "The Gustavus farmers market (summer Saturdays) has local smoked salmon and artisan goods.",
+      "offbeat": "Take the day boat to the Margerie Glacier face—you'll witness active calving without the cruise ship crowds."
+    },
+    "combos": ["Wrangell–St. Elias (wrst)", "Kenai Fjords (kefj)"]
+  },
+  "glac": {
+    "summary": {
+      "elevation": "3,150–10,466 ft (Mt. Cleveland)",
+      "peakSeason": "July–September",
+      "weather": "Extreme alpine: Going-to-the-Sun Road closes Oct–June due to 30+ ft of snow; summer highs 70-80°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Glacier Park International (FCA) – 30 min drive.",
+      "transport": "Car with vehicle reservation required (summer); free park shuttles on Going-to-the-Sun Road.",
+      "stay": "Many Glacier Hotel, Lake McDonald Lodge, 13 campgrounds, Whitefish/Columbia Falls towns."
+    },
+    "reports": {
+      "reddit": "Many Glacier is the wildlife epicenter—grizzlies are routinely spotted from the Grinnell Glacier trail.",
+      "google": "Whitefish's Montana Coffee Traders roasts locally and fuels every serious dawn hike start.",
+      "offbeat": "The Pitamakan-Dawson Loop is a 19-mile circuit through three passes that rivals anything in the Alps."
+    },
+    "combos": ["Grand Teton (grte)", "Yellowstone (yell)"]
+  },
+  "grca": {
+    "summary": {
+      "elevation": "2,400 (river)–8,297 ft (North Rim)",
+      "peakSeason": "March–May, September–November",
+      "weather": "30°F temp difference between rim and river; South Rim sees snow; inner canyon exceeds 110°F in summer."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Flagstaff Pulliam (FLG) – 1.5 hr drive; Phoenix (PHX) – 3.5 hr drive; Las Vegas (LAS) – 4.5 hr.",
+      "transport": "Car rental to park; free shuttle buses operate along South Rim routes year-round.",
+      "stay": "El Tovar/Bright Angel Lodge (South Rim), Phantom Ranch (lottery, at river), Tusayan motels, North Rim Lodge (seasonal)."
+    },
+    "reports": {
+      "reddit": "Enter the Phantom Ranch lottery on the 1st of each month, 15 months ahead—cancellations also appear 1-2 days before.",
+      "google": "RP's Stage Stop in Tusayan has surprisingly good pizza and is open when park restaurants close.",
+      "offbeat": "Horseshoe Mesa via Grandview Trail is a moderately strenuous route to ruins and solitude below the rim."
+    },
+    "combos": ["Zion (zion)", "Bryce Canyon (brca)"]
+  },
+  "grte": {
+    "summary": {
+      "elevation": "6,237–13,775 ft (Grand Teton)",
+      "peakSeason": "June–September",
+      "weather": "Short alpine summer; winter temps hit -30°F; afternoon thunderstorms are common above treeline."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Jackson Hole Airport (JAC) – inside the park (only US airport in a national park).",
+      "transport": "Car rental from JAC; START bus runs between Jackson and Teton Village (free).",
+      "stay": "Jenny Lake Lodge, Signal Mountain Lodge, 5 campgrounds, Jackson town lodging."
+    },
+    "reports": {
+      "reddit": "Launch a kayak on String Lake at dawn—it's free, calm, and the Teton reflection is better than any Instagram post from the overlooks.",
+      "google": "Persephone Bakery in Jackson has sourdough and pastries that sell out by 10 AM—arrive early.",
+      "offbeat": "The Death Canyon Shelf is a high alpine bench trail that feels like walking through a painting with almost no one around."
+    },
+    "combos": ["Yellowstone (yell)", "Glacier (glac)"]
+  },
+  "grba": {
+    "summary": {
+      "elevation": "5,000–13,063 ft (Wheeler Peak)",
+      "peakSeason": "June–September",
+      "weather": "High desert to alpine: summer days 80°F at base, freezing at summit; intense afternoon lightning storms."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Salt Lake City (SLC) – 4 hr drive; Las Vegas (LAS) – 4.5 hr drive.",
+      "transport": "Car rental mandatory; Wheeler Peak Scenic Drive is steep and narrow (no trailers above 8,000 ft).",
+      "stay": "Lower Lehman Creek Campground, Baker village (small), Ely NV hotels (1 hr)."
+    },
+    "reports": {
+      "reddit": "Join a Lehman Caves tour—the shields (disc-shaped formations) are found almost nowhere else on Earth.",
+      "google": "The Lectrolux Café in Baker is a tiny roadside gem serving espresso and pastries in the middle of nowhere.",
+      "offbeat": "The Bristlecone Pine grove below Wheeler Peak has trees over 5,000 years old—the oldest living organisms on the planet."
+    },
+    "combos": ["Capitol Reef (care)", "Bryce Canyon (brca)"]
+  },
+  "grsa": {
+    "summary": {
+      "elevation": "7,515–13,604 ft (Challenger Point)",
+      "peakSeason": "May–September",
+      "weather": "Extreme temperature swings: dune surface hits 150°F in summer; nights can drop below freezing year-round."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Colorado Springs (COS) – 3 hr drive; Denver (DEN) – 4 hr drive.",
+      "transport": "Car rental required; 4WD recommended for Medano Pass primitive road.",
+      "stay": "Piñon Flats Campground, backcountry dune camping (free permit), Alamosa/Mosca lodging."
+    },
+    "reports": {
+      "reddit": "Rent sand sleds from Kristi Mountain Sports in Alamosa—the dunes are North America's tallest and sandboarding is allowed.",
+      "google": "Joyful Journey Hot Springs, 30 min north, has geothermal pools overlooking the Sangre de Cristo Range.",
+      "offbeat": "Camp overnight on the dune field itself (free permit required)—the Milky Way from the summit at midnight is transcendent."
+    },
+    "combos": ["Black Canyon of the Gunnison (blca)", "Rocky Mountain (romo)"]
+  },
+  "grsm": {
+    "summary": {
+      "elevation": "876–6,643 ft (Clingmans Dome)",
+      "peakSeason": "June–August, October (fall foliage)",
+      "weather": "Humid with up to 85 inches of rain/year at high elevations; fog is persistent; summer highs near 85°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "McGhee Tyson (TYS) – 45 min drive; Asheville (AVL) – 1 hr drive.",
+      "transport": "Car rental; parking lots fill by 9 AM in peak season. Gatlinburg trolley serves some trailheads.",
+      "stay": "LeConte Lodge (hike-in only), 10 campgrounds, Gatlinburg/Pigeon Forge/Cherokee towns."
+    },
+    "reports": {
+      "reddit": "Use the Cataloochee entrance for guaranteed elk sightings at dawn—it's the park's best-kept wildlife secret.",
+      "google": "The Pancake Pantry in Gatlinburg has been serving since 1960—the sweet potato pancakes are legendary.",
+      "offbeat": "Ramsey Cascades Trail leads to the park's tallest waterfall (100 ft) via old-growth forest, yet sees modest traffic."
+    },
+    "combos": ["Shenandoah (shen)", "Congaree (cong)"]
+  },
+  "gumo": {
+    "summary": {
+      "elevation": "3,650–8,749 ft (Guadalupe Peak)",
+      "peakSeason": "October–April",
+      "weather": "Desert winds exceeding 60 mph are common; summer highs above 100°F; frost and snow at higher elevations."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "El Paso International (ELP) – 2 hr drive.",
+      "transport": "Car rental mandatory; there is no fuel, food, or lodging inside the park.",
+      "stay": "Pine Springs Campground (19 sites), Dog Canyon Campground, White's City motels, Carlsbad hotels."
+    },
+    "reports": {
+      "reddit": "McKittrick Canyon in late October/early November has the only reliable fall color display in all of West Texas.",
+      "google": "Cornudas Café, a tiny roadside stop on US-62, serves green chile burgers in the middle of the salt flats.",
+      "offbeat": "The Bowl via Tejas Trail is a high-altitude relict forest from the Ice Age perched atop the desert—surreal and seldom visited."
+    },
+    "combos": ["Carlsbad Caverns (cave)", "Big Bend (bibe)"]
+  },
+  "hale": {
+    "summary": {
+      "elevation": "0–10,023 ft (Haleakalā summit)",
+      "peakSeason": "Year-round; April–November for drier conditions",
+      "weather": "Summit can be 30°F colder than the coast; tropical rains on the east side; desert conditions in the crater."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Kahului Airport (OGG) – 1.5 hr drive to summit.",
+      "transport": "Car rental required; sunrise reservations mandatory ($1 per ticket, book 60 days out).",
+      "stay": "Wilderness cabins inside crater (lottery), Hosmer Grove Campground, Kihei/Paia town lodging."
+    },
+    "reports": {
+      "reddit": "Bring every layer you own for sunrise—it's below freezing at the summit and the wind cuts through everything.",
+      "google": "Grandma's Coffee House in Keokea on the drive up serves Maui-grown coffee and banana bread.",
+      "offbeat": "The Sliding Sands (Keoneheʻeheʻe) Trail into the crater is like hiking on Mars—descend 2,500 ft into a volcanic moonscape."
+    },
+    "combos": ["Hawai'i Volcanoes (havo)", "National Park of American Samoa (npsa)"]
+  },
+  "havo": {
+    "summary": {
+      "elevation": "0–13,681 ft (Mauna Loa summit)",
+      "peakSeason": "Year-round; drier May–October",
+      "weather": "Tropical to alpine across elevation zones; summit can see snow while coast is 80°F; heavy rain on windward side."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Hilo International (ITO) – 45 min drive; Kona (KOA) – 2.5 hr drive.",
+      "transport": "Car rental required; Chain of Craters Road (20 mi) is the main scenic drive—no shuttles.",
+      "stay": "Volcano House (on crater rim), Nāmakanipaio Campground, Volcano Village B&Bs."
+    },
+    "reports": {
+      "reddit": "Check the USGS daily volcanic activity page before your visit—lava surface flows are intermittent and not guaranteed.",
+      "google": "Tuk Tuk Thai in Volcano Village serves excellent pad Thai and is the best dinner option near the park.",
+      "offbeat": "The Mauna Loa Observatory Trail is a 4-day backcountry summit route through 5 climate zones that almost nobody does."
+    },
+    "combos": ["Haleakalā (hale)", "National Park of American Samoa (npsa)"]
+  },
+  "hosp": {
+    "summary": {
+      "elevation": "600–1,405 ft",
+      "peakSeason": "March–May, September–November",
+      "weather": "Humid subtropical: summer highs near 95°F with high humidity; mild winters averaging 40-50°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Bill and Hillary Clinton National (LIT) – 1 hr drive; Hot Springs/Memorial Field (HOT) – 5 min.",
+      "transport": "Car rental or walk; downtown Bathhouse Row is pedestrian-friendly.",
+      "stay": "Downtown Hot Springs hotels, Gulpha Gorge Campground (in-park), numerous B&Bs."
+    },
+    "reports": {
+      "reddit": "The free jug fountains on Bathhouse Row let you fill bottles with natural 143°F thermal water—it's the park's original purpose.",
+      "google": "McClard's BBQ has served award-winning ribs since 1928 and was Bill Clinton's favorite.",
+      "offbeat": "The Sunset Trail is a 10-mile ridgeline loop through dense forest that most visitors skip for the bathhouses."
+    },
+    "combos": ["Mammoth Cave (maca)", "Gateway Arch (jeff)"]
+  },
+  "indu": {
+    "summary": {
+      "elevation": "590–830 ft",
+      "peakSeason": "June–September",
+      "weather": "Lake-effect climate: brutal winters below 0°F with wind chill; humid summers reach 90°F; heavy lake snow."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Chicago O'Hare (ORD) – 1 hr drive; Chicago Midway (MDW) – 50 min drive.",
+      "transport": "South Shore Line commuter rail from Chicago stops near park beaches; car also convenient.",
+      "stay": "Dunewood Campground (in-park), Michigan City/Chesterton hotels, Chicago day trip."
+    },
+    "reports": {
+      "reddit": "West Beach at sunset rivals any coastal scene—Chicago's skyline glows across the lake on clear evenings.",
+      "google": "Wagner's Ribs in Porter serves smoked meats and cold beer in a roadhouse setting minutes from the dunes.",
+      "offbeat": "The Heron Rookery Trail in spring features a massive great blue heron nesting colony hidden along the Little Calumet River."
+    },
+    "combos": ["Cuyahoga Valley (cuva)", "Isle Royale (isro)"]
+  },
+  "isro": {
+    "summary": {
+      "elevation": "600–1,394 ft (Mt. Desor)",
+      "peakSeason": "July–August",
+      "weather": "Lake Superior keeps it cool (60-70°F summer); dense fog is common; ice closes access October–April."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Houghton County Memorial (CMX) – then seaplane or ferry (3-6 hrs).",
+      "transport": "Isle Royale Seaplanes from Houghton or Ranger III ferry; no wheeled vehicles on the island.",
+      "stay": "Rock Harbor Lodge (in-park), 36 backcountry campgrounds, Houghton/Copper Harbor hotels (mainland)."
+    },
+    "reports": {
+      "reddit": "Bring more food than you think—the island store is tiny and resupply is extremely limited.",
+      "google": "The Ambassador in Houghton serves Finnish-influenced pasties—essential Upper Peninsula fuel.",
+      "offbeat": "The Feldtmann Lake Loop is a 30-mile circuit on the island's quiet west end with moose sightings virtually guaranteed."
+    },
+    "combos": ["Voyageurs (voya)", "Indiana Dunes (indu)"]
+  },
+  "jotr": {
+    "summary": {
+      "elevation": "536–5,814 ft (Keys View)",
+      "peakSeason": "October–May",
+      "weather": "Extreme desert: summer exceeds 110°F; winter nights drop below freezing; virtually no rainfall."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Palm Springs International (PSP) – 45 min drive; LAX – 2.5 hr drive.",
+      "transport": "Car rental required; no shuttles or public transit.",
+      "stay": "9 campgrounds (Jumbo Rocks is most popular), Joshua Tree/Twentynine Palms towns, Palm Springs resorts."
+    },
+    "reports": {
+      "reddit": "Night sky stargazing here is world-class—use the Sky Quality Meter at Keys View for Bortle 2-3 darkness.",
+      "google": "Pappy & Harriet's in Pioneertown (15 min from west entrance) is a legendary roadhouse with live music and BBQ.",
+      "offbeat": "The Wall Street Mill Trail is a 2-mile round-trip to an abandoned 1930s gold stamp mill with almost zero foot traffic."
+    },
+    "combos": ["Death Valley (deva)", "Channel Islands (chis)"]
+  },
+  "katm": {
+    "summary": {
+      "elevation": "0–7,606 ft (Mt. Denison)",
+      "peakSeason": "July–mid-September",
+      "weather": "Cool maritime: summer temps 40-65°F with persistent rain and wind; volcanic ash soil stays wet."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Anchorage (ANC) – then 1-hr flight to King Salmon on PenAir/Ravn.",
+      "transport": "Float plane from King Salmon to Brooks Camp; no road access. Book with Katmailand concession.",
+      "stay": "Brooks Lodge (reserve 1+ year ahead), Brooks Camp Campground (60 sites, lottery), King Salmon hotels."
+    },
+    "reports": {
+      "reddit": "Book the Brooks Falls webcam viewing platform for July when sockeye salmon run—bears stack up within 20 feet of you.",
+      "google": "King Salmon's Eddie's Fireplace Inn is the only real restaurant in town—steak and halibut.",
+      "offbeat": "The Valley of Ten Thousand Smokes is a 40-mile ash-covered volcanic plain that feels like another planet."
+    },
+    "combos": ["Lake Clark (lacl)", "Kenai Fjords (kefj)"]
+  },
+  "kefj": {
+    "summary": {
+      "elevation": "0–6,450 ft",
+      "peakSeason": "June–August",
+      "weather": "Cool maritime: summer highs 50-65°F with rain on 60%+ of days; glacial winds chill rapidly."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Anchorage (ANC) – 2.5 hr drive to Seward; or fly to Kenai.",
+      "transport": "Car rental to Seward; boat tours from Seward Small Boat Harbor are the primary park access.",
+      "stay": "Exit Glacier area (accessible by road), Seward hotels and cabins, public-use backcountry cabins."
+    },
+    "reports": {
+      "reddit": "The full-day boat tour to Northwestern Fjord is pricey ($250+) but the glacier calving and whale sightings justify every cent.",
+      "google": "The Zudy's Café in downtown Seward serves halibut fish and chips that out-fish every tourist pier restaurant.",
+      "offbeat": "The Harding Icefield Trail is an 8.2-mile out-and-back that climbs from temperate forest to a 700-square-mile ice sheet."
+    },
+    "combos": ["Denali (dena)", "Katmai (katm)"]
+  },
+  "kova": {
+    "summary": {
+      "elevation": "0–4,760 ft",
+      "peakSeason": "June–September",
+      "weather": "Arctic climate: winter hits -50°F with no sunlight for weeks; brief summer with 24-hr daylight and 40-70°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Fairbanks (FAI) – then bush plane to Kotzebue, then air taxi into the park.",
+      "transport": "No roads or trails; air taxi from Kotzebue is the only access. Budget $500+ per person for flights.",
+      "stay": "Kotzebue hotels (gateway), backcountry camping only—fully self-supported wilderness."
+    },
+    "reports": {
+      "reddit": "The Great Kobuk Sand Dunes are Arctic dunes reaching 100°F in summer—one of the most surreal landscapes in the NPS.",
+      "google": "Nullagvik Hotel restaurant in Kotzebue is the only sit-down option and serves caribou stew and fresh Arctic char.",
+      "offbeat": "Time your visit for late August caribou migration—500,000+ animals cross the Kobuk River in a spectacle few humans witness."
+    },
+    "combos": ["Gates of the Arctic (gaar)", "Lake Clark (lacl)"]
+  },
+  "lacl": {
+    "summary": {
+      "elevation": "0–10,016 ft (Mt. Redoubt)",
+      "peakSeason": "June–September",
+      "weather": "Maritime to interior extremes: rain-drenched coast vs. drier inland; summer temps 50-70°F; volcanic hazards."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Anchorage (ANC) – 1-hr bush plane flight to Port Alsworth.",
+      "transport": "No road access; bush plane from Anchorage to Port Alsworth or other drop points is required.",
+      "stay": "Farm Lodge in Port Alsworth, backcountry camping, a handful of remote wilderness lodges."
+    },
+    "reports": {
+      "reddit": "This park's bear viewing at Crescent Lake rivals Brooks Falls but with a fraction of the visitors—and it's free.",
+      "google": "The Farm Lodge in Port Alsworth serves home-cooked meals and is the closest thing to civilization in the park.",
+      "offbeat": "Turquoise Lake lives up to its name—the glacial water color is otherworldly and the solitude is absolute."
+    },
+    "combos": ["Katmai (katm)", "Denali (dena)"]
+  },
+  "lavo": {
+    "summary": {
+      "elevation": "5,000–10,457 ft (Lassen Peak)",
+      "peakSeason": "July–September",
+      "weather": "Heavy snowpack (30+ ft) closes main road Oct–June; summer days 70-85°F; active hydrothermal areas."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Sacramento (SMF) – 3 hr drive; Redding Municipal (RDD) – 1 hr drive.",
+      "transport": "Car rental required; Highway 89 through the park is the only route—no shuttles.",
+      "stay": "Manzanita Lake Camper Store area, 8 campgrounds, Mineral/Chester town lodging."
+    },
+    "reports": {
+      "reddit": "Bumpass Hell boardwalk crosses active boiling mud pots and fumaroles—the rotten egg smell means it's working.",
+      "google": "Highlands Ranch Resort in nearby Mill Creek has a farm-to-table restaurant that surprises everyone.",
+      "offbeat": "Cinder Cone Trail is a 4-mile loop ascending a 700-ft volcanic cinder cone with a painted desert panorama at the summit."
+    },
+    "combos": ["Crater Lake (crla)", "Yosemite (yose)"]
+  },
+  "maca": {
+    "summary": {
+      "elevation": "460–925 ft (surface); cave passages extend 400+ ft below",
+      "peakSeason": "May–October",
+      "weather": "Humid subtropical: summer highs near 90°F; cave interior is a constant 54°F year-round."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Nashville (BNA) – 1.5 hr drive; Louisville (SDF) – 1.5 hr drive.",
+      "transport": "Car rental required; no public transit. Book cave tours well in advance on recreation.gov.",
+      "stay": "The Lodge at Mammoth Cave, Mammoth Cave Campground, Cave City/Horse Cave hotels."
+    },
+    "reports": {
+      "reddit": "The Wild Cave Tour is a 6-hour crawling adventure through undeveloped passages—book early, it's life-changing.",
+      "google": "The Watermill Restaurant in Cave City serves fried catfish and country cooking in a restored 1830s water mill.",
+      "offbeat": "The 9-mile Sal Hollow Trail above ground traverses sinkholes and ridgelines that reveal the cave system's surface expression."
+    },
+    "combos": ["Hot Springs (hosp)", "Great Smoky Mountains (grsm)"]
+  },
+  "meve": {
+    "summary": {
+      "elevation": "6,000–8,572 ft",
+      "peakSeason": "May–September",
+      "weather": "High-altitude semi-arid: summer highs 85°F, winter lows near 0°F; afternoon thunderstorms are frequent."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Cortez Municipal (CEZ) – 15 min; Durango (DRO) – 1 hr drive.",
+      "transport": "Car rental required; cliff dwelling tours require ranger-led tickets (book on recreation.gov).",
+      "stay": "Far View Lodge (in-park), Morefield Campground, Cortez/Mancos town lodging."
+    },
+    "reports": {
+      "reddit": "Cliff Palace tickets sell out months ahead—book at midnight when they release and pick the earliest morning slot.",
+      "google": "Absolute Bakery in Mancos bakes European-style bread and pastries that feel transported from a different continent.",
+      "offbeat": "Wetherill Mesa is open limited hours but has Long House—the second-largest cliff dwelling—with a fraction of Cliff Palace crowds."
+    },
+    "combos": ["Black Canyon of the Gunnison (blca)", "Great Sand Dunes (grsa)"]
+  },
+  "mora": {
+    "summary": {
+      "elevation": "1,600–14,411 ft (Mt. Rainier)",
+      "peakSeason": "July–September",
+      "weather": "Holds the world record for annual snowfall (1,122 inches); Paradise gets 640 inches average; cloud cover 200+ days/year."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Seattle-Tacoma (SEA) – 2 hr drive.",
+      "transport": "Car rental required; no park shuttles. Nisqually entrance is the only year-round entrance.",
+      "stay": "Paradise Inn, National Park Inn, 4 campgrounds, Ashford/Packwood gateway towns."
+    },
+    "reports": {
+      "reddit": "Visit Paradise wildflower meadows in late July/early August—the melt-off timing creates a 2-week explosion of color.",
+      "google": "Copper Creek Inn in Ashford serves wild blackberry pie made from berries picked on the property.",
+      "offbeat": "Spray Park via the Spray Park Trail offers alpine meadows and Rainier views that rival Paradise without the parking lot chaos."
+    },
+    "combos": ["Olympic (olym)", "North Cascades (noca)"]
+  },
+  "npsa": {
+    "summary": {
+      "elevation": "0–3,170 ft (Lata Mountain)",
+      "peakSeason": "June–September (dry season)",
+      "weather": "Tropical maritime: 80-90°F year-round; 200+ inches of rain annually; cyclone season November–April."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Pago Pago International (PPG) – Hawaiian Airlines from Honolulu (5 hr flight).",
+      "transport": "Aiga buses (local transit) on Tutuila; boats to Ofu and Ta'ū islands.",
+      "stay": "Homestays arranged through NPS (cultural experience), Sadie's by the Sea hotel in Pago Pago."
+    },
+    "reports": {
+      "reddit": "The homestay program is the only NPS lodging like it—you stay with Samoan families and share meals and culture.",
+      "google": "Tisa's Barefoot Bar on Tutuila serves fresh catch on the beach—it's the island's gathering spot.",
+      "offbeat": "Ofu Beach is consistently ranked among the world's most beautiful and rarely has more than a handful of visitors."
+    },
+    "combos": ["Haleakalā (hale)", "Hawai'i Volcanoes (havo)"]
+  },
+  "npnh": {
+    "summary": {
+      "elevation": "0–150 ft",
+      "peakSeason": "Year-round; spring for wildflowers",
+      "weather": "Mediterranean-Appalachian mix: mild winters (35-50°F) and warm summers (85-90°F); occasional flooding."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Yeager Airport, Charleston WV (CRW) – 1 hr drive.",
+      "transport": "Car rental required; trails are along the New River and accessed from multiple points.",
+      "stay": "Adventures on the Gorge resort, nearby Fayetteville hotels, primitive camping along the river."
+    },
+    "reports": {
+      "reddit": "The Bridge Day festival (3rd Saturday in October) is the only day BASE jumping is legal off the New River Gorge Bridge.",
+      "google": "Cathedral Café in Fayetteville is housed in a former church and serves creative sandwiches and espresso.",
+      "offbeat": "Long Point Trail is a short 3.2-mile round-trip to the most iconic view of the New River Gorge Bridge."
+    },
+    "combos": ["Shenandoah (shen)", "New River Gorge (neri)"]
+  },
+  "neri": {
+    "summary": {
+      "elevation": "830–3,400 ft",
+      "peakSeason": "May–October",
+      "weather": "Humid continental: summer highs near 85°F; gorge traps cold air in winter; river fog is frequent."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Yeager Airport, Charleston WV (CRW) – 1 hr drive.",
+      "transport": "Car rental required; multiple river access points along WV Routes 19 and 41.",
+      "stay": "Primitive campgrounds along the river, Fayetteville/Beckley hotels, Adventures on the Gorge resort."
+    },
+    "reports": {
+      "reddit": "Rent tubes at the Bluestone Dam put-in for a lazy 3-hour float on calmer sections—no experience needed.",
+      "google": "Secret Sandwich Society in Fayetteville lives up to its name with enormous creative sandwiches.",
+      "offbeat": "The Endless Wall Trail traces dramatic sandstone cliffs above the river with views of world-class rock climbing routes."
+    },
+    "combos": ["New River Gorge (npnh)", "Shenandoah (shen)"]
+  },
+  "noca": {
+    "summary": {
+      "elevation": "400–9,220 ft (Goode Mountain)",
+      "peakSeason": "July–September",
+      "weather": "Heaviest glaciation in the Lower 48; west side gets 110+ inches of rain; east side is semi-arid."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Seattle-Tacoma (SEA) – 2.5 hr drive; Bellingham (BLI) – 2 hr drive.",
+      "transport": "Car rental required; WA-20 (North Cascades Highway) is the only road and closes Nov–May.",
+      "stay": "Ross Lake Resort (floating cabins), 5 campgrounds, Marblemount/Winthrop towns."
+    },
+    "reports": {
+      "reddit": "Ross Lake Resort's floating cabins are reached only by boat or trail—reserve in January for summer availability.",
+      "google": "Buffalo Run Restaurant in Marblemount serves bison burgers and local craft beer as the last stop before wilderness.",
+      "offbeat": "The Maple Pass Loop is a 7.5-mile trail with 360° alpine views that rivals the most famous hikes in the Cascades."
+    },
+    "combos": ["Olympic (olym)", "Mount Rainier (mora)"]
+  },
+  "olym": {
+    "summary": {
+      "elevation": "0–7,980 ft (Mt. Olympus)",
+      "peakSeason": "July–September",
+      "weather": "Hoh Rain Forest gets 140+ inches of rain/year; Hurricane Ridge sees 30+ ft of snow; rain shadow on the NE side."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Seattle-Tacoma (SEA) – 2.5 hr drive (with ferry) or 3 hr via Tacoma.",
+      "transport": "Car rental required; no road connects the various sections—plan for significant driving between areas.",
+      "stay": "Kalaloch Lodge, Lake Crescent Lodge, Sol Duc Hot Springs Resort, 16 campgrounds, Port Angeles town."
+    },
+    "reports": {
+      "reddit": "Hit three ecosystems in one day: Hurricane Ridge alpine meadows → Hoh Rain Forest → Rialto Beach tidepools.",
+      "google": "Next Door Gastropub in Port Angeles serves locally sourced Pacific NW cuisine with excellent Dungeness crab dishes.",
+      "offbeat": "The Royal Basin Trail in the Dungeness watershed is a 14-mile round-trip through wildflower meadows surrounded by jagged peaks."
+    },
+    "combos": ["Mount Rainier (mora)", "North Cascades (noca)"]
+  },
+  "pefo": {
+    "summary": {
+      "elevation": "5,300–6,235 ft",
+      "peakSeason": "March–May, September–November",
+      "weather": "High desert: summer exceeds 100°F, winter drops below 10°F; strong winds and minimal rainfall."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Phoenix (PHX) – 3.5 hr drive; Albuquerque (ABQ) – 3 hr drive.",
+      "transport": "Car rental required; the 28-mile park road is the main route with pullouts at all viewpoints.",
+      "stay": "No in-park lodging; Holbrook motels (25 min), Painted Desert Inn (historic, day-use), Navajo Nation area."
+    },
+    "reports": {
+      "reddit": "Backcountry wilderness camping is allowed with a free permit—you can sleep among 225-million-year-old petrified logs.",
+      "google": "Joe & Aggie's Café in Holbrook has served Route 66 travelers since 1943—try the Navajo taco.",
+      "offbeat": "The Jasper Forest overlook is often empty despite showing one of the densest concentrations of petrified wood in the park."
+    },
+    "combos": ["Saguaro (sagu)", "Grand Canyon (grca)"]
+  },
+  "pinn": {
+    "summary": {
+      "elevation": "824–3,304 ft",
+      "peakSeason": "February–May, October–November",
+      "weather": "Mediterranean: summer exceeds 100°F in the canyons; mild winters; fog rolls through talus caves."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "NO" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "San Jose (SJC) – 1.5 hr drive; Monterey (MRY) – 1.5 hr drive.",
+      "transport": "Car rental required; east and west entrances are NOT connected by road inside the park.",
+      "stay": "Pinnacles Campground (east side), Soledad/King City motels, Hollister lodging."
+    },
+    "reports": {
+      "reddit": "Bring a headlamp for the Bear Gulch Cave—it's a talus cave system you walk through, and it's pitch black inside.",
+      "google": "The Farmstand at the Inn at the Pinnacles sells local wines and olive oil from the estate vineyard.",
+      "offbeat": "The High Peaks Trail at dusk is prime California condor viewing—binoculars are essential for spotting tagged birds."
+    },
+    "combos": ["Channel Islands (chis)", "Yosemite (yose)"]
+  },
+  "romo": {
+    "summary": {
+      "elevation": "7,630–14,259 ft (Longs Peak)",
+      "peakSeason": "June–September",
+      "weather": "Alpine: summer afternoon thunderstorms are near-daily above treeline; Trail Ridge Road hits -20°F in winter."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Denver International (DEN) – 2 hr drive.",
+      "transport": "Car rental; timed entry permits required May–October. Free park shuttle on Bear Lake corridor.",
+      "stay": "YMCA of the Rockies, Glacier Basin/Moraine Park campgrounds, Estes Park town lodging."
+    },
+    "reports": {
+      "reddit": "Start the Bear Lake corridor by 5 AM or take the shuttle—the parking lot is full by 6:30 AM every summer day.",
+      "google": "Kind Coffee in Estes Park is locally roasted and the go-to fuel stop for every serious dawn hiker.",
+      "offbeat": "Sky Pond via the Glacier Gorge Trail is a 9-mile round-trip with a waterfall scramble leading to a hidden alpine lake."
+    },
+    "combos": ["Great Sand Dunes (grsa)", "Black Canyon of the Gunnison (blca)"]
+  },
+  "sagu": {
+    "summary": {
+      "elevation": "2,180–8,666 ft (Mica Mountain)",
+      "peakSeason": "October–April",
+      "weather": "Sonoran Desert: summer highs exceed 110°F; winter days 60-70°F; monsoon season July–September."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Tucson International (TUS) – 30 min drive.",
+      "transport": "Car rental; both districts (east Rincon, west Tucson Mountain) are within Tucson metro.",
+      "stay": "No in-park lodging; Tucson hotels and Airbnbs, Gilbert Ray Campground (county, adjacent to west district)."
+    },
+    "reports": {
+      "reddit": "Sunset at the Signal Hill Petroglyphs in the west district turns the saguaros into silhouettes—most photogenic moment in the park.",
+      "google": "El Güero Canelo in Tucson is a James Beard Award–winning Sonoran hot dog stand minutes from the east district.",
+      "offbeat": "The King Canyon Trail in the Tucson Mountain District climbs through old-growth saguaro forest to a ridgeline with zero crowds."
+    },
+    "combos": ["Petrified Forest (pefo)", "Grand Canyon (grca)"]
+  },
+  "seki": {
+    "summary": {
+      "elevation": "1,370–14,505 ft (Mt. Whitney)",
+      "peakSeason": "June–September",
+      "weather": "From scorching foothills to alpine snow: 100°F in the canyon, blizzards at elevation; roads close in winter."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Fresno Yosemite International (FAT) – 1.5 hr drive.",
+      "transport": "Car rental required; Generals Highway connecting the parks is steep and winding (no large RVs).",
+      "stay": "Wuksachi Lodge, John Muir Lodge, 14 campgrounds, Three Rivers/Visalia towns."
+    },
+    "reports": {
+      "reddit": "Touch the General Sherman Tree's base for scale—no photo does justice until you stand beneath the largest tree on Earth.",
+      "google": "Sierra Subs & Salads in Three Rivers is a tiny shop making enormous tri-tip sandwiches that fuel Kings Canyon adventures.",
+      "offbeat": "The Rae Lakes Loop is a 41-mile backpacking circuit through granite basins and alpine meadows—High Sierra perfection."
+    },
+    "combos": ["Yosemite (yose)", "Death Valley (deva)"]
+  },
+  "shen": {
+    "summary": {
+      "elevation": "600–4,051 ft (Hawksbill)",
+      "peakSeason": "May–June, October (fall foliage)",
+      "weather": "Humid with 50+ inches of rain/year; summer highs 75-85°F at elevation; fog blankets Skyline Drive regularly."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Washington Dulles (IAD) – 1.5 hr drive; Charlottesville (CHO) – 45 min drive.",
+      "transport": "Car rental for 105-mile Skyline Drive; $30 entrance fee. No shuttles.",
+      "stay": "Skyland Resort, Big Meadows Lodge, 5 campgrounds, Luray/Front Royal towns."
+    },
+    "reports": {
+      "reddit": "Mid-October is peak fall color but also peak traffic—visit weekdays and start hikes before 8 AM.",
+      "google": "The Luray Caverns nearby are touristy but the stalactite organ concert is genuinely unique—worth the detour.",
+      "offbeat": "White Oak Canyon Trail to Cedar Run creates a 8.2-mile waterfall loop that showcases 6 falls and avoids the Skyline Drive overlook crowds."
+    },
+    "combos": ["Great Smoky Mountains (grsm)", "New River Gorge (npnh)"]
+  },
+  "thro": {
+    "summary": {
+      "elevation": "2,200–3,506 ft",
+      "peakSeason": "May–September",
+      "weather": "Extreme continental: summer highs above 100°F, winter plunges to -40°F; wind chill amplifies severity."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Bismarck (BIS) – 2.5 hr drive; Williston (XWA) – 1 hr to North Unit.",
+      "transport": "Car rental required; South Unit (I-94 at Medora) is more accessible than the remote North Unit.",
+      "stay": "Cottonwood Campground (South Unit), Juniper Campground (North Unit), Medora town lodging."
+    },
+    "reports": {
+      "reddit": "Wild horses roam the South Unit—drive the 36-mile scenic loop at dawn for almost guaranteed sightings.",
+      "google": "The Pitchfork Steak Fondue in Medora is an open-air dinner show where steaks are cooked in boiling oil on pitchforks.",
+      "offbeat": "The North Unit's Achenbach Trail is a grueling 18-mile loop through eroded badlands that maybe 5 people hike per week."
+    },
+    "combos": ["Badlands (badl)", "Wind Cave (wica)"]
+  },
+  "viis": {
+    "summary": {
+      "elevation": "0–1,277 ft (Bordeaux Mountain)",
+      "peakSeason": "December–April",
+      "weather": "Tropical: 80-90°F year-round; hurricane season June–November; trade winds moderate heat."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Cyril E. King Airport, St. Thomas (STT) – then 20-min ferry to St. John.",
+      "transport": "Car ferry or passenger ferry from Red Hook, St. Thomas; open-air taxis and Jeep rentals on St. John.",
+      "stay": "Cinnamon Bay Campground (in-park), Cruz Bay hotels, Caneel Bay area, villa rentals."
+    },
+    "reports": {
+      "reddit": "Trunk Bay's underwater snorkel trail is spectacular but gets cruise ship crowds by 10 AM—arrive at 8 AM.",
+      "google": "The Lime Inn in Cruz Bay serves Caribbean-seasoned fresh catch in a relaxed garden setting.",
+      "offbeat": "The Ram Head Trail on the south shore ends at a windswept rocky point with 360° ocean views and near-total solitude."
+    },
+    "combos": ["Dry Tortugas (drto)", "Biscayne (bisc)"]
+  },
+  "voya": {
+    "summary": {
+      "elevation": "1,060–1,400 ft",
+      "peakSeason": "June–September",
+      "weather": "Continental extremes: -40°F winters with 3+ feet of ice on lakes; mild summers 65-80°F; northern lights visible."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "MODERATE" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "International Falls (INL) – 20 min drive; Duluth (DLH) – 4 hr drive.",
+      "transport": "Boat or canoe required for most park access; rent at gateway communities. Winter: snowmobile/ski access.",
+      "stay": "Houseboat rentals, Kabetogama/Crane Lake/Ash River resort lodges, 270+ backcountry campsites."
+    },
+    "reports": {
+      "reddit": "Rent a houseboat for 3+ days—it's the quintessential Voyageurs experience and you can anchor at a different island each night.",
+      "google": "Thunderbird Lodge on Rainy Lake serves walleye shore lunch cooked right on the dock.",
+      "offbeat": "The Kabetogama Peninsula is a roadless interior reachable by boat with wolf packs and pristine boreal forest."
+    },
+    "combos": ["Isle Royale (isro)", "Badlands (badl)"]
+  },
+  "whsa": {
+    "summary": {
+      "elevation": "3,890–4,116 ft",
+      "peakSeason": "October–April",
+      "weather": "Chihuahuan Desert: summer exceeds 100°F; gypsum dunes reflect intense UV; sandstorms close roads."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "El Paso International (ELP) – 1.5 hr drive.",
+      "transport": "Car rental required; park occasionally closes for White Sands Missile Range testing—check schedule.",
+      "stay": "No in-park lodging; backcountry primitive camping (10 sites), Alamogordo/Las Cruces hotels."
+    },
+    "reports": {
+      "reddit": "Buy a sled/saucer at the park gift shop for $20—dune sledding on white gypsum is better than snow.",
+      "google": "Rocket Fizz in Alamogordo has craft sodas and candy in a space-themed shop on the main strip.",
+      "offbeat": "The Alkali Flat Trail is a 5-mile loop deep into the heart of the dune field where you lose all reference points—bring GPS."
+    },
+    "combos": ["Guadalupe Mountains (gumo)", "Carlsbad Caverns (cave)"]
+  },
+  "wica": {
+    "summary": {
+      "elevation": "3,560–5,013 ft",
+      "peakSeason": "May–September",
+      "weather": "Continental: summer highs near 90°F, winter lows below -10°F; cave interior is a constant 54°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Rapid City Regional (RAP) – 1 hr drive.",
+      "transport": "Car rental required; cave tours are ranger-led and must be reserved on recreation.gov.",
+      "stay": "Elk Mountain Campground (in-park), Custer/Hot Springs SD town lodging."
+    },
+    "reports": {
+      "reddit": "The Natural Entrance Tour is fascinating but the Candlelight Tour is the real experience—95% of visitors skip it.",
+      "google": "Black Hills Burger and Bun in Custer uses local bison meat for burgers that beat anything in Rapid City.",
+      "offbeat": "The above-ground prairie has one of the largest mixed-grass ecosystems left—bison, elk, and prairie dogs roam freely."
+    },
+    "combos": ["Badlands (badl)", "Theodore Roosevelt (thro)"]
+  },
+  "wotr": {
+    "summary": {
+      "elevation": "0–200 ft",
+      "peakSeason": "Year-round; spring for wildflowers",
+      "weather": "Humid subtropical: summer highs 95°F+ with high humidity; mild winters averaging 40-55°F."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Raleigh-Durham (RDU) – 1 hr drive; Norfolk (ORF) – 2 hr drive.",
+      "transport": "Car rental recommended; the Freedom Riders trail connects multiple sites spread across the region.",
+      "stay": "No in-park lodging; Murfreesboro/Elizabeth City hotels, Albemarle Sound area B&Bs."
+    },
+    "reports": {
+      "reddit": "This is a deeply undervisited park—the Canal Company Visitor Center provides critical context before exploring.",
+      "google": "Tunis General Store on the towpath has been operating since the 1800s and still serves basics to travelers.",
+      "offbeat": "The Moses Grandy Trail follows the hand-dug canal through dense swamp forest—a powerful, contemplative walk."
+    },
+    "combos": ["Congaree (cong)", "Shenandoah (shen)"]
+  },
+  "wrst": {
+    "summary": {
+      "elevation": "0–18,008 ft (Mt. St. Elias)",
+      "peakSeason": "June–September",
+      "weather": "From coastal rain to arctic glacial; winter hits -50°F; the Bagley Icefield is the largest non-polar ice field."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "NO" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "STRENUOUS" },
+      { "label": "Permit Requirements", "status": "NONE" }
+    ],
+    "logistics": {
+      "airport": "Anchorage (ANC) – 5 hr drive to McCarthy via the McCarthy Road.",
+      "transport": "Car rental to Chitina; McCarthy Road is 60 miles of rough gravel. Wrangell Mountain Air offers bush flights.",
+      "stay": "McCarthy/Kennicott lodges, backcountry camping, Glennallen motels."
+    },
+    "reports": {
+      "reddit": "Bring two spare tires for the McCarthy Road—the railroad spikes from the old rail bed still cause flats regularly.",
+      "google": "McCarthy's Potato serves gourmet wood-fired meals in a repurposed historic building with glacier views.",
+      "offbeat": "The Root Glacier hike from Kennicott lets you walk onto a glacier without guides or crampons—ice is just there."
+    },
+    "combos": ["Denali (dena)", "Glacier Bay (glba)"]
+  },
+  "yell": {
+    "summary": {
+      "elevation": "5,282–11,358 ft (Eagle Peak)",
+      "peakSeason": "June–September",
+      "weather": "Alpine continental: summer highs 70-80°F, winter hits -60°F; snow possible every month of the year."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "EASY" },
+      { "label": "Permit Requirements", "status": "BACKCOUNTRY" }
+    ],
+    "logistics": {
+      "airport": "Bozeman Yellowstone International (BZN) – 1.5 hr drive; Jackson Hole (JAC) – 1 hr to South Entrance.",
+      "transport": "Car rental; no park-wide shuttle. Five entrances; West Yellowstone is most popular gateway.",
+      "stay": "Old Faithful Inn, Lake Yellowstone Hotel, 12 campgrounds, West Yellowstone/Gardiner/Cody towns."
+    },
+    "reports": {
+      "reddit": "Lamar Valley at dawn is the Serengeti of North America—wolves, bison, bears, and pronghorn in a single scan.",
+      "google": "The Running Bear Pancake House in West Yellowstone has massive flapjacks and opens at 6 AM for early risers.",
+      "offbeat": "Bechler Falls via the Bechler River Trail is a backcountry waterfall paradise in the park's rarely-visited southwest corner."
+    },
+    "combos": ["Grand Teton (grte)", "Glacier (glac)"]
+  },
+  "yose": {
+    "summary": {
+      "elevation": "2,127–13,114 ft (Mt. Lyell)",
+      "peakSeason": "May–September",
+      "weather": "Mediterranean mountain: Valley is mild but Tioga Pass gets 20+ ft of snow; waterfalls peak in May–June."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Fresno Yosemite International (FAT) – 2 hr drive; San Francisco (SFO) – 4 hr drive.",
+      "transport": "Car rental; timed entry reservations required in peak season. Free Valley shuttle year-round.",
+      "stay": "The Ahwahnee, Yosemite Valley Lodge, 13 campgrounds, El Portal/Mariposa/Groveland towns."
+    },
+    "reports": {
+      "reddit": "Yosemite Firefall (mid-February) at Horsetail Fall requires clear skies AND water flow—check both before committing.",
+      "google": "The River Rock Inn Deli in Mariposa serves enormous trail sandwiches perfect for packing into the Valley.",
+      "offbeat": "North Dome via the Yosemite Falls Trail offers a face-to-face view of Half Dome without the cables crowd."
+    },
+    "combos": ["Sequoia & Kings Canyon (seki)", "Pinnacles (pinn)"]
+  },
+  "zion": {
+    "summary": {
+      "elevation": "3,666–8,726 ft (Horse Ranch Mountain)",
+      "peakSeason": "March–May, September–November",
+      "weather": "Desert canyon: summer exceeds 105°F on canyon floor; flash flood risk year-round; Kolob can see winter snow."
+    },
+    "specs": [
+      { "label": "Kid Friendly", "status": "YES" },
+      { "label": "Pet Friendly", "status": "LEASHED ONLY" },
+      { "label": "Beginner Friendly", "status": "MODERATE" },
+      { "label": "Permit Requirements", "status": "RESERVATION" }
+    ],
+    "logistics": {
+      "airport": "Las Vegas (LAS) – 2.5 hr drive; St. George (SGU) – 1 hr drive.",
+      "transport": "Mandatory park shuttle in Zion Canyon (March–November); private vehicles prohibited.",
+      "stay": "Zion Lodge (in-park), Watchman/South campgrounds, Springdale town lodging."
+    },
+    "reports": {
+      "reddit": "Angels Landing permits are lottery-based now—apply on recreation.gov both seasonal and day-before for best odds.",
+      "google": "Oscar's Café in Springdale serves massive breakfast burritos that have fueled hikers since 1995.",
+      "offbeat": "The Kolob Terrace Road to Kolob Canyons section is a separate entrance with red rock amphitheaters and a fraction of Zion Canyon traffic."
+    },
+    "combos": ["Bryce Canyon (brca)", "Grand Canyon (grca)"]
+  }
+}

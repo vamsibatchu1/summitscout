@@ -1,8 +1,9 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mountain, MapPin, TrendingUp, Info, ShieldCheck, Plane, MessageSquare, Layers, Baby, Dog, Zap } from 'lucide-react';
+import { Mountain, MapPin, TrendingUp, Info, ShieldCheck, Plane, MessageSquare, Layers, Baby, Dog, Zap, Check, Bookmark } from 'lucide-react';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { NPS_API_KEY, NPS_BASE_URL } from '../config/npsConfig';
+import SUMMIT_SCOUT_DATA from '../data/summit_scout.json';
 
 const FAMOUS_LANDMARKS = {
     'yose': ['Half Dome', 'El Capitan', 'Yosemite Falls', 'Mirror Lake'],
@@ -29,55 +30,47 @@ const getNPSIcon = (name, color = 'black') => {
     return `https://raw.githubusercontent.com/nationalparkservice/symbol-library/gh-pages/src/standalone/${name}-${color}-22.svg`;
 };
 
-const ACTIVITY_ICON_MAP = {
-    'Hiking': 'hiking',
-    'Camping': 'camping',
-    'Climbing': 'climbing',
-    'Biking': 'biking',
-    'Fishing': 'fishing',
-    'Boating': 'boating-permit',
-    'Swimming': 'swimming',
-    'Wildlife Watching': 'birding-wildlife-viewing',
-    'Photography': 'photography',
-    'Stargazing': 'star-gazing',
-    'Junior Ranger Program': 'junior-ranger',
-    'Visitor Center': 'information',
-    'Birdwatching': 'birding-wildlife-viewing',
-    'Horseback Riding': 'horseback-riding',
-    'Backcountry Camping': 'backcountry-camping'
-};
 
-const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
+
+const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited, onToggleVisited }) => {
     const [npsData, setNpsData] = useState(null);
     const [loading, setLoading] = useState(false);
     const [activeTab, setActiveTab] = useState('Summary');
     const visitorData = useMemo(() => generateVisitorData(), []);
 
-    const dummyInfo = {
+    const parkIntelligence = SUMMIT_SCOUT_DATA[park.parkCode] || {};
+
+    const info = {
         summary: {
-            elevation: "1,200 - 13,000 ft",
-            peakSeason: "June - September",
-            weather: "Varies by elevation, alpine conditions above 8,000 ft.",
+            elevation: parkIntelligence.summary?.elevation || "1,200 - 13,000 ft",
+            peakSeason: parkIntelligence.summary?.peakSeason || "June - September",
+            weather: parkIntelligence.summary?.weather || "Varies by elevation, alpine conditions.",
             states: park.location
         },
-        specs: [
-            { icon: 'strollers', label: "Kid Friendly", status: "YES" },
-            { icon: 'pets-on-leash', label: "Pet Friendly", status: "LEASHED" },
-            { icon: 'climbing', label: "Beginner Friendly", status: "MODERATE" },
-            { icon: 'backcountry-camping', label: "Permits Required", status: "BACKCOUNTRY" }
-        ],
-        logistics: [
+        specs: (parkIntelligence.specs || []).map(s => ({
+            label: s.label,
+            status: s.status,
+            icon: s.label.toLowerCase().includes('kid') ? 'strollers' :
+                s.label.toLowerCase().includes('pet') ? 'pets-on-leash' :
+                    s.label.toLowerCase().includes('beginner') ? 'climbing' :
+                        s.label.toLowerCase().includes('permit') ? 'entrance-station' :
+                            'backcountry-camping'
+        })),
+        logistics: parkIntelligence.logistics ? [
+            { icon: 'airport', label: 'AIRPORT', value: parkIntelligence.logistics.airport },
+            { icon: 'automobiles', label: 'TRANSPORT', value: parkIntelligence.logistics.transport },
+            { icon: 'lodging', label: 'STAY', value: parkIntelligence.logistics.stay }
+        ] : [
             { icon: 'airport', label: 'AIRPORT', value: "International Airport (4h drive)" },
-            { icon: 'automobiles', label: 'TRANSPORT', value: "Rental Car highly recommended. No shuttle system." },
-            { icon: 'lodging', label: 'STAY', value: "Lodges, Backcountry camping, Nearby hotels." }
+            { icon: 'automobiles', label: 'TRANSPORT', value: "Rental Car recommended." },
+            { icon: 'lodging', label: 'STAY', value: "Nearby lodges and camping." }
         ],
         reports: {
-            reddit: "Avoid the main vista at sunset, head to the secret overlook instead.",
-            google: "Must visit the breakfast spot just outside the south entrance.",
-            offbeat: "The hidden cave behind the waterfall is worth the scramble."
+            reddit: parkIntelligence.reports?.reddit || "High traffic at main peaks during midday.",
+            google: parkIntelligence.reports?.google || "Local dining options available in gateway towns.",
+            offbeat: parkIntelligence.reports?.offbeat || "Hidden overlooks provide the best sunset views."
         },
-        combos: [
-            "Combine with Great Sand Dunes for a desert-to-mountain tour.",
+        combos: parkIntelligence.combos || [
             "Pairs well with nearby State Parks for fewer crowds."
         ]
     };
@@ -125,29 +118,35 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
             }}
             whileHover={{ y: isSelected ? 0 : -2, boxShadow: '4px 4px 0 rgba(205, 92, 92, 0.2)', borderColor: '#cd5c5c' }}
         >
-            {viewMode === 'ranked' && (
-                <div style={{
-                    position: 'absolute',
-                    top: '15px',
-                    right: '15px',
-                    background: '#cd5c5c',
-                    color: '#fff',
-                    padding: '4px 8px',
-                    fontSize: '0.9rem',
-                    fontFamily: '"PT Sans Narrow", sans-serif',
-                    fontWeight: 'bold',
-                    zIndex: 2
-                }}>
-                    SC {composite}
-                </div>
-            )}
+            <div style={{
+                position: 'absolute',
+                top: '15px',
+                right: '15px',
+                background: isVisited ? '#333' : '#cd5c5c',
+                color: '#fff',
+                padding: '4px 8px',
+                fontSize: '0.9rem',
+                fontFamily: '"PT Sans Narrow", sans-serif',
+                fontWeight: 'bold',
+                zIndex: 2
+            }}>
+                SC {composite}
+            </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px', paddingRight: viewMode === 'ranked' ? '60px' : '0' }}>
-                <Mountain
-                    size={16}
-                    strokeWidth={isSelected ? 2.5 : 2}
-                    color={isSelected ? '#cd5c5c' : '#888'}
-                />
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '4px', paddingRight: '60px' }}>
+                {isVisited ? (
+                    <Check
+                        size={16}
+                        strokeWidth={isSelected ? 3 : 2}
+                        color="#333"
+                    />
+                ) : (
+                    <Mountain
+                        size={16}
+                        strokeWidth={isSelected ? 2.5 : 2}
+                        color={isSelected ? '#cd5c5c' : '#888'}
+                    />
+                )}
                 <motion.h3 layout="position" style={{
                     margin: 0,
                     fontFamily: '"PT Serif", serif',
@@ -172,16 +171,41 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
                 </motion.p>
             </div>
 
-            {viewMode === 'ranked' && (
+            {isSelected && (
+                <div style={{ display: 'flex', marginTop: '12px' }}>
+                    <button
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            onToggleVisited();
+                        }}
+                        style={{
+                            padding: '6px 16px',
+                            background: isVisited ? '#333' : 'transparent',
+                            border: `1px solid ${isVisited ? '#333' : '#cd5c5c'}`,
+                            color: isVisited ? '#fff' : '#cd5c5c',
+                            borderRadius: '0',
+                            fontSize: '0.8rem',
+                            fontWeight: 'bold',
+                            fontFamily: '"PT Sans Narrow", sans-serif',
+                            cursor: 'pointer',
+                            transition: 'all 0.2s',
+                            letterSpacing: '1px'
+                        }}
+                    >
+                        VISITED
+                    </button>
+                </div>
+            )}
+
+            {(viewMode === 'ranked' || isSelected) && (
                 <motion.div
                     initial={{ opacity: 0, y: 5 }}
                     animate={{ opacity: 1, y: 0 }}
                     style={{
                         marginTop: '10px',
-                        display: 'grid',
                         gridTemplateColumns: 'repeat(2, 1fr)',
                         gap: '4px 12px',
-                        fontSize: '0.65rem',
+                        fontSize: '0.9rem',
                         fontFamily: '"PT Sans Narrow", sans-serif',
                         color: '#999',
                         borderTop: '1px solid #f0f0f0',
@@ -321,63 +345,69 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
                                 >
                                     {activeTab === 'Summary' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
-                                            {/* --- HIGHLIGHT TAGS --- */}
-                                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', fontFamily: '"PT Sans Narrow", sans-serif' }}>
+                                                <div style={{ background: '#f5f5f5', padding: '8px' }}>
+                                                    <div style={{ fontSize: '0.6rem', letterSpacing: '1px', color: '#999', fontWeight: 'bold' }}>ELEVATION</div>
+                                                    <div style={{ fontSize: '0.8rem', color: '#333' }}>{info.summary.elevation}</div>
+                                                </div>
+                                                <div style={{ background: '#f5f5f5', padding: '8px' }}>
+                                                    <div style={{ fontSize: '0.6rem', letterSpacing: '1px', color: '#999', fontWeight: 'bold' }}>PEAK SEASON</div>
+                                                    <div style={{ fontSize: '0.8rem', color: '#333' }}>{info.summary.peakSeason}</div>
+                                                </div>
+                                            </div>
+
+                                            {/* --- ACTIVITY HIGHLIGHT CARDS --- */}
+                                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
                                                 {npsData?.activities?.slice(0, 4).map((act, i) => {
-                                                    const iconName = ACTIVITY_ICON_MAP[act.name];
+                                                    const iconName = 'birding-wildlife-viewing';
                                                     return (
-                                                        <span key={i} style={{
-                                                            fontSize: '0.6rem',
-                                                            background: '#f0f0f0',
-                                                            color: '#666',
-                                                            padding: '4px 10px',
-                                                            borderRadius: '2px',
-                                                            fontFamily: '"PT Sans Narrow", sans-serif',
-                                                            fontWeight: 'bold',
-                                                            letterSpacing: '0.5px',
+                                                        <div key={i} style={{
                                                             display: 'flex',
                                                             alignItems: 'center',
-                                                            gap: '5px',
-                                                            border: '1px solid #e0e0e0'
+                                                            gap: '8px',
+                                                            padding: '8px',
+                                                            background: '#fcfcfc',
+                                                            border: '1px solid #eee',
+                                                            borderRadius: '2px'
                                                         }}>
-                                                            {iconName && (
+                                                            <div style={{
+                                                                width: '28px',
+                                                                height: '28px',
+                                                                background: '#cd5c5c',
+                                                                display: 'flex',
+                                                                alignItems: 'center',
+                                                                justifyContent: 'center',
+                                                                borderRadius: '2px',
+                                                                flexShrink: 0
+                                                            }}>
                                                                 <img
-                                                                    src={getNPSIcon(iconName)}
+                                                                    src={getNPSIcon(iconName, 'white')}
                                                                     alt=""
-                                                                    style={{ width: '14px', height: '14px', opacity: 0.7 }}
+                                                                    style={{ width: '18px', height: '18px' }}
                                                                 />
-                                                            )}
-                                                            {act.name.toUpperCase()}
-                                                        </span>
+                                                            </div>
+                                                            <div style={{ overflow: 'hidden' }}>
+                                                                <div style={{ fontSize: '0.5rem', color: '#999', fontWeight: 'bold', letterSpacing: '0.5px' }}>ACTIVITY</div>
+                                                                <div style={{
+                                                                    fontSize: '0.7rem',
+                                                                    color: '#333',
+                                                                    fontWeight: 'bold',
+                                                                    fontFamily: '"PT Sans Narrow", sans-serif',
+                                                                    whiteSpace: 'nowrap',
+                                                                    overflow: 'hidden',
+                                                                    textOverflow: 'ellipsis'
+                                                                }} title={act.name}>
+                                                                    {act.name.toUpperCase()}
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     );
                                                 })}
                                             </div>
 
-                                            <div style={{
-                                                fontSize: '1.25rem',
-                                                color: '#444',
-                                                lineHeight: '1.4',
-                                                fontFamily: '"Caveat", cursive',
-                                                background: '#fcfaf2',
-                                                padding: '12px',
-                                                borderLeft: '3px solid #e6e2d3'
-                                            }}>
-                                                {npsData?.description || park.description}
-                                            </div>
-                                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', fontFamily: '"PT Sans Narrow", sans-serif' }}>
-                                                <div style={{ background: '#f5f5f5', padding: '8px' }}>
-                                                    <div style={{ fontSize: '0.6rem', letterSpacing: '1px', color: '#999', fontWeight: 'bold' }}>ELEVATION</div>
-                                                    <div style={{ fontSize: '0.8rem', color: '#333' }}>{dummyInfo.summary.elevation}</div>
-                                                </div>
-                                                <div style={{ background: '#f5f5f5', padding: '8px' }}>
-                                                    <div style={{ fontSize: '0.6rem', letterSpacing: '1px', color: '#999', fontWeight: 'bold' }}>PEAK SEASON</div>
-                                                    <div style={{ fontSize: '0.8rem', color: '#333' }}>{dummyInfo.summary.peakSeason}</div>
-                                                </div>
-                                            </div>
-
                                             {/* --- MOVED SPECS CARDS HERE --- */}
                                             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '8px' }}>
-                                                {dummyInfo.specs.map((spec, i) => (
+                                                {info.specs.map((spec, i) => (
                                                     <div key={i} style={{
                                                         display: 'flex',
                                                         alignItems: 'center',
@@ -435,7 +465,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
 
                                     {activeTab === 'Logistics' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                                            {dummyInfo.logistics.map((item, i) => (
+                                            {info.logistics.map((item, i) => (
                                                 <div key={i} style={{
                                                     display: 'flex',
                                                     gap: '12px',
@@ -470,18 +500,18 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode }) => {
                                                     <MessageSquare size={12} color="#cd5c5c" />
                                                     <span style={{ fontSize: '0.6rem', fontWeight: 'bold', color: '#cd5c5c', letterSpacing: '1px' }}>REDDIT INTEL</span>
                                                 </div>
-                                                <div style={{ fontSize: '0.85rem', color: '#444', fontStyle: 'italic', fontFamily: '"PT Serif", serif' }}>"{dummyInfo.reports.reddit}"</div>
+                                                <div style={{ fontSize: '0.85rem', color: '#444', fontStyle: 'italic', fontFamily: '"PT Serif", serif' }}>"{info.reports.reddit}"</div>
                                             </div>
                                             <div style={{ background: '#fcfcfc', padding: '12px', border: '1px solid #eee' }}>
                                                 <div style={{ fontSize: '0.6rem', fontWeight: 'bold', color: '#666', letterSpacing: '1px', marginBottom: '6px' }}>OFFBEAT GEM</div>
-                                                <div style={{ fontSize: '0.85rem', color: '#444', fontFamily: '"PT Serif", serif' }}>{dummyInfo.reports.offbeat}</div>
+                                                <div style={{ fontSize: '0.85rem', color: '#444', fontFamily: '"PT Serif", serif' }}>{info.reports.offbeat}</div>
                                             </div>
                                         </div>
                                     )}
 
                                     {activeTab === 'Combos' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                            {dummyInfo.combos.map((combo, i) => (
+                                            {info.combos.map((combo, i) => (
                                                 <div key={i} style={{
                                                     display: 'flex',
                                                     gap: '12px',

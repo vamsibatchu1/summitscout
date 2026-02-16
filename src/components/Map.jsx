@@ -56,9 +56,9 @@ const Map = () => {
     const map = useRef(null);
     const popupRef = useRef(null);
     const markersRef = useRef([]);
-    const [lng, setLng] = useState(-70.9);
-    const [lat, setLat] = useState(42.35);
-    const [zoom, setZoom] = useState(9);
+    const [lng, setLng] = useState(-98.35);
+    const [lat, setLat] = useState(39.50);
+    const [zoom, setZoom] = useState(3.5);
     const [currentStyle, setCurrentStyle] = useState(DEFAULT_STYLE);
     const [selectedFeature, setSelectedFeature] = useState(null);
     const [isTouring, setIsTouring] = useState(false);
@@ -66,6 +66,17 @@ const Map = () => {
     const [mobileTab, setMobileTab] = useState('map'); // 'map' or 'list'
     const rotationRequestRef = useRef(null);
     const tourRequestRef = useRef(null);
+    const [visitedParks, setVisitedParks] = useState(new Set());
+    const selectedParkCodeRef = useRef(null);
+
+    const toggleVisited = (parkId) => {
+        setVisitedParks(prev => {
+            const next = new Set(prev);
+            if (next.has(parkId)) next.delete(parkId);
+            else next.add(parkId);
+            return next;
+        });
+    };
 
     const processedParks = useMemo(() => {
         let list = [...NATIONAL_PARKS].map(p => ({
@@ -352,6 +363,8 @@ const Map = () => {
         if (!map.current) return;
         stopRotation();
 
+        selectedParkCodeRef.current = park.parkCode;
+
         if (popupRef.current) {
             popupRef.current.remove();
             popupRef.current = null;
@@ -381,6 +394,9 @@ const Map = () => {
         });
 
         map.current.once('moveend', () => {
+            // Only create popup if this park is still the selected one
+            if (selectedParkCodeRef.current !== park.parkCode) return;
+
             const popup = new mapboxgl.Popup({
                 closeButton: false,
                 closeOnClick: true,
@@ -429,18 +445,43 @@ const Map = () => {
             }}>
                 <div style={{ padding: '30px 20px', flexGrow: 1, paddingBottom: '80px' }}>
                     {/* --- APP HEADER --- */}
-                    <h1 style={{
-                        fontFamily: '"Londrina Solid", cursive',
-                        fontSize: '3.5rem',
-                        color: '#cd5c5c',
-                        textAlign: 'left',
-                        margin: '0 0 20px 0',
-                        lineHeight: '1',
-                        letterSpacing: '2px',
-                        textTransform: 'uppercase'
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '15px', marginBottom: '20px' }}>
+                        <div style={{
+                            width: '45px',
+                            height: '45px',
+                            backgroundColor: '#cd5c5c',
+                            WebkitMask: `url(/src/assets/nps.svg) no-repeat center`,
+                            mask: `url(/src/assets/nps.svg) no-repeat center`,
+                            WebkitMaskSize: 'contain',
+                            maskSize: 'contain',
+                            flexShrink: 0
+                        }} />
+                        <h1 style={{
+                            fontFamily: '"Londrina Solid", cursive',
+                            fontSize: '3.5rem',
+                            color: '#cd5c5c',
+                            textAlign: 'left',
+                            margin: 0,
+                            lineHeight: '1',
+                            letterSpacing: '2px',
+                            textTransform: 'uppercase'
+                        }}>
+                            SUMMIT SCOUT
+                        </h1>
+                    </div>
+                    <p style={{
+                        marginTop: '-8px',
+                        marginBottom: '30px',
+                        fontSize: '1.25rem',
+                        color: '#a6a28e', // Warm grain color
+                        fontFamily: '"PT Sans Narrow", sans-serif',
+                        lineHeight: '1.4',
+                        width: '100%',
+                        letterSpacing: '0.5px',
+                        fontWeight: '500'
                     }}>
-                        SUMMIT SCOUT
-                    </h1>
+                        Your friendly helper on your next adventure to know everything there is to know about the national parks of the US.
+                    </p>
 
                     {/* --- FILTER BUTTONS --- */}
                     <div style={{
@@ -505,12 +546,19 @@ const Map = () => {
                             key={park.id}
                             park={park}
                             isSelected={selectedFeature?.properties?.name === park.name}
+                            isVisited={visitedParks.has(park.id)}
+                            onToggleVisited={() => toggleVisited(park.id)}
                             viewMode={viewMode}
                             onClick={() => {
                                 if (selectedFeature?.properties?.name === park.name) {
                                     setSelectedFeature(null);
-                                    if (popupRef.current) popupRef.current.remove();
-                                    map.current.flyTo({ zoom: 4, pitch: 0, bearing: 0 });
+                                    selectedParkCodeRef.current = null;
+                                    stopRotation();
+                                    if (popupRef.current) {
+                                        popupRef.current.remove();
+                                        popupRef.current = null;
+                                    }
+                                    map.current.flyTo({ zoom: 3.5, pitch: 0, bearing: 0, center: [-98.35, 39.50] });
                                 } else {
                                     handleParkClick(park);
                                     // Auto-switch to map on mobile when a park is selected
@@ -540,7 +588,7 @@ const Map = () => {
                     <span>List</span>
                 </button>
             </div>
-        </div>
+        </div >
     );
 };
 
