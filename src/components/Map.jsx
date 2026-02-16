@@ -61,6 +61,7 @@ const Map = () => {
     const [zoom, setZoom] = useState(3.5);
     const [currentStyle, setCurrentStyle] = useState(DEFAULT_STYLE);
     const [selectedFeature, setSelectedFeature] = useState(null);
+    const [activeSubTab, setActiveSubTab] = useState('Summary');
     const [isTouring, setIsTouring] = useState(false);
     const [viewMode, setViewMode] = useState('all'); // 'all', 'ranked', 'weather'
     const [mobileTab, setMobileTab] = useState('map'); // 'map' or 'list'
@@ -138,6 +139,13 @@ const Map = () => {
             setIsTouring(false);
             if (map.current.getLayer('tour-path')) map.current.removeLayer('tour-path');
             if (map.current.getSource('tour-path')) map.current.removeSource('tour-path');
+        }
+        // Also clear transit lines
+        if (map.current) {
+            if (map.current.getLayer('transit-line')) map.current.removeLayer('transit-line');
+            if (map.current.getSource('transit-line')) map.current.removeSource('transit-line');
+            if (map.current.getLayer('shuttle-line')) map.current.removeLayer('shuttle-line');
+            if (map.current.getSource('shuttle-line')) map.current.removeSource('shuttle-line');
         }
     };
 
@@ -359,6 +367,93 @@ const Map = () => {
         map.current.setStyle(currentStyle.url);
     }, [currentStyle]);
 
+    // TRANSIT VISUALIZATION LOGIC
+    useEffect(() => {
+        if (!map.current || !selectedFeature || activeSubTab !== 'Getting There') {
+            if (map.current) {
+                if (map.current.getLayer('transit-line')) map.current.removeLayer('transit-line');
+                if (map.current.getSource('transit-line')) map.current.removeSource('transit-line');
+                if (map.current.getLayer('shuttle-line')) map.current.removeLayer('shuttle-line');
+                if (map.current.getSource('shuttle-line')) map.current.removeSource('shuttle-line');
+            }
+            return;
+        }
+
+        const park = NATIONAL_PARKS.find(p => p.name === selectedFeature.properties.name);
+        if (!park) return;
+
+        const AIRPORT_COORDS = {
+            'BGR': [-68.8281, 44.8074], 'SLC': [-111.9791, 40.7899], 'LAS': [-115.1523, 36.0840],
+            'GJT': [-108.5255, 39.1233], 'RAP': [-103.0483, 44.0453], 'MAF': [-102.2019, 31.9425],
+            'ELP': [-106.3778, 31.8071], 'FCA': [-114.2562, 48.3114], 'PHX': [-112.0078, 33.4342],
+            'SEA': [-122.3088, 47.4502], 'ANC': [-149.9961, 61.1759], 'MIA': [-80.2870, 25.7959],
+            'CLE': [-81.8504, 41.4108], 'SDF': [-85.7360, 38.1744], 'BNA': [-86.6782, 36.1263],
+            'JAC': [-110.7621, 43.6073], 'OGG': [-156.4305, 20.8986], 'ITO': [-155.0485, 19.7202],
+            'PSP': [-116.5067, 33.8297], 'RDD': [-122.2934, 40.5090], 'MFR': [-122.8735, 42.3742]
+        };
+
+        const parkIntel = processedParks.find(p => p.parkCode === park.parkCode);
+        const airportText = parkIntel?.logistics?.airport || "";
+        const airportCodeMatch = airportText.match(/\(([A-Z]{3})\)/);
+        const airportCode = airportCodeMatch ? airportCodeMatch[1] : null;
+
+        if (airportCode && AIRPORT_COORDS[airportCode]) {
+            const airportCoords = AIRPORT_COORDS[airportCode];
+            const line = turf.lineString([park.coordinates, airportCoords]);
+
+            if (map.current.getSource('transit-line')) {
+                map.current.getSource('transit-line').setData(line);
+            } else {
+                map.current.addSource('transit-line', { type: 'geojson', data: line });
+                map.current.addLayer({
+                    id: 'transit-line',
+                    type: 'line',
+                    source: 'transit-line',
+                    paint: {
+                        'line-color': '#cd5c5c',
+                        'line-width': 3,
+                        'line-dasharray': [2, 1],
+                        'line-opacity': 0.8
+                    }
+                });
+            }
+        }
+
+        // Shuttle Loops for Acadia and Zion
+        const SHUTTLE_LOOPS = {
+            'acad': [
+                [-68.25, 44.40], [-68.20, 44.39], [-68.18, 44.33],
+                [-68.20, 44.31], [-68.25, 44.32], [-68.25, 44.40]
+            ],
+            'zion': [
+                [-112.98, 37.20], [-112.97, 37.21], [-112.97, 37.22],
+                [-112.95, 37.25], [-112.95, 37.26], [-112.95, 37.28],
+                [-112.95, 37.26], [-112.98, 37.20]
+            ]
+        };
+
+        if (SHUTTLE_LOOPS[park.parkCode]) {
+            const shuttlePath = turf.lineString(SHUTTLE_LOOPS[park.parkCode]);
+            if (map.current.getSource('shuttle-line')) {
+                map.current.getSource('shuttle-line').setData(shuttlePath);
+            } else {
+                map.current.addSource('shuttle-line', { type: 'geojson', data: shuttlePath });
+                map.current.addLayer({
+                    id: 'shuttle-line',
+                    type: 'line',
+                    source: 'shuttle-line',
+                    paint: {
+                        'line-color': '#4a7c59',
+                        'line-width': 4,
+                        'line-opacity': 0.9,
+                        'line-blur': 1
+                    }
+                });
+            }
+        }
+
+    }, [selectedFeature, activeSubTab, processedParks]);
+
     const handleParkClick = (park) => {
         if (!map.current) return;
         stopRotation();
@@ -549,11 +644,14 @@ const Map = () => {
                             isVisited={visitedParks.has(park.id)}
                             onToggleVisited={() => toggleVisited(park.id)}
                             viewMode={viewMode}
+                            activeTab={activeSubTab}
+                            onTabChange={setActiveSubTab}
                             onClick={() => {
                                 if (selectedFeature?.properties?.name === park.name) {
                                     setSelectedFeature(null);
                                     selectedParkCodeRef.current = null;
                                     stopRotation();
+                                    setActiveSubTab('Summary');
                                     if (popupRef.current) {
                                         popupRef.current.remove();
                                         popupRef.current = null;
@@ -561,6 +659,7 @@ const Map = () => {
                                     map.current.flyTo({ zoom: 3.5, pitch: 0, bearing: 0, center: [-98.35, 39.50] });
                                 } else {
                                     handleParkClick(park);
+                                    setActiveSubTab('Summary');
                                     // Auto-switch to map on mobile when a park is selected
                                     if (window.innerWidth <= 768) setMobileTab('map');
                                 }

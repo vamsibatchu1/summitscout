@@ -36,10 +36,9 @@ const getNPSIcon = (name, color = 'black') => {
 
 
 
-const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited, onToggleVisited }) => {
+const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited, onToggleVisited, activeTab, onTabChange }) => {
     const [npsData, setNpsData] = useState(null);
     const [loading, setLoading] = useState(false);
-    const [activeTab, setActiveTab] = useState('Summary');
     const visitorData = useMemo(() => generateVisitorData(), []);
 
     const parkIntelligence = SUMMIT_SCOUT_DATA[park.parkCode] || {};
@@ -318,7 +317,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                     {['Summary', 'Basics', 'Getting There', 'Fees', 'CAMPING', 'Permits', 'Reviews', 'Related'].map((tab) => (
                                         <button
                                             key={tab}
-                                            onClick={(e) => { e.stopPropagation(); setActiveTab(tab); }}
+                                            onClick={(e) => { e.stopPropagation(); onTabChange(tab); }}
                                             style={{
                                                 background: 'none',
                                                 border: 'none',
