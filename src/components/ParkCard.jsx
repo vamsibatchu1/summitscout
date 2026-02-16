@@ -4,6 +4,8 @@ import { Mountain, MapPin, TrendingUp, Info, ShieldCheck, Plane, MessageSquare, 
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
 import { NPS_API_KEY, NPS_BASE_URL } from '../config/npsConfig';
 import SUMMIT_SCOUT_DATA from '../data/summit_scout.json';
+import CAMPING_DATA from '../data/intelligence/camping.json';
+import PERMITS_DATA from '../data/intelligence/vehicle_permits.json';
 
 const FAMOUS_LANDMARKS = {
     'yose': ['Half Dome', 'El Capitan', 'Yosemite Falls', 'Mirror Lake'],
@@ -311,7 +313,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                     overflowX: 'auto',
                                     paddingBottom: '2px'
                                 }} className="no-scrollbar">
-                                    {['Summary', 'Specs', 'Logistics', 'Reports', 'Combos'].map((tab) => (
+                                    {['Summary', 'Basics', 'Getting There', 'CAMPING', 'Permits', 'Reviews', 'Related'].map((tab) => (
                                         <button
                                             key={tab}
                                             onClick={(e) => { e.stopPropagation(); setActiveTab(tab); }}
@@ -441,7 +443,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                         </div>
                                     )}
 
-                                    {activeTab === 'Specs' && (
+                                    {activeTab === 'Basics' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                                             {/* --- MOVED GRAPH HERE --- */}
                                             <div style={{ background: '#fcfcfc', border: '1px solid #eee', padding: '12px' }}>
@@ -463,7 +465,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                         </div>
                                     )}
 
-                                    {activeTab === 'Logistics' && (
+                                    {activeTab === 'Getting There' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
                                             {info.logistics.map((item, i) => (
                                                 <div key={i} style={{
@@ -493,7 +495,81 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                         </div>
                                     )}
 
-                                    {activeTab === 'Reports' && (
+                                    {activeTab === 'CAMPING' && (
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                                            <div style={{
+                                                background: '#fcfcfc',
+                                                padding: '12px',
+                                                fontFamily: '"PT Serif", serif',
+                                                fontSize: '0.9rem',
+                                                lineHeight: '1.6',
+                                                color: '#444'
+                                            }}>
+                                                {CAMPING_DATA[park.parkCode]?.summary || "No specific camping intelligence available for this sector."}
+                                            </div>
+                                            {CAMPING_DATA[park.parkCode]?.url && (
+                                                <a
+                                                    href={CAMPING_DATA[park.parkCode].url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    style={{
+                                                        display: 'inline-flex',
+                                                        alignItems: 'center',
+                                                        gap: '6px',
+                                                        color: '#cd5c5c',
+                                                        textDecoration: 'none',
+                                                        fontSize: '0.75rem',
+                                                        fontWeight: 'bold',
+                                                        fontFamily: '"PT Sans Narrow", sans-serif',
+                                                        textTransform: 'uppercase',
+                                                        letterSpacing: '1px'
+                                                    }}
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <Info size={14} /> OFFICIAL NPS CAMPING GUIDE
+                                                </a>
+                                            )}
+                                        </div>
+                                    )}
+
+                                    {activeTab === 'Permits' && (
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                                            <div style={{
+                                                background: '#fcfcfc',
+                                                padding: '12px',
+                                                fontFamily: '"PT Serif", serif',
+                                                fontSize: '0.9rem',
+                                                lineHeight: '1.6',
+                                                color: '#444'
+                                            }}>
+                                                {PERMITS_DATA[park.parkCode]?.summary || "No specific permit intelligence available for this sector."}
+                                            </div>
+                                            {PERMITS_DATA[park.parkCode]?.url && (
+                                                <a
+                                                    href={PERMITS_DATA[park.parkCode].url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    style={{
+                                                        display: 'inline-flex',
+                                                        alignItems: 'center',
+                                                        gap: '6px',
+                                                        color: '#cd5c5c',
+                                                        textDecoration: 'none',
+                                                        fontSize: '0.75rem',
+                                                        fontWeight: 'bold',
+                                                        fontFamily: '"PT Sans Narrow", sans-serif',
+                                                        textTransform: 'uppercase',
+                                                        letterSpacing: '1px'
+                                                    }}
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <Info size={14} /> OFFICIAL NPS PERMIT GUIDE
+                                                </a>
+                                            )}
+                                        </div>
+                                    )}
+
+                                    {activeTab === 'Reviews' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
                                             <div style={{ background: '#fff5f5', padding: '12px', border: '1px dashed #cd5c5c' }}>
                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '6px' }}>
@@ -509,7 +585,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                         </div>
                                     )}
 
-                                    {activeTab === 'Combos' && (
+                                    {activeTab === 'Related' && (
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                                             {info.combos.map((combo, i) => (
                                                 <div key={i} style={{
