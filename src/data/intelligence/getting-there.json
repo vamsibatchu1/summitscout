@@ -1,0 +1,1048 @@
+{
+  "acad": {
+    "places": [
+      "Mount Desert Island",
+      "Schoodic Peninsula",
+      "Hulls Cove Visitor Center",
+      "Sand Beach",
+      "Thunder Hole",
+      "Otter Cliffs",
+      "Jordan Pond",
+      "Cadillac Mountain"
+    ],
+    "transportation": {
+      "car": "From Boston, take I-95 north to Augusta, then Route 3 east to Ellsworth and Mount Desert Island. Alternatively, take I-95 to Bangor and Route 1A to Ellsworth. For Schoodic Peninsula, head north on U.S. Route 1 from Ellsworth to Hwy 186.",
+      "plane": "Direct flights from Boston's Logan Airport land at Hancock County Airport (10 miles away). Bangor International Airport is about one hour away. Car rentals are available at both.",
+      "train": "Not directly served by train; nearest major rail connections are in Boston or Portland with bus/car travel needed.",
+      "bus": "The Island Explorer shuttle provides seasonal fare-free service around the park and local communities (June-October).",
+      "shuttle_taxi": "Island Explorer shuttle is the primary public transit option; local taxi services operate in Bar Harbor."
+    },
+    "url": "https://www.nps.gov/acad/planyourvisit/directions.htm"
+  },
+  "arch": {
+    "places": [
+      "Delicate Arch",
+      "The Windows Section",
+      "Devils Garden",
+      "Balanced Rock",
+      "Moab"
+    ],
+    "transportation": {
+      "car": "The entrance is 5 miles north of Moab, Utah, on US 191. From Interstate 70 (Crescent Junction), it is 22 miles south on US 191.",
+      "plane": "Canyonlands Field (CNY) is 11 miles away. Grand Junction Regional Airport (GJT) is 109 miles away. Salt Lake City International (SLC) is 230 miles away.",
+      "train": "Amtrak's California Zephyr serves Green River, UT (45 miles) and Grand Junction, CO (109 miles).",
+      "bus": "Greyhound serves Green River, UT and Grand Junction, CO.",
+      "shuttle_taxi": "Commercial van services and taxis operate between Grand Junction, Green River, and Moab. See discovermoab.com for listings."
+    },
+    "url": "https://www.nps.gov/arch/planyourvisit/directions.htm"
+  },
+  "badl": {
+    "places": [
+      "Ben Reifel Visitor Center",
+      "Badlands Loop Road",
+      "Sage Creek Rim Road",
+      "Sheep Mountain Table Road"
+    ],
+    "transportation": {
+      "car": "Located 75 miles east of Rapid City, SD. Use I-90 Exit 131 for the Northeast Entrance or Exit 110 at Wall for the Pinnacles Entrance. State Highway 44 provides alternate scenic access via Interior.",
+      "plane": "The nearest commercial airport is Rapid City Regional Airport (RAP), about an hour's drive away.",
+      "train": "No passenger rail service directly to the park.",
+      "bus": "No public bus service to or within the park.",
+      "shuttle_taxi": "No official park shuttle; local taxi services from Rapid City or Wall might be available."
+    },
+    "url": "https://www.nps.gov/badl/planyourvisit/directions.htm"
+  },
+  "bibe": {
+    "places": [
+      "Chisos Basin",
+      "Santa Elena Canyon",
+      "Panther Junction Visitor Center",
+      "Rio Grande Village"
+    ],
+    "transportation": {
+      "car": "Take TX 118 from Alpine or FM 170 from Presidio to Study Butte. Alternatively, take US 385 south from Marathon to Panther Junction. Note: Distances are long and gas is limited.",
+      "plane": "The closest major airports are Midland/Odessa (235 miles) and El Paso (290 miles). Rental cars are required for travel to the park.",
+      "train": "Amtrak serves Alpine, TX, which is about 100 miles north of the park entrance. You must rent a car there.",
+      "bus": "No public bus service to or within the park.",
+      "shuttle_taxi": "No official park shuttle; some private outfitters in Terlingua/Study Butte offer limited shuttle services for hikers."
+    },
+    "url": "https://www.nps.gov/bibe/planyourvisit/directions.htm"
+  },
+  "bisc": {
+    "places": [
+      "Dante Fascell Visitor Center",
+      "Elliot Key",
+      "Boca Chita Key",
+      "Adams Key"
+    ],
+    "transportation": {
+      "car": "The Dante Fascell Visitor Center is in Homestead, FL. From the Florida Turnpike, take Exit 6 (Speedway Blvd) to SW 328th Street. From US 1, head south to Homestead and turn left on SW 137th Ave.",
+      "plane": "Miami International Airport (MIA) and Fort Lauderdale-Hollywood International Airport (FLL) are the closest major hubs.",
+      "train": "No direct rail service to the park visitor center.",
+      "bus": "The Homestead Trolley provides seasonal free service to the park on weekends (November-April).",
+      "shuttle_taxi": "The park's islands are accessible only by boat; the visitor center is on the mainland."
+    },
+    "url": "https://www.nps.gov/bisc/planyourvisit/directions.htm"
+  },
+  "blca": {
+    "places": [
+      "Gunnison Point",
+      "Chasm View",
+      "Painted Wall",
+      "Warner Point",
+      "North Rim",
+      "South Rim"
+    ],
+    "transportation": {
+      "car": "South Rim: 7 miles north on CO Hwy 347 from the intersection with US Hwy 50 east of Montrose. North Rim: 11 miles southwest of Crawford via CO Hwy 92 and Black Canyon Road (last 7 miles unpaved). No bridge connects the rims.",
+      "plane": "The closest commercial airport is Montrose Regional Airport (MTJ), about 15 miles from the South Rim.",
+      "train": "No direct passenger rail service; nearest connections are Amtrak in Grand Junction.",
+      "bus": "No public bus service to or within the park.",
+      "shuttle_taxi": "No official park shuttle; local taxi services are available in Montrose."
+    },
+    "url": "https://www.nps.gov/blca/planyourvisit/directions.htm"
+  },
+  "brca": {
+    "places": [
+      "Bryce Point",
+      "Inspiration Point",
+      "Sunset Point",
+      "Sunrise Point",
+      "Fairview Point"
+    ],
+    "transportation": {
+      "car": "From the north, take I-15 south to UT-20, follow US-89 south to UT-12, then UT-63 south into the park. From Zion, take UT-9 east to US-89, then UT-12 east.",
+      "plane": "Las Vegas (LAS) and Salt Lake City (SLC) are each about 270 miles away. Regional airports in Cedar City (80 miles) and St. George (125 miles) offer limited flights.",
+      "train": "No passenger rail service to the park.",
+      "bus": "No public bus service options directly into the area from major cities.",
+      "shuttle_taxi": "The Bryce Canyon Shuttle operates seasonally within the park and between the park and the town of Bryce Canyon City."
+    },
+    "url": "https://www.nps.gov/brca/planyourvisit/directions.htm"
+  },
+  "cany": {
+    "places": [
+      "Island in the Sky",
+      "The Needles",
+      "The Maze",
+      "Grand View Point",
+      "Mesa Arch"
+    ],
+    "transportation": {
+      "car": "Each district has a separate entrance. Island in the Sky: 30 miles south of I-70 or 35 miles north of Moab on UT 313. The Needles: 35 miles south of Monticello on US 191, then west on UT 211. The Maze: Requires high-clearance 4WD.",
+      "plane": "Canyonlands Field (CNY) is 16 miles from Moab. Grand Junction Regional (GJT) is 113 miles from Moab. Salt Lake City (SLC) is 237 miles away.",
+      "train": "Amtrak stops in Grand Junction, CO and Green River, UT.",
+      "bus": "Greyhound serves Grand Junction, CO and Green River, UT.",
+      "shuttle_taxi": "Commercial van services operate between Moab and Salt Lake City/Grand Junction; no public transport in the park."
+    },
+    "url": "https://www.nps.gov/cany/planyourvisit/directions.htm"
+  },
+  "care": {
+    "places": [
+      "Fruita Historic District",
+      "Hickman Bridge",
+      "Cathedral Valley",
+      "Burr Trail"
+    ],
+    "transportation": {
+      "car": "Located on Utah State Route 24. From I-70, take Exit 149 (Hwy 24) south toward Hanksville, then west. From Bryce Canyon, take Scenic Byway 12 east to Torrey, then Hwy 24 east.",
+      "plane": "The nearest full-service airports are in Salt Lake City (220 miles) and Las Vegas (330 miles).",
+      "train": "No direct passenger rail service.",
+      "bus": "No public bus service to the park.",
+      "shuttle_taxi": "No official park shuttle; local outfitters in Torrey may offer specific activity-related shuttles."
+    },
+    "url": "https://www.nps.gov/care/planyourvisit/directions.htm"
+  },
+  "cave": {
+    "places": [
+      "Big Room",
+      "Natural Entrance",
+      "Kings Palace",
+      "Bat Flight Amphitheater"
+    ],
+    "transportation": {
+      "car": "Turn north from US Hwy 62/180 at White's City, NM, 20 miles southwest of Carlsbad. The entrance road is a scenic 7-mile drive to the visitor center.",
+      "plane": "Major airlines serve Roswell (100 miles), El Paso (150 miles), and Albuquerque (300 miles). Carlsbad (CNM) has regional service from Albuquerque/Dallas.",
+      "train": "No direct rail service; nearest Amtrak station is in El Paso.",
+      "bus": "Greyhound serves the city of Carlsbad, 20 miles from the park.",
+      "shuttle_taxi": "Taxi service is available from the airport in Carlsbad; no official park shuttle."
+    },
+    "url": "https://www.nps.gov/cave/planyourvisit/directions.htm"
+  },
+  "chis": {
+    "places": [
+      "Anacapa Island",
+      "Santa Cruz Island",
+      "Santa Rosa Island",
+      "San Miguel Island",
+      "Santa Barbara Island",
+      "Ventura Visitor Center"
+    ],
+    "transportation": {
+      "car": "The mainland visitor center is in Ventura Harbor, CA, about 70 miles north of Los Angeles. Accessible via the 101 Freeway (Exit Victoria Ave or Seaward Ave).",
+      "plane": "Los Angeles International (LAX), Burbank (BUR), and Santa Barbara (SBA) are the closest airports.",
+      "train": "Amtrak's Pacific Surfliner stops in Ventura, which is a taxi or bus ride away from the visitor center.",
+      "bus": "Gold Coast Transit serves the Ventura Harbor area.",
+      "shuttle_taxi": "The islands are accessible ONLY by park concessionaire boats (Island Packers) or private boat. Island Packers departs from Ventura and Channel Islands Harbors."
+    },
+    "url": "https://www.nps.gov/chis/planyourvisit/directions.htm"
+  },
+  "cong": {
+    "places": [
+      "Boardwalk Loop Trail",
+      "Weston Lake",
+      "Harry Hampton Visitor Center",
+      "Cedar Creek"
+    ],
+    "transportation": {
+      "car": "From Columbia, SC, take Bluff Road (SC 48) east to Old Bluff Road. It's about a 20-30 minute drive from downtown Columbia.",
+      "plane": "Columbia Metropolitan Airport (CAE) is 30 minutes away. Charlotte Douglas International (CLT) is about 2 hours away.",
+      "train": "Amtrak's Silver Star serves Columbia, SC.",
+      "bus": "The COMET (Route 47) offers seasonal bus service from downtown Columbia to the Harry Hampton Visitor Center.",
+      "shuttle_taxi": "Ride services (Uber/Lyft) may be unreliable for return trips due to the remote location; arrange in advance."
+    },
+    "url": "https://www.nps.gov/cong/planyourvisit/directions.htm"
+  },
+  "crla": {
+    "places": [
+      "Rim Village",
+      "Wizard Island",
+      "Watchman Lookout",
+      "Phantom Ship",
+      "Mazama Village"
+    ],
+    "transportation": {
+      "car": "From the west (Medford), follow Hwy 62 to the West Entrance. From the south (Klamath Falls), take Hwy 97 to Hwy 62. From the north, take Hwy 138 to the North Entrance; note the North Entrance is closed in winter.",
+      "plane": "Rogue Valley-Medford Airport (MFR) is 75 miles away. Served by Alaska, American, Delta, and United.",
+      "train": "No direct rail service; nearest Amtrak station is in Klamath Falls.",
+      "bus": "No public transportation service to the park.",
+      "shuttle_taxi": "No official park shuttle; local taxi services from Medford or Klamath Falls are required."
+    },
+    "url": "https://www.nps.gov/crla/planyourvisit/directions.htm"
+  },
+  "cuva": {
+    "places": [
+      "Brandywine Falls",
+      "Ledges Overlook",
+      "Boston Mill Visitor Center",
+      "Peninsula Village"
+    ],
+    "transportation": {
+      "car": "Located between Cleveland and Akron. From Akron, take I-77 north to OH-8. From Cleveland, take I-77 south to Miller Road. Use Boston Mill Visitor Center as a GPS waypoint.",
+      "plane": "Cleveland Hopkins International (CLE) and Akron-Canton Airport (CAK) are both within 30 minutes of the park.",
+      "train": "No direct long-distance passenger rail; Amtrak serves Cleveland and Elyria.",
+      "bus": "Metroparks and local transit (Akron Metro and Greater Cleveland RTA) have limited stops near the park boundaries.",
+      "shuttle_taxi": "The Cuyahoga Valley Scenic Railroad offers a \"Hike-A-Bike\" program for travelers moving between trailheads."
+    },
+    "url": "https://www.nps.gov/cuva/planyourvisit/directions.htm"
+  },
+  "deva": {
+    "places": [
+      "Badwater Basin",
+      "Zabriskie Point",
+      "Mesquite Flat Sand Dunes",
+      "Artist's Palette",
+      "Furnace Creek"
+    ],
+    "transportation": {
+      "car": "The main road is CA Highway 190. From the east (Las Vegas), take US 95 and turn west at Beatty or Death Valley Junction. From the west (Los Angeles/Ridgecrest), take CA 178 or US 395 to CA 190.",
+      "plane": "Las Vegas McCarran International (LAS) is the closest major airport (130 miles). There is a small public airport at Furnace Creek for private planes.",
+      "train": "No passenger rail service to or near the park.",
+      "bus": "No public bus service into the park.",
+      "shuttle_taxi": "No official park shuttle; some private tour companies offer transport as part of a tour package."
+    },
+    "url": "https://www.nps.gov/deva/planyourvisit/directions.htm"
+  },
+  "dena": {
+    "places": [
+      "Denali Visitor Center",
+      "Eielson Visitor Center",
+      "Wonder Lake",
+      "Savage River"
+    ],
+    "transportation": {
+      "car": "Entrance is at Mile 237 on Alaska Highway 3 (Parks Highway), 240 miles north of Anchorage and 120 miles south of Fairbanks. Only the first 15 miles are accessible to private vehicles.",
+      "plane": "Fly into Anchorage (ANC) or Fairbanks (FAI), then continue by car, bus, or train. Small private planes can land at the Denali Park Airstrip.",
+      "train": "The Alaska Railroad connects Anchorage to Fairbanks and stops directly at the park entrance (Denali Depot).",
+      "bus": "Private bus and van services operate daily from Anchorage and Fairbanks during summer.",
+      "shuttle_taxi": "In summer, the park operates a transit bus system for travel beyond Mile 15; visitors cannot use private cars past that point."
+    },
+    "url": "https://www.nps.gov/dena/planyourvisit/directions.htm"
+  },
+  "drto": {
+    "places": [
+      "Garden Key",
+      "Loggershead Key",
+      "Fort Jefferson",
+      "Bush Key"
+    ],
+    "transportation": {
+      "car": "No car access; the park is 70 miles west of Key West in the middle of the ocean. Drive to Key West and park at a commercial lot.",
+      "plane": "Seaplane service (Key West Seaplane Charters) operates from Key West International Airport to Garden Key.",
+      "train": "No rail service to the Florida Keys.",
+      "bus": "No bus service to the park; Greyhound/Keys Shuttle serves Key West.",
+      "shuttle_taxi": "The primary way to reach the park is via the Yankee Freedom ferry from Key West (pre-booking required) or private charter boat."
+    },
+    "url": "https://www.nps.gov/drto/planyourvisit/directions.htm"
+  },
+  "ever": {
+    "places": [
+      "Ernest F. Coe Visitor Center",
+      "Shark Valley",
+      "Gulf Coast Visitor Center",
+      "Flamingo",
+      "Royal Palm"
+    ],
+    "transportation": {
+      "car": "Three separate entrances: Homestead (Main Entrance), Miami (Shark Valley), and Everglades City (Gulf Coast). These entrances are not connected by road through the park.",
+      "plane": "Miami International Airport (MIA) is the primary gateway.",
+      "train": "No rail service to park entrances.",
+      "bus": "The Homestead Trolley provides free seasonal service to the main entrance and Biscayne on weekends (November-April).",
+      "shuttle_taxi": "No official shuttle between entrances; distances are 1-2 hours apart by car."
+    },
+    "url": "https://www.nps.gov/ever/planyourvisit/directions.htm"
+  },
+  "gaar": {
+    "places": [
+      "Bettles",
+      "Anaktuvuk Pass",
+      "Coldfoot",
+      "Kobuk River"
+    ],
+    "transportation": {
+      "car": "No roads or trails lead into the park. You can drive to Coldfoot via the Dalton Highway and then hike in or take an air taxi.",
+      "plane": "Daily flights from Fairbanks to gateway communities (Bettles and Anaktuvuk Pass). Most visitors use authorized air taxis from these points.",
+      "train": "No rail service to the park area.",
+      "bus": "None.",
+      "shuttle_taxi": "Most visitors access the park by air taxi in small aircraft equipped with floats or tundra tires."
+    },
+    "url": "https://www.nps.gov/gaar/planyourvisit/directions.htm"
+  },
+  "jeff": {
+    "places": [
+      "Gateway Arch",
+      "Old Courthouse",
+      "Luther Ely Smith Square"
+    ],
+    "transportation": {
+      "car": "Located in downtown St. Louis. From I-44, take Exit 292. From I-64, take Exit 40. Parking is available at various city garages near the Arch grounds.",
+      "plane": "St. Louis Lambert International Airport (STL) is about 15 miles away.",
+      "train": "Amtrak's St. Louis station is less than 2 miles from the Arch.",
+      "bus": "MetroBus and MetroLink (light rail) serve downtown St. Louis; use the 8th & Pine or Laclede's Landing stations.",
+      "shuttle_taxi": "Downtown St. Louis is served by all major ride-share and taxi services."
+    },
+    "url": "https://www.nps.gov/jeff/planyourvisit/directions.htm"
+  },
+  "glba": {
+    "places": [
+      "Bartlett Cove",
+      "Margerie Glacier",
+      "Johns Hopkins Glacier",
+      "Gustavus"
+    ],
+    "transportation": {
+      "car": "There are no roads to Glacier Bay. The only road connects the town of Gustavus to park headquarters at Bartlett Cove (10 miles).",
+      "plane": "Alaska Airlines flies daily (seasonal) from Juneau to Gustavus. Air taxis operate year-round from Juneau, Haines, and Skagway.",
+      "train": "No train service.",
+      "bus": "Limited shuttle service between Gustavus and Bartlett Cove lodge; no buses within the wilderness areas.",
+      "shuttle_taxi": "Many visitors arrive via cruise ships or tour vessels from Juneau or other Southeast Alaska towns."
+    },
+    "url": "https://www.nps.gov/glba/planyourvisit/directions.htm"
+  },
+  "glac": {
+    "places": [
+      "Lake McDonald",
+      "Logan Pass",
+      "Many Glacier",
+      "St. Mary Lake",
+      "Apgar Village"
+    ],
+    "transportation": {
+      "car": "West Entrance: US Hwy 2 near West Glacier. East Entrances (St. Mary, Two Medicine, Many Glacier): US Hwy 89 or US Hwy 2. Going-to-the-Sun Road is the primary scenic corridor.",
+      "plane": "Glacier Park International Airport (FCA) is 30 miles west of the West Entrance. Great Falls (GTF) is 150 miles east.",
+      "train": "Amtrak's Empire Builder stops at West Glacier (all year) and East Glacier (seasonal).",
+      "bus": "The seasonal park shuttle operates along Going-to-the-Sun Road between Apgar and St. Mary.",
+      "shuttle_taxi": "Private red bus tours provide shuttle/tour options; limited local taxis in West Glacier."
+    },
+    "url": "https://www.nps.gov/glac/planyourvisit/directions.htm"
+  },
+  "grca": {
+    "places": [
+      "South Rim Village",
+      "North Rim",
+      "Desert View",
+      "Phantom Ranch",
+      "Havasu Falls (Tribal)"
+    ],
+    "transportation": {
+      "car": "South Rim: 60 miles north of Williams via Hwy 64 or 90 miles from Flagstaff via Hwy 180. North Rim: 44 miles south of Jacob Lake via Hwy 67. The drive between rims is 212 miles.",
+      "plane": "Phoenix Sky Harbor (PHX) is 4 hours away. Grand Canyon National Park Airport (GCN) in Tusayan is for private/scenic flights.",
+      "train": "The Grand Canyon Railway runs from Williams, AZ directly to the South Rim Village.",
+      "bus": "Groome Transportation offers shuttle service from Phoenix and Flagstaff. Trans-Canyon Shuttle runs between North and South Rims (seasonal).",
+      "shuttle_taxi": "Free shuttle buses operate year-round in the South Rim Village (seasonal routes vary)."
+    },
+    "url": "https://www.nps.gov/grca/planyourvisit/directions.htm"
+  },
+  "grte": {
+    "places": [
+      "Jenny Lake",
+      "Colter Bay",
+      "Mormon Row",
+      "Snake River",
+      "Teton Village"
+    ],
+    "transportation": {
+      "car": "Located in northwestern Wyoming. Main entrance is at Moose via US Hwy 26/89/191. Moran Junction provides access to the northern parts and Yellowstone.",
+      "plane": "Jackson Hole Airport (JAC) is located in the park, making it the only commercial airport inside a U.S. National Park.",
+      "train": "No direct rail service; nearest stations are in Salt Lake City or Denver.",
+      "bus": "START Bus provides service from Jackson to Teton Village, but does not go deep into the park's scenic drive.",
+      "shuttle_taxi": "Rental cars are strongly recommended; some lodges provide limited airport shuttles."
+    },
+    "url": "https://www.nps.gov/grte/planyourvisit/directions.htm"
+  },
+  "grba": {
+    "places": [
+      "Lehman Caves",
+      "Wheeler Peak",
+      "Bristlecone Pine Grove",
+      "Lexington Arch"
+    ],
+    "transportation": {
+      "car": "Located in east-central Nevada. From US 6/50 near the NV/UT border, take NV 487 south to Baker, then NV 488 west to the park entrance.",
+      "plane": "Delta (Cedar City, UT - 142 miles) is the closest regional airport. Major hubs in Salt Lake City and Las Vegas are 230-280 miles away.",
+      "train": "No passenger rail service near the park.",
+      "bus": "No public bus service to the park.",
+      "shuttle_taxi": "None. This is an extremely remote location with no public transit or shuttle services."
+    },
+    "url": "https://www.nps.gov/grba/planyourvisit/directions.htm"
+  },
+  "grsa": {
+    "places": [
+      "Star Dune",
+      "Medano Creek",
+      "Visitor Center",
+      "Zapata Falls"
+    ],
+    "transportation": {
+      "car": "From Denver, go south on I-25 to Walsenburg, then west on US 160 and north on State Highway 150. From the west, use Hwy 17 and County Road 6 via Mosca.",
+      "plane": "The closest commercial air service is in Alamosa (38 miles away). Major airports in Denver and Colorado Springs are 3.5-4 hours away.",
+      "train": "No direct rail service to the park.",
+      "bus": "No public bus service to the park entrance.",
+      "shuttle_taxi": "No official park shuttle; local taxi services in Alamosa may operate by request."
+    },
+    "url": "https://www.nps.gov/grsa/planyourvisit/directions.htm"
+  },
+  "grsm": {
+    "places": [
+      "Cades Cove",
+      "Clingmans Dome",
+      "Roaring Fork Motor Nature Trail",
+      "Newfound Gap"
+    ],
+    "transportation": {
+      "car": "Main entrances are in Gatlinburg, TN (US 441), Townsend, TN (TN 73), and Cherokee, NC (US 441). Newfound Gap Road connects the Tennessee and North Carolina sides.",
+      "plane": "McGhee-Tyson Airport (TYS) near Knoxville is 45 miles west. Asheville Regional Airport (AVL) is 60 miles east.",
+      "train": "No direct rail service; nearest Amtrak station is in Cleveland, NC or Greenville, SC.",
+      "bus": "The Trolley system in Gatlinburg and Pigeon Forge provides service to the Sugarlands Visitor Center seasonally.",
+      "shuttle_taxi": "Limited commercial shuttles serve the park's main visitor centers from surrounding towns."
+    },
+    "url": "https://www.nps.gov/grsm/planyourvisit/directions.htm"
+  },
+  "gumo": {
+    "places": [
+      "Guadalupe Peak",
+      "El Capitan",
+      "Pine Springs Visitor Center",
+      "McKittrick Canyon"
+    ],
+    "transportation": {
+      "car": "Located on US Hwy 62/180, 110 miles east of El Paso, TX and 56 miles southwest of Carlsbad, NM. Note: No gas is available within 35 miles of the park.",
+      "plane": "El Paso International Airport (ELP) is the closest major hub (110 miles away).",
+      "train": "No passenger rail service near the park.",
+      "bus": "Greyhound stops in Carlsbad, NM and El Paso, TX, but does not serve the park directly.",
+      "shuttle_taxi": "None. Visitors must arrange their own private transportation."
+    },
+    "url": "https://www.nps.gov/gumo/planyourvisit/directions.htm"
+  },
+  "hale": {
+    "places": [
+      "Summit District",
+      "Kipahulu District",
+      "Hosmer Grove",
+      "Seven Sacred Pools"
+    ],
+    "transportation": {
+      "car": "Located on Maui. Summit District: Take Route 37 to 377 to 378 (Haleakalā Hwy) from Kahului (2.5 hours). Kipahulu District: Take the Hana Highway (Route 36 to 360 to 31) (4 hours).",
+      "plane": "Kahului Airport (OGG) is the main airport on Maui. Inter-island flights from other islands are frequent.",
+      "train": "No rail service on Maui.",
+      "bus": "No public transportation to either district of the park.",
+      "shuttle_taxi": "Commercial tour operators provide summit trips; local taxis are available in Kahului and Wailea."
+    },
+    "url": "https://www.nps.gov/hale/planyourvisit/directions.htm"
+  },
+  "havo": {
+    "places": [
+      "Kilauea Caldera",
+      "Chain of Craters Road",
+      "Thurston Lava Tube",
+      "Pu'u Loa Petroglyphs"
+    ],
+    "transportation": {
+      "car": "Located on the Big Island. From Hilo, take Hwy 11 south (30 miles). From Kona, take Hwy 11 south (96 miles). The park entrance is just past the town of Volcano.",
+      "plane": "Hilo International (ITO) is 45 minutes away. Kona International (KOA) is about 2.5 hours away.",
+      "train": "No rail service on the island.",
+      "bus": "The Hele-On Bus (County Transit) stops at the visitor center intersection, but schedules are infrequent.",
+      "shuttle_taxi": "Rental cars are the most popular option; ride-share (Uber) is rare in this rural area."
+    },
+    "url": "https://www.nps.gov/havo/planyourvisit/directions.htm"
+  },
+  "hosp": {
+    "places": [
+      "Bathhouse Row",
+      "Hot Springs Mountain Drive",
+      "Gulpha Gorge Campground",
+      "Grand Promenade"
+    ],
+    "transportation": {
+      "car": "Located in the city of Hot Springs, AR. Accessible via I-70 or AR-7. Parking is available at the Exchange Street Parking Plaza and along central avenues.",
+      "plane": "Bill and Hillary Clinton National Airport (LIT) in Little Rock is 55 miles away.",
+      "train": "Amtrak's Texas Eagle stops in Malvern, AR, about 20 miles away. A shuttle or taxi is needed for the remainder of the trip.",
+      "bus": "Greyhound and local city bus service (Hot Springs Intracity Transit) serve the downtown area near Bathhouse Row.",
+      "shuttle_taxi": "Taxis and ride-shares (Uber/Lyft) operate throughout the city and serve the park area."
+    },
+    "url": "https://www.nps.gov/hosp/planyourvisit/directions.htm"
+  },
+  "indu": {
+    "places": [
+      "Mount Baldy",
+      "West Beach",
+      "Dune Acres",
+      "Portage Lakefront",
+      "Chellberg Farm"
+    ],
+    "transportation": {
+      "car": "Located on the southern shore of Lake Michigan. Accessible via I-94 or I-80/90. Use the Indiana Dunes Visitor Center in Porter as your first stop.",
+      "plane": "Chicago Midway (MDW) and O'Hare (ORD) are within 60-90 miles. South Bend Regional (SBN) is 45 miles east.",
+      "train": "The South Shore Line (NICTD) commuter train stops at several locations within the park (Dune Park, Beverly Shores, etc.).",
+      "bus": "No dedicated park shuttle, but local transit serves the surrounding communities of Chesterton and Michigan City.",
+      "shuttle_taxi": "Ride-shares operate in the area, particularly from the commuter rail stations."
+    },
+    "url": "https://www.nps.gov/indu/planyourvisit/directions.htm"
+  },
+  "isro": {
+    "places": [
+      "Rock Harbor",
+      "Windigo",
+      "Daisy Farm",
+      "Mott Island"
+    ],
+    "transportation": {
+      "car": "No car access to the island. Drive to Houghton or Copper Harbor, MI, or Grand Portage, MN and leave your vehicle at the ferry dock.",
+      "plane": "Isle Royale Seaplanes provides daily service from Houghton, MI and Grand Marais, MN to both ends of the island.",
+      "train": "No rail service near the ferry departure points.",
+      "bus": "Limited bus service to Houghton or Duluth with local transit needed to reach ferry terminals.",
+      "shuttle_taxi": "The park is accessed by ferries: Ranger III (Houghton), Isle Royale Queen IV (Copper Harbor), or Voyageur II/Sea Hunter (Grand Portage)."
+    },
+    "url": "https://www.nps.gov/isro/planyourvisit/directions.htm"
+  },
+  "jotr": {
+    "places": [
+      "Hidden Valley",
+      "Keys View",
+      "Cholla Cactus Garden",
+      "Skull Rock",
+      "Cottonwood Spring"
+    ],
+    "transportation": {
+      "car": "North entrances are in Joshua Tree village and Twentynine Palms (Hwy 62). South entrance is at Cottonwood Spring via I-10.",
+      "plane": "Palm Springs International (PSP) is 45 minutes away. Ontario International (ONT) is about 1.5 hours away.",
+      "train": "No direct rail service; nearest Amtrak station is in Palm Springs (North Palm Springs).",
+      "bus": "The Roadrunner Shuttle provides seasonal service from the town of Joshua Tree into the park on weekends.",
+      "shuttle_taxi": "Rental cars are essential for exploring most of the park; limited taxi services in Twentynine Palms."
+    },
+    "url": "https://www.nps.gov/jotr/planyourvisit/directions.htm"
+  },
+  "katm": {
+    "places": [
+      "Brooks Falls",
+      "Valley of Ten Thousand Smokes",
+      "Naknek Lake",
+      "King Salmon"
+    ],
+    "transportation": {
+      "car": "No road access to the park. The headquarters is in King Salmon, which has local roads but is not connected to any other towns.",
+      "plane": "Daily commercial flights from Anchorage to King Salmon. Air taxis then ferry visitors to Brooks Camp or other wilderness sites via float plane.",
+      "train": "No rail service.",
+      "bus": "None.",
+      "shuttle_taxi": "Boat service operates between King Salmon and Brooks Camp on the Naknek River."
+    },
+    "url": "https://www.nps.gov/katm/planyourvisit/directions.htm"
+  },
+  "kefj": {
+    "places": [
+      "Exit Glacier",
+      "Harding Icefield",
+      "Aialik Bay",
+      "Seward"
+    ],
+    "transportation": {
+      "car": "From Anchorage, take the Seward Highway (AK-1 south to AK-9) through the scenic Turnagain Arm (126 miles).",
+      "plane": "Fly into Anchorage (ANC) and take a car, bus, or train. Charter flights are available to Seward.",
+      "train": "The Alaska Railroad's Coastal Classic runs daily from Anchorage to Seward in the summer.",
+      "bus": "Several private bus lines (Park Connection, Seward Bus Lines) operate daily summer service between Anchorage and Seward.",
+      "shuttle_taxi": "Local taxi and shuttle services in Seward provide transport to the Exit Glacier area (seasonal)."
+    },
+    "url": "https://www.nps.gov/kefj/planyourvisit/directions.htm"
+  },
+  "kova": {
+    "places": [
+      "Great Kobuk Sand Dunes",
+      "Salmon River",
+      "Jade Mountains"
+    ],
+    "transportation": {
+      "car": "No roads lead into the park. It is a true wilderness destination.",
+      "plane": "Fly into Kotzebue from Anchorage (Alaska Airlines). From Kotzebue, hire an authorized air taxi to drop you in the park or near the sand dunes.",
+      "train": "No rail service.",
+      "bus": "None.",
+      "shuttle_taxi": "Most travel within the park occurs by air taxi or on the water via float trips on the Kobuk River."
+    },
+    "url": "https://www.nps.gov/kova/planyourvisit/directions.htm"
+  },
+  "lacl": {
+    "places": [
+      "Port Alsworth",
+      "Dick Proenneke Cabin",
+      "Lake Clark",
+      "Chinitna Bay"
+    ],
+    "transportation": {
+      "car": "No road access to the park. Not on the Alaska road system.",
+      "plane": "Fly from Anchorage to Port Alsworth (multiple daily air taxis). Chinitna and Silver Salmon require beach landings or float planes from Homer/Kenai.",
+      "train": "No rail service.",
+      "bus": "None.",
+      "shuttle_taxi": "Float plane travel and private boat charters are the only ways to navigate between internal park destinations."
+    },
+    "url": "https://www.nps.gov/lacl/planyourvisit/directions.htm"
+  },
+  "lavo": {
+    "places": [
+      "Lassen Peak",
+      "Bumpass Hell",
+      "Manzanita Lake",
+      "Cinder Cone",
+      "Sulfur Works"
+    ],
+    "transportation": {
+      "car": "Northwest Entrance: SR-44/89 from Redding/Shingletown. Southwest Entrance: SR-36/89 from Red Bluff/Mineral. The Main Park Road is closed in winter.",
+      "plane": "Redding Municipal Airport (RDD) is 50 miles away. Major airports are in Sacramento and Reno (each 3 hours away).",
+      "train": "Amtrak serves Redding, CA (Northwest Entrance) and Chico, CA (Southwest Entrance).",
+      "bus": "No public transportation service to the park.",
+      "shuttle_taxi": "No official park shuttle; car rentals in Redding or Red Bluff are necessary."
+    },
+    "url": "https://www.nps.gov/lavo/planyourvisit/directions.htm"
+  },
+  "maca": {
+    "places": [
+      "Green River Ferry",
+      "Frozen Niagara",
+      "Grand Avenue",
+      "Echo River",
+      "Visitor Center"
+    ],
+    "transportation": {
+      "car": "Between Louisville and Nashville near I-65. Westbound (Louisville) use Exit 53 (Cave City). Eastbound (Nashville) use Exit 48 (Park City).",
+      "plane": "Louisville Muhammad Ali International (SDF) and Nashville International (BNA) are both about 90 miles away.",
+      "train": "No direct rail service; nearest Amtrak stations are in Memphis or Cincinnati.",
+      "bus": "No commercial bus service comes directly into the park; Greyhound stops in Cave City (10 miles away).",
+      "shuttle_taxi": "Limited local taxi services from Cave City; no official park shuttle for visitors."
+    },
+    "url": "https://www.nps.gov/maca/planyourvisit/directions.htm"
+  },
+  "meve": {
+    "places": [
+      "Cliff Palace",
+      "Balcony House",
+      "Spruce Tree House",
+      "Cliff Canyon",
+      "Wetherill Mesa"
+    ],
+    "transportation": {
+      "car": "Located on US Hwy 160, 35 miles west of Durango and 10 miles east of Cortez, CO. The entrance road is steep and winding.",
+      "plane": "Durango-La Plata County Airport (DRO) is 45 miles east. Cortez Municipal (CEZ) is 15 miles west.",
+      "train": "The Durango & Silverton Narrow Gauge Railroad operates out of Durango but does not serve the park.",
+      "bus": "No regular public bus service to the park.",
+      "shuttle_taxi": "Some private tour companies in Cortez and Durango provide daily shuttle and tour options during the summer."
+    },
+    "url": "https://www.nps.gov/meve/planyourvisit/directions.htm"
+  },
+  "mora": {
+    "places": [
+      "Paradise",
+      "Sunrise",
+      "Longmire",
+      "Carbon River",
+      "Ohanapecosh"
+    ],
+    "transportation": {
+      "car": "Southwest (Nisqually) entrance is reachable via SR 706 from Tacoma. Northwest (Carbon River) entrance via SR 165. Northeast (Sunrise) and Southeast (Ohanapecosh) via SR 410 or SR 123.",
+      "plane": "Seattle-Tacoma International (SEA) is the main gateway, about 2-3 hours away depending on the entrance.",
+      "train": "Amtrak's Cascades/Coast Starlight stops in Tacoma and Centralia, about 1.5-2 hours from the park.",
+      "bus": "No year-round public transportation runs into the park; limited private shuttle services may run seasonally from Ashford.",
+      "shuttle_taxi": "Rental cars are the primary method of travel; no internal park-wide shuttles exist."
+    },
+    "url": "https://www.nps.gov/mora/planyourvisit/directions.htm"
+  },
+  "npsa": {
+    "places": [
+      "Tutuila Island",
+      "Ta'ū Island",
+      "Ofu Island",
+      "Pago Pago Harbor",
+      "Mount Alava"
+    ],
+    "transportation": {
+      "car": "A rental car or local taxi is needed on Tutuila to reach the park boundaries. Driving is on the right side of the road.",
+      "plane": "Hawaiian Airlines flies twice weekly from Honolulu to Pago Pago (Tutuila). Samoa Airways operates inter-island flights to the Manu'a Islands (Ta'ū/Ofu).",
+      "train": "No rail service.",
+      "bus": "Tutuila has an \"aiga\" (family) bus system that runs along the main roads, which can get you close to park entry points.",
+      "shuttle_taxi": "Travel to Ofu requires a local boat charter from Ta'ū as there is no consistent airport service on Ofu."
+    },
+    "url": "https://www.nps.gov/npsa/planyourvisit/directions.htm"
+  },
+  "npnh": {
+    "places": [
+      "Federal Hall",
+      "Governors Island",
+      "Statue of Liberty",
+      "Ellis Island",
+      "St. Paul's Church",
+      "Castle Clinton"
+    ],
+    "transportation": {
+      "car": "Driving is NOT recommended in downtown Manhattan. Use nearby public parking garages if necessary. Gateway NRA areas (Sandy Hook, Jamaica Bay) are accessible by car via major NY/NJ highways.",
+      "plane": "JFK, LaGuardia, and Newark airports are all within the metropolitan area.",
+      "train": "Extremely well-served by the NYC Subway and PATH trains. Sites like Federal Hall and Castle Clinton are near several major subway stops.",
+      "bus": "MTA New York City Bus routes serve all areas near the park sites.",
+      "shuttle_taxi": "Governors Island, Statue of Liberty, and Ellis Island are accessible ONLY by ferry services from Battery Park or Liberty State Park."
+    },
+    "url": "https://www.nps.gov/npnh/planyourvisit/directions.htm"
+  },
+  "neri": {
+    "places": [
+      "Canyon Rim Visitor Center",
+      "Sandstone Visitor Center",
+      "Grandview",
+      "New River Gorge Bridge",
+      "Thurmond"
+    ],
+    "transportation": {
+      "car": "Main highway access via US 19 near Fayetteville, WV or I-64 near Sandstone. Route 82 and other narrow roads lead down to the river access points.",
+      "plane": "Yeager Airport (CRW) in Charleston is 70 miles west. Raleigh County Memorial Airport (BKW) in Beckley is for regional flights.",
+      "train": "Amtrak's Cardinal stops at Thurmond Depot (by request) and Prince, WV within the park.",
+      "bus": "KRT (Kanawha Regional Transit) serves nearby Charleston; no public buses into the park.",
+      "shuttle_taxi": "Local rafting outfitters often provide shuttle services for boaters and hikers in the Fayetteville area."
+    },
+    "url": "https://www.nps.gov/neri/planyourvisit/directions.htm"
+  },
+  "noca": {
+    "places": [
+      "North Cascades Visitor Center",
+      "Ross Lake",
+      "Lake Chelan",
+      "Stehekin",
+      "Diablo Lake"
+    ],
+    "transportation": {
+      "car": "State Route 20 (North Cascades Highway) is the primary access. Note this road is closed in winter. Western access via Sedro-Woolley and eastern via Winthrop.",
+      "plane": "Seattle-Tacoma International (SEA) is 2.5-3 hours away.",
+      "train": "Amtrak's Empire Builder stops in Wenatchee, about 2.5 hours from the park's south/east edges.",
+      "bus": "No public transit into the North Cascades corridor.",
+      "shuttle_taxi": "Stehekin is accessible ONLY by ferry (Lady of the Lake) or float plane from Chelan; no roads connect it to the rest of the park."
+    },
+    "url": "https://www.nps.gov/noca/planyourvisit/directions.htm"
+  },
+  "olym": {
+    "places": [
+      "Hurricane Ridge",
+      "Hoh Rain Forest",
+      "Ruby Beach",
+      "Sol Duc Falls",
+      "Lake Crescent"
+    ],
+    "transportation": {
+      "car": "US Highway 101 loops around the entire Olympic Peninsula, providing access to all major park entrances from Port Angeles, Forks, and Quinault.",
+      "plane": "Seattle-Tacoma International (SEA) is and 2.5-3 hour drive if using the Kingston or Bainbridge ferries.",
+      "train": "No direct rail service; nearest Amtrak connection is in Olympia or Tacoma.",
+      "bus": "Clallam Transit and Jefferson Transit provide limited regional bus service around the peninsula.",
+      "shuttle_taxi": "Dungeness Line offers daily bus service from SeaTac to Port Angeles/Sequim; no official park-wide shuttles."
+    },
+    "url": "https://www.nps.gov/olym/planyourvisit/directions.htm"
+  },
+  "pefo": {
+    "places": [
+      "Painted Desert Rim",
+      "Blue Mesa",
+      "Crystal Forest",
+      "Agate House",
+      "Puerco Pueblo"
+    ],
+    "transportation": {
+      "car": "Main entrance is at Exit 311 on I-40. The park's main road goes 28 miles from I-40 to Hwy 180. South entrance is on US Hwy 180 east of Holbrook.",
+      "plane": "Phoenix Sky Harbor (PHX) is 200 miles away. Flagstaff Pulliam (FLG) is 100 miles away.",
+      "train": "Amtrak stops in Winslow, AZ (30 miles) and Gallup, NM (70 miles).",
+      "bus": "No public bus service to the park.",
+      "shuttle_taxi": "None. Visitors must have their own vehicle to drive the length of the park road."
+    },
+    "url": "https://www.nps.gov/pefo/planyourvisit/directions.htm"
+  },
+  "pinn": {
+    "places": [
+      "Bear Gulch Cave",
+      "Balconies Cave",
+      "High Peaks",
+      "Pinnacles Visitor Center"
+    ],
+    "transportation": {
+      "car": "East Side: Hwy 25 from Hollister or King City to Hwy 146. West Side: Hwy 101 to Soledad, then Hwy 146 east. No road connects the East and West sides through the park.",
+      "plane": "San Jose International (SJC) is 1.5 hours north. Monterey Regional (MRY) is 1 hour west.",
+      "train": "No direct rail service; nearest Amtrak station is in Salinas.",
+      "bus": "No public bus service to the park.",
+      "shuttle_taxi": "Seasonal shuttles run within the East Side of the park between the visitor center and trailheads during busy weekends."
+    },
+    "url": "https://www.nps.gov/pinn/planyourvisit/directions.htm"
+  },
+  "romo": {
+    "places": [
+      "Trail Ridge Road",
+      "Bear Lake",
+      "Alpina Visitor Center",
+      "Grand Lake",
+      "Lily Lake"
+    ],
+    "transportation": {
+      "car": "Park has four entrances: Beaver Meadows, Fall River, Grand Lake, and Wild Basin. Trail Ridge Road (US 34) connects Estes Park and Grand Lake (seasonal).",
+      "plane": "Denver International Airport (DEN) is 80 miles (1.5-2 hours) from the Estes Park side.",
+      "train": "No direct rail service; Amtrak stops in Denver, Grand Junction, and Fraser/Winter Park.",
+      "bus": "Bustang offers seasonal weekend service from Denver (Union Station) to Estes Park and the park's shuttle hub.",
+      "shuttle_taxi": "Extensive free shuttle system operates seasonally in the Bear Lake and Estes Park corridors."
+    },
+    "url": "https://www.nps.gov/romo/planyourvisit/directions.htm"
+  },
+  "sagu": {
+    "places": [
+      "Saguaro West (Tucson Mountain District)",
+      "Saguaro East (Rincon Mountain District)",
+      "Desert Discovery Nature Trail"
+    ],
+    "transportation": {
+      "car": "Rincon Mountain (East): Use Old Spanish Trail from I-10 via Houghton Road. Tucson Mountain (West): Use Kinney Road via Ajo Highway (Hwy 86) or Avra Valley Road.",
+      "plane": "Tucson International Airport (TUS) is centrally located about 15-20 miles from each district.",
+      "train": "Amtrak serves the Tucson downtown station.",
+      "bus": "Sun Tran (Tucson's local bus) has limited service that stops near the park boundaries but does not go to the visitor centers.",
+      "shuttle_taxi": "Taxi and ride-shares (Uber/Lyft) serve the Tucson area; no internal park shuttles."
+    },
+    "url": "https://www.nps.gov/sagu/planyourvisit/directions.htm"
+  },
+  "seki": {
+    "places": [
+      "General Sherman Tree",
+      "Moro Rock",
+      "Crystal Cave",
+      "Mist Falls",
+      "Grant Grove"
+    ],
+    "transportation": {
+      "car": "Southern access (Sequoia) via Hwy 198 from Visalia. Northern access (Kings Canyon) via Hwy 180 from Fresno. The Generals Highway connects the two (seasonal).",
+      "plane": "Fresno Yosemite International (FAT) is 1.5 hours away. Visalia Municipal (VIS) is 1 hour away.",
+      "train": "Amtrak stops in Hanford or Fresno; connections to the park involve bus or rental car.",
+      "bus": "The Sequoia Shuttle runs seasonally from the city of Visalia directly to the Giant Forest area.",
+      "shuttle_taxi": "Internal shuttles operate seasonally in the Giant Forest, Lodgepole, and Wuksachi areas."
+    },
+    "url": "https://www.nps.gov/seki/planyourvisit/directions.htm"
+  },
+  "shen": {
+    "places": [
+      "Skyline Drive",
+      "Old Rag Mountain",
+      "Big Meadows",
+      "Dark Hollow Falls",
+      "Marys Rock"
+    ],
+    "transportation": {
+      "car": "Accessible via four entrances on Skyline Drive: Front Royal (North), Thornton Gap (Hwy 211), Swift Run Gap (US 33), and Rockfish Gap (South Entrance).",
+      "plane": "Washington Dulles (IAD) is 56 miles east of Front Royal. Charlottesville-Albemarle (CHO) is 30 miles from the South Entrance.",
+      "train": "Amtrak serves Charlottesville, Staunton, and Culpeper within a reasonable driving distance of the park.",
+      "bus": "No public bus service runs directly into the park or along Skyline Drive.",
+      "shuttle_taxi": "No official park shuttle; some private outfitters in Sperryville offer shuttles specifically for Old Rag hikers."
+    },
+    "url": "https://www.nps.gov/shen/planyourvisit/directions.htm"
+  },
+  "thro": {
+    "places": [
+      "Painted Canyon",
+      "Maltese Cross Cabin",
+      "Wind Canyon",
+      "Buck Hill",
+      "Elkhorn Ranch"
+    ],
+    "transportation": {
+      "car": "South Unit: Entrance is in Medora, ND off I-94 (Exits 24/27). North Unit: Entrance is on US Highway 85, 14 miles south of Watford City. Elkhorn Ranch: Remote; requires 4WD.",
+      "plane": "Dickinson Theodore Roosevelt Regional (DIK) is 35 miles away. Bismarck (BIS) is 135 miles away.",
+      "train": "No direct rail service; nearest Amtrak station is in Williston, ND (North Unit) or Dickinson (South Unit).",
+      "bus": "No public bus service to the park units.",
+      "shuttle_taxi": "None. Visitors must have their own transport for either unit's scenic drive."
+    },
+    "url": "https://www.nps.gov/thro/planyourvisit/directions.htm"
+  },
+  "viis": {
+    "places": [
+      "Trunk Bay",
+      "Cinnamon Bay",
+      "Annaberg Plantation",
+      "Ram Head Trail",
+      "Cruz Bay"
+    ],
+    "transportation": {
+      "car": "On St. John, driving is on the LEFT. Car rentals (4WD recommended) are available in Cruz Bay. Many visitors use the shared \"Safari\" taxis.",
+      "plane": "Fly into Cyril E. King Airport (STT) on St. Thomas. Then take a taxi to the Red Hook or Charlotte Amalie ferry terminals.",
+      "train": "No rail service.",
+      "bus": "VITRAN (public bus) runs along Centerline Road on St. John but has a very limited schedule.",
+      "shuttle_taxi": "Open-air \"Safari\" taxis frequent the main beaches from Cruz Bay. People ferries run hourly between St. Thomas and St. John."
+    },
+    "url": "https://www.nps.gov/viis/planyourvisit/directions.htm"
+  },
+  "voya": {
+    "places": [
+      "Rainy Lake",
+      "Kabetogama Lake",
+      "Ash River",
+      "Crane Lake",
+      "Ellsworth Rock Gardens"
+    ],
+    "transportation": {
+      "car": "Access to visitor centers in International Falls and Kabetogama via Hwy 53. Much of the park is only accessible via boat after reaching these points.",
+      "plane": "The Falls International Airport (INL) in International Falls is the closest. Duluth International (DLH) is 3 hours south.",
+      "train": "No passenger rail service near the park.",
+      "bus": "No public transit into the park areas.",
+      "shuttle_taxi": "Many visitors use the park's official tour boats (seasonal) to explore the lakes; private boat rentals are standard."
+    },
+    "url": "https://www.nps.gov/voya/planyourvisit/directions.htm"
+  },
+  "whsa": {
+    "places": [
+      "Dunes Drive",
+      "Interdune Boardwalk",
+      "Playa Trail",
+      "Visitor Center"
+    ],
+    "transportation": {
+      "car": "Located on US Highway 70 between Alamogordo (15 miles) and Las Cruces (52 miles), NM. The entrance is between mile markers 199 and 200.",
+      "plane": "El Paso International Airport (ELP) is 85 miles away. Las Cruces International serves private flights.",
+      "train": "No direct rail service; Amtrak stops in El Paso and Deming, NM.",
+      "bus": "No public bus service serves the park.",
+      "shuttle_taxi": "None. Rental cars are essential for the 8-mile Dunes Drive inside the park."
+    },
+    "url": "https://www.nps.gov/whsa/planyourvisit/directions.htm"
+  },
+  "wica": {
+    "places": [
+      "Fairburn Agate Beds",
+      "Rankin Ridge",
+      "Elk Mountain",
+      "Boxwork",
+      "Visitor Center"
+    ],
+    "transportation": {
+      "car": "Located 11 miles north of Hot Springs, SD via US-385. From Rapid City, head south on SD-79 or through Custer State Park via SD-87.",
+      "plane": "Rapid City Regional Airport (RAP) is the closest commercial gateway (50 miles away).",
+      "train": "No rail service.",
+      "bus": "Greyhound serves Hot Springs, but does not come to the park visitor center.",
+      "shuttle_taxi": "No official park shuttle; local taxis in Hot Springs are available."
+    },
+    "url": "https://www.nps.gov/wica/planyourvisit/directions.htm"
+  },
+  "wotr": {
+    "places": [
+      "Filene Center",
+      "Theatre-in-the-Woods",
+      "Dimick Guest House",
+      "Ranger Station"
+    ],
+    "transportation": {
+      "car": "Located at 1551 Trap Road in Vienna, VA. Take I-495 to Rt 267 West (Dulles Toll Rd), pay toll, and exit at the Wolf Trap ramp.",
+      "plane": "Washington Dulles International (IAD) is about 15 minutes away. Reagan National (DCA) is about 30 minutes away.",
+      "train": "No direct rail service; the Silver Line Metro stops at McLean or Spring Hill, require a shuttle or taxi connection.",
+      "bus": "Direct express bus service operates from the West Falls Church Metro station specifically for Filene Center performances.",
+      "shuttle_taxi": "Rideshare and taxi drop-off/pick-up area is located in the pull-off area on the west side of Trap Road."
+    },
+    "url": "https://www.nps.gov/wotr/planyourvisit/directions.htm"
+  },
+  "wrst": {
+    "places": [
+      "Copper Center Visitor Center",
+      "Kennecott Mines",
+      "McCarthy",
+      "Root Glacier",
+      "Nabesna River"
+    ],
+    "transportation": {
+      "car": "Copper Center Visitor Center is at Mile 106.8 Richardson Hwy. Access the interior via the dirt McCarthy Road (60 miles) or Nabesna Road (42 miles).",
+      "plane": "Fly into Anchorage (ANC) or Fairbanks (FAI), then drive. Air taxis also provide flights into the remote airstrips like McCarthy and Slana.",
+      "train": "No rail service directly into the park.",
+      "bus": "Private shuttle services (Kennicott Shuttle, etc.) run from Anchorage/Glennallen to McCarthy (seasonal, reservations required).",
+      "shuttle_taxi": "Foot traffic only beyond the Kennicott River bridge; a private shuttle transports visitors to the historic mill town."
+    },
+    "url": "https://www.nps.gov/wrst/planyourvisit/directions.htm"
+  },
+  "yell": {
+    "places": [
+      "Old Faithful",
+      "Grand Canyon of the Yellowstone",
+      "Lamar Valley",
+      "Mammoth Hot Springs",
+      "West Thumb Geyser Basin"
+    ],
+    "transportation": {
+      "car": "Five entrances: North (Gardiner), West (West Yellowstone), South (Grand Teton), East (Cody), and Northeast (Silver Gate/Cooke City).",
+      "plane": "Bozeman Yellowstone International (BZN) is the busiest gateway (90 miles). Jackson Hole (JAC) and Cody (COD) are also common.",
+      "train": "No direct passenger rail service; nearest stations are in Salt Lake City or Denver.",
+      "bus": "Private shuttle services operate between Bozeman/Billings and West Yellowstone/Gardiner.",
+      "shuttle_taxi": "No internal park shuttle; rental cars are essential. Some lodges offer airport shuttles for a fee."
+    },
+    "url": "https://www.nps.gov/yell/planyourvisit/directions.htm"
+  },
+  "yose": {
+    "places": [
+      "Yosemite Valley",
+      "Glacier Point",
+      "Tuolumne Meadows",
+      "Mariposa Grove",
+      "Half Dome"
+    ],
+    "transportation": {
+      "car": "Access via Hwy 41 (Fresno), Hwy 140 (Merced), or Hwy 120 (Manteca/Oakdale). Eastern access via Tioga Pass (Hwy 120) is closed in winter.",
+      "plane": "Fresno Yosemite International (FAT) is 1.5 hours away. San Francisco (SFO) and San Jose (SJC) are about 3.5-4 hours away.",
+      "train": "Amtrak San Joaquins stops in Merced, where you can connect to the YARTS bus into the park.",
+      "bus": "YARTS (Yosemite Area Regional Transportation System) provides year-round bus service along most highway corridors into the park.",
+      "shuttle_taxi": "Extensive free shuttle system operates year-round in Yosemite Valley (seasonal shuttles to Mariposa Grove and Tuolumne)."
+    },
+    "url": "https://www.nps.gov/yose/planyourvisit/directions.htm"
+  },
+  "zion": {
+    "places": [
+      "The Narrows",
+      "Angels Landing",
+      "The Subway",
+      "Checkerboard Mesa",
+      "Emerald Pools"
+    ],
+    "transportation": {
+      "car": "Main entrance is at Springdale, UT via Hwy 9. East entrance via US 89 and Hwy 9 (Zion-Mt. Carmel Hwy). Kolob Canyons is via I-15 Exit 40.",
+      "plane": "Las Vegas McCarran (LAS) is 2.5 hours away. St. George Regional (SGU) is 45 minutes away.",
+      "train": "No direct rail service; nearest Amtrak station is in Las Vegas.",
+      "bus": "Greyhound stops in St. George and Cedar City; St. George Shuttle offers service to Springdale.",
+      "shuttle_taxi": "The mandatory Zion Canyon Shuttle operates from March to November; private cars are not allowed in Zion Canyon during this time."
+    },
+    "url": "https://www.nps.gov/zion/planyourvisit/directions.htm"
+  }
+}

@@ -1,0 +1,2349 @@
+{
+  "acad": {
+    "url": "https://www.nps.gov/acad/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "East Side of Mount Desert Island",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "West Side of Mount Desert Island",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Schoodic Peninsula",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Isle au Haut",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Outer Islands",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "arch": {
+    "url": "https://www.nps.gov/arch/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Arches Visitor Center",
+        "description": "Start at Arches Visitor Center for information on hiking, sightseeing, ranger programs, and current conditions.",
+        "link": "https://www.nps.gov/thingstodo/arches-visitor-center.htm"
+      },
+      {
+        "title": "Park Avenue and Courthouse Towers",
+        "description": "View high walls, pinnacles, and monoliths from trails and viewpoints.",
+        "link": "https://www.nps.gov/arch/planyourvisit/courthouse-towers.htm"
+      },
+      {
+        "title": "Balanced Rock",
+        "description": "Take a short hike around Balanced Rock and enjoy views of The Windows Section and the La Sal Mountains.",
+        "link": "https://www.nps.gov/arch/planyourvisit/balancedrock.htm"
+      },
+      {
+        "title": "The Windows Section",
+        "description": "Visit Double Arch, Turret Arch, and North and South windows, some of the largest arches in the park.",
+        "link": "https://www.nps.gov/arch/planyourvisit/the-windows.htm"
+      },
+      {
+        "title": "Delicate Arch and Wolfe Ranch",
+        "description": "See the world's most famous natural arch and Wolfe Ranch, a historic homestead from the turn of the 20th century.",
+        "link": "https://www.nps.gov/arch/planyourvisit/delicate-arch.htm"
+      },
+      {
+        "title": "Devils Garden",
+        "description": "Visit the Devils Garden area for a variety of arches connected by a network of hiking trails.",
+        "link": "https://www.nps.gov/arch/planyourvisit/devils-garden.htm"
+      }
+    ]
+  },
+  "badl": {
+    "url": "https://www.nps.gov/badl/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "bibe": {
+    "url": "https://www.nps.gov/bibe/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Road Trippin'\n\nScenic Drives",
+        "description": "Hit the road and explore the park's gorgeous vistas.  Paved highways and dirt roads provide access to an incredible array of experiences.",
+        "link": "https://www.nps.gov/bibe/planyourvisit/scenic_drives.htm"
+      },
+      {
+        "title": "Hit The Trail!\n\nDay Hikes",
+        "description": "Big Bend is a hiker's paradise. More than 150 miles of desert and mountains trails to explore!",
+        "link": "https://www.nps.gov/bibe/planyourvisit/day_hikes.htm"
+      },
+      {
+        "title": "Spirit of Adventure!\n\nBig Bend River Trips",
+        "description": "Enjoy a day trip, or plan an extended float through spectacular limestone canyons.",
+        "link": "https://www.nps.gov/bibe/planyourvisit/river-trips.htm"
+      },
+      {
+        "title": "Into the Wild\n\nExploring the Backcountry",
+        "description": "Big Bend's vast areas provide excellent opportunities for solitude, wilderness, and adventure. Backpacking, river trips, primitive camping.",
+        "link": "https://www.nps.gov/bibe/planyourvisit/backcountry-main.htm"
+      },
+      {
+        "title": "Thousands of Stars!\n\nNight Skies and Stargazing",
+        "description": "Big Bend is one of the best places in North America to enjoy a truly dark sky.",
+        "link": "https://www.nps.gov/bibe/planyourvisit/stargazing.htm"
+      },
+      {
+        "title": "Great Sunset Spot!\n\nSunsets and Sunrises in Big Bend",
+        "description": "What better place to enjoy the most magical time of day?",
+        "link": "https://www.nps.gov/bibe/planyourvisit/things2do.htm"
+      },
+      {
+        "title": "Pedal Power\n\nBicycling",
+        "description": "Over 120 miles of paved roads and 180 miles of backcountry dirt roads provide challenges for riders of all types and abilities.",
+        "link": "https://www.nps.gov/bibe/planyourvisit/biking.htm"
+      },
+      {
+        "title": "More than any other national park\n\nBig Bend Birds",
+        "description": "Big Bend is a world-famous location for birds and birdwatching. Learn more about the feathered wonders of Big Bend.",
+        "link": "https://www.nps.gov/bibe/learn/nature/birds-of-big-bend.htm"
+      },
+      {
+        "title": "Kids Love Big Bend!\n\nFor Kids",
+        "description": "See what there is for kids to do online and during your visit to Big Bend National Park.",
+        "link": "https://www.nps.gov/bibe/learn/kidsyouth/index.htm"
+      },
+      {
+        "title": "Suggested Itineraries",
+        "description": "Big Bend has lots to explore! Use these suggested itineraries to help get the most out of your visit.",
+        "link": ""
+      },
+      {
+        "title": "Big Bend Top Ten Tips",
+        "description": "Be prepared for summer in the desert. Remote, beautiful, and HOT.",
+        "link": ""
+      },
+      {
+        "title": "NPS App",
+        "description": "One app, every park at your fingertips. The NPS App offers tools to explore more than 400 national parks nationwide.",
+        "link": ""
+      }
+    ]
+  },
+  "bisc": {
+    "url": "https://www.nps.gov/bisc/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "blca": {
+    "url": "https://www.nps.gov/blca/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "North Rim of Black Canyon",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "South Rim of Black Canyon",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "East Portal",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Inner Canyon",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "brca": {
+    "url": "https://www.nps.gov/brca/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "A Typical Summer Visit in 1-3 Hours",
+        "description": "A Typical Summer Visit in 1-3 Hours",
+        "link": ""
+      },
+      {
+        "title": "A Typical Summer Visit in 4+ Hours",
+        "description": "A Typical Summer Visit in 4+ Hours",
+        "link": ""
+      },
+      {
+        "title": "Hiking",
+        "description": "From easy walks to strenuous hikes, find the perfect activity for you.",
+        "link": ""
+      },
+      {
+        "title": "Ride the Shared-Use Path",
+        "description": "The Shared-Use Path takes you along the edge of the Bryce Amphitheater near Sunrise, Sunset, and Inspiration Points.",
+        "link": ""
+      },
+      {
+        "title": "Go Horseback Riding",
+        "description": "Get a different perspective of the park on a guided horseback ride.",
+        "link": ""
+      },
+      {
+        "title": "Drive the Southern Scenic Drive",
+        "description": "Explore the southern end of the park.",
+        "link": ""
+      },
+      {
+        "title": "A Typical Winter Visit in 1-3 Hours",
+        "description": "A shorter visit should focus on the Bryce Canyon Amphitheater along the first 3 miles of the park. Enjoy an easy or moderate hike.",
+        "link": ""
+      },
+      {
+        "title": "A Typical Winter Visit in 4+ Hours",
+        "description": "After enjoying the Bryce Canyon Amphitheater, visit the Southern Scenic Drive, enjoy longer hikes and take in a ranger program.",
+        "link": ""
+      },
+      {
+        "title": "Cross-Country Skiing",
+        "description": "Though it is illegal to ski off of the rim into the canyon, you can enjoy a variety of routes above the rim.",
+        "link": ""
+      },
+      {
+        "title": "Snowshoeing",
+        "description": "Snowshoeing is allowed throughout the park on all trails.",
+        "link": ""
+      },
+      {
+        "title": "Winter Hiking",
+        "description": "Many hikes are available to visitors during the winter season but might require some additional equipment.",
+        "link": ""
+      },
+      {
+        "title": "Ranger Programs",
+        "description": "Attend a ranger program during your visit.",
+        "link": ""
+      },
+      {
+        "title": "Junior Ranger Program",
+        "description": "Become a Junior Ranger!",
+        "link": ""
+      },
+      {
+        "title": "Book a Tour",
+        "description": "Book a tour, private shuttle, or other commercial service.",
+        "link": ""
+      },
+      {
+        "title": "Campgrounds",
+        "description": "Bryce Canyon National Park has two campgrounds, North campground (open year-round) and Sunset campground (closed in winter).",
+        "link": ""
+      }
+    ]
+  },
+  "cany": {
+    "url": "https://www.nps.gov/cany/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Island in the Sky",
+        "description": "The most accessible district, offering expansive views from overlooks along the paved scenic drive, several hikes, and the White Rim Road.",
+        "link": ""
+      },
+      {
+        "title": "The Needles",
+        "description": "The Needles offers more of a backcountry experience, requiring some hiking or four-wheel driving to see the area's attractions.",
+        "link": ""
+      },
+      {
+        "title": "The Maze",
+        "description": "The Maze is a remote district requiring considerably more time and self-reliance to visit.",
+        "link": ""
+      },
+      {
+        "title": "The Rivers",
+        "description": "Flatwater trips on the Green or Colorado rivers and whitewater trips in Cataract Canyon are unique ways to experience the park.",
+        "link": ""
+      },
+      {
+        "title": "Explore Horseshoe Canyon",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "care": {
+    "url": "https://www.nps.gov/care/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Explore Fruita",
+        "description": "Whether you have half a day or more, spend your time exploring the Fruita area by car or on foot.",
+        "link": "https://www.nps.gov/care/planyourvisit/fruita.htm"
+      },
+      {
+        "title": "Waterpocket District",
+        "description": "Experience the less-visited, southern part of Capitol Reef, where the dramatic angle of the Waterpocket Fold is on display.",
+        "link": "https://www.nps.gov/care/planyourvisit/waterpocketdistrict.htm"
+      },
+      {
+        "title": "Cathedral Valley District",
+        "description": "The remote and rugged northern part of Capitol Reef offers adventurous visitors solitude and spectacular views.",
+        "link": "https://www.nps.gov/care/planyourvisit/cathedralvalley.htm"
+      },
+      {
+        "title": "Maps & Brochures",
+        "description": "Plan your visit with maps and information about Capitol Reef.",
+        "link": "https://www.nps.gov/care/planyourvisit/brochures.htm"
+      },
+      {
+        "title": "Bookstore",
+        "description": "The Capitol Reef Natural History Association operates the bookstore in the Capitol Reef Visitor Center.",
+        "link": "https://www.nps.gov/care/learn/bookstore.htm"
+      }
+    ]
+  },
+  "cave": {
+    "url": "https://www.nps.gov/cave/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Enjoy the Cavern on Your Own",
+        "description": "Experience the Big Room and Natural Entrance trails at your own pace.",
+        "link": ""
+      },
+      {
+        "title": "Visitor Center",
+        "description": "Explore the exhibits, watch the park film, browse the gift shop and bookstore, and eat in the cafeteria.",
+        "link": ""
+      },
+      {
+        "title": "Surface Hiking Trails",
+        "description": "Hike a trail at the surface of the park.",
+        "link": ""
+      },
+      {
+        "title": "Guadalupe Ridge Trail",
+        "description": "Hike or backpack along this National Recreation Trail.",
+        "link": ""
+      },
+      {
+        "title": "Bat Flight Program",
+        "description": "Enjoy a ranger program and watch thousands of bats emerge from Carlsbad Cavern.",
+        "link": ""
+      },
+      {
+        "title": "Night Sky Programs",
+        "description": "Discover the desert southwest night sky with a ranger.",
+        "link": ""
+      },
+      {
+        "title": "Dawn of the Bats Program",
+        "description": "Join a ranger to watch thousands of bats return to Carlsbad Cavern at dawn.",
+        "link": ""
+      }
+    ]
+  },
+  "chis": {
+    "url": "https://www.nps.gov/chis/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "Anacapa Island",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "Santa Cruz Island",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "Santa Rosa Island",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "San Miguel Island",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "Santa Barbara Island",
+        "description": "",
+        "link": ""
+      },
+      {
+        "title": "Inspiration Point, Anacapa Island",
+        "description": "Even on a foggy day, this is one of the best views in the park. Island Packers runs trips to Anacapa Island throughout the year.",
+        "link": ""
+      },
+      {
+        "title": "Cavern Point, Santa Cruz Island",
+        "description": "A Cavern Point hike includes great views and a tour of the visitor center in the historic ranch house. Island Packers runs daily trips.",
+        "link": ""
+      },
+      {
+        "title": "Torrey Pines, Santa Rosa Island",
+        "description": "View one of the rarest trees in the world. Channel Islands Aviation flies year round while Island Packers runs trips spring through fall.",
+        "link": ""
+      },
+      {
+        "title": "Point Bennett, San Miguel Island",
+        "description": "Just a 4-hour boat ride (summer through fall) and a 16-mile round-trip hike to view 30,000 pinnipeds and up to five different species.",
+        "link": ""
+      },
+      {
+        "title": "Prisoners, Santa Cruz Island",
+        "description": "See the island scrub-jay, a restored wetland, historic buildings, and hike the rugged coastline. Island Packers runs trips year round.",
+        "link": ""
+      },
+      {
+        "title": "Camping, Santa Cruz Island",
+        "description": "Scorpion Canyon Campground is the most convenient park campground and provides the most recreational opportunities.",
+        "link": ""
+      },
+      {
+        "title": "Sea Caves, Santa Cruz Island",
+        "description": "Kayak the rugged coast and sea caves by at Scorpion Anchorage on Santa Cruz Island.",
+        "link": ""
+      },
+      {
+        "title": "Kelp Forest, Anacapa Island",
+        "description": "Cool off after a hike with a snorkel or dive in the kelp forests at the Landing Cove on Anacapa Island.",
+        "link": ""
+      },
+      {
+        "title": "Whale Watching",
+        "description": "Over 30 different marine mammal species can be found in the park. For best viewing take a trip with Island Packers.",
+        "link": ""
+      }
+    ]
+  },
+  "cong": {
+    "url": "https://www.nps.gov/cong/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "crla": {
+    "url": "https://www.nps.gov/crla/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Overlooks and Pullouts",
+        "description": "Along Hwy 62 and throughout Rim Drive there are many places to pull safely off the road for views of the geology, the lake, and other sites.",
+        "link": ""
+      },
+      {
+        "title": "Rim Village Walking Tour",
+        "description": "For many, Rim Village is the first place to see the lake. It is an historic district and walking tour including Crater Lake Lodge.",
+        "link": ""
+      },
+      {
+        "title": "Scenic Rim Drive",
+        "description": "Shouts of Oh Oh Oh  mean stop at the next viewpoint along Rim Drive! Visit trails, picnic areas, and other features.",
+        "link": ""
+      },
+      {
+        "title": "Picnic Areas",
+        "description": "Picnic Areas are places to discover a variety of tree species, decipher bird calls, explore wildflowers, and rest.",
+        "link": ""
+      },
+      {
+        "title": "Park Store",
+        "description": "Remember your visit to Crater Lake with a book or souvenir, and get your passport stamp!",
+        "link": ""
+      }
+    ]
+  },
+  "cuva": {
+    "url": "https://www.nps.gov/cuva/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Outdoor Activities",
+        "description": "Explore the various outdoor activities Cuyahoga Valley National Park has to offer.",
+        "link": ""
+      },
+      {
+        "title": "For Kids",
+        "description": "Learn more about the park and explore kid-friendly things to do when you visit.",
+        "link": ""
+      },
+      {
+        "title": "Ohio & Erie Canal Towpath Trail",
+        "description": "Learn about our most popular trail that follows the historic route of the Ohio & Erie Canal.",
+        "link": ""
+      },
+      {
+        "title": "Scenic Train Ride",
+        "description": "Discover the Cuyahoga Valley Scenic Railroad, a unique way to travel through the park.",
+        "link": ""
+      },
+      {
+        "title": "Music & Arts",
+        "description": "Experience music and arts year-round in the valley.",
+        "link": ""
+      }
+    ]
+  },
+  "deva": {
+    "url": "https://www.nps.gov/deva/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Sightseeing",
+        "description": "Many of the most famous places in the park can be visited by car. Don't miss these \"must see\" locations.",
+        "link": ""
+      },
+      {
+        "title": "Night Exploration",
+        "description": "Half the park is after dark! Learn about Death Valley's night sky viewing opportunities.",
+        "link": ""
+      },
+      {
+        "title": "Guided Tours",
+        "description": "Enhance your experience of Death Valley by joining a ranger-guided tour, nature walk, patio talk, or night program.",
+        "link": ""
+      },
+      {
+        "title": "Running/Trailrunning",
+        "description": "Visiting the park and looking for a place to take a run? The park can be a very challenging place, but here are some great options!",
+        "link": ""
+      },
+      {
+        "title": "Camping",
+        "description": "Explore campground options from primitive to full hook-up.",
+        "link": ""
+      },
+      {
+        "title": "Self-guided Star Wars Driving Tour",
+        "description": "Learn about the different locations in the park where Star Wars was filmed and how to visit them.",
+        "link": ""
+      },
+      {
+        "title": "Backcountry Driving",
+        "description": "Death Valley has hundreds of miles of backcountry roads. From two-tracks to graded surfaces, there's something for all skill levels.",
+        "link": ""
+      },
+      {
+        "title": "Watch Sunrise or Sunset",
+        "description": "Looking for the best places to see sunrise or sunset in the park? Here are our recommendations!",
+        "link": ""
+      },
+      {
+        "title": "Hiking",
+        "description": "From deep canyons to salt flats, sand dunes, and desert peaks, Death Valley is a hiker's paradise.",
+        "link": ""
+      },
+      {
+        "title": "Backpacking",
+        "description": "Cross country adventures for a true wilderness experience.",
+        "link": ""
+      },
+      {
+        "title": "Road and Mountain Biking",
+        "description": "Hundreds of miles of of dirt roads provide awesome mountain biking.  Paved roads have narrow shoulders.  Photo: Kurt Moses",
+        "link": ""
+      },
+      {
+        "title": "Visit Safely with a Pet",
+        "description": "Learn Death Valley's pet regulations and how to enjoy the park with a pet.",
+        "link": ""
+      },
+      {
+        "title": "Download the NPS App before your trip",
+        "description": "Enhance your Death Valley experience through the NPS App!",
+        "link": ""
+      },
+      {
+        "title": "Explore Nearby Attractions",
+        "description": "Manzanar National Historic Site, Ash Meadows National Wildlife Refuge, Rhyolite Ghost Town, and more!",
+        "link": ""
+      },
+      {
+        "title": "Be Prepared: Trip Planning Guide",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "dena": {
+    "url": "https://www.nps.gov/dena/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers in Denali",
+        "description": "Learn about visitor centers in Denali.",
+        "link": "https://www.nps.gov/dena/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "Campgrounds",
+        "description": "With six different campgrounds, there are plenty of options for you to camp in Denali with a tent or an RV.",
+        "link": "https://www.nps.gov/dena/planyourvisit/campgrounds.htm"
+      },
+      {
+        "title": "Step-by-Step Planning\n\nHow to Backpack in Denali",
+        "description": "In six million acres of wilderness, you'll find campsites from the sublime to the subtle. Learn how to explore the backcountry of Denali.",
+        "link": "https://www.nps.gov/dena/planyourvisit/backcountry.htm"
+      },
+      {
+        "title": "Explore a trail or go off-trail\n\nTake a Hike!",
+        "description": "Discover trails in Denali, or learn about hiking off-trail in the wilderness.",
+        "link": "https://www.nps.gov/dena/planyourvisit/dayhiking.htm"
+      },
+      {
+        "title": "Tsenesdghaas Na' Trailhead",
+        "description": "Explore a variety of trails at the new Tsenesdghaas Na' trailhead. Located at Mile 231 of the George Parks Highway.",
+        "link": "https://www.nps.gov/places/tsenesdghaas-na.htm"
+      },
+      {
+        "title": "Explore Mountain Vista",
+        "description": "At Mile 13 of the Denali Park Road, the Mountain Vista area offers panoramic views, hiking trails, and a picnic area.",
+        "link": "https://www.nps.gov/dena/planyourvisit/mountain-vista.htm"
+      },
+      {
+        "title": "Explore Savage River",
+        "description": "Located about 15 miles inside the park. Ride a free bus here in summer or drive here in spring, summer, and fall (parking is limited).",
+        "link": "https://www.nps.gov/dena/planyourvisit/savage-river-area.htm"
+      },
+      {
+        "title": "East Fork River",
+        "description": "Ride a transit bus to the East Fork River at mile 43 of the Denali Park Road.",
+        "link": "https://www.nps.gov/places/east-fork-river.htm"
+      }
+    ]
+  },
+  "drto": {
+    "url": "https://www.nps.gov/drto/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Garden Key",
+        "description": "Garden Key is the second largest island of the Dry Tortugas, and home to historic Fort Jefferson.",
+        "link": "https://www.nps.gov/drto/planyourvisit/garden-key.htm"
+      },
+      {
+        "title": "Loggerhead Key",
+        "description": "The largest of the 7 islands in Dry Tortugas National Park is Loggerhead Key, and should not be missed.",
+        "link": "https://www.nps.gov/drto/planyourvisit/loggerhead-key.htm"
+      },
+      {
+        "title": "Bush Key",
+        "description": "Bush Key, adjacent to Garden Key, is a paradise for tropical bird watchers and closed seasonally for nesting season.",
+        "link": "https://www.nps.gov/drto/planyourvisit/bush-key.htm"
+      },
+      {
+        "title": "Swimming Beaches",
+        "description": "There are several access points to enjoy the park's pristine ocean waters and sandy beaches.",
+        "link": "https://www.nps.gov/drto/planyourvisit/swimming-beaches.htm"
+      }
+    ]
+  },
+  "ever": {
+    "url": "https://www.nps.gov/ever/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers & Entrances",
+        "description": "Find the closest entrance and start your adventure.",
+        "link": ""
+      },
+      {
+        "title": "Interactive Park Map",
+        "description": "Use our interactive park map to navigate Everglades National Park.",
+        "link": ""
+      },
+      {
+        "title": "Points of Interest",
+        "description": "Explore Everglades National Park popular areas.",
+        "link": ""
+      },
+      {
+        "title": "Shark Valley",
+        "description": "Trails, observation tower, tram tours and wildlife.",
+        "link": ""
+      },
+      {
+        "title": "Flamingo",
+        "description": "Coastal access point with the marina, boat tours, campgrounds, houseboats, and the Flamingo Lodge.",
+        "link": ""
+      },
+      {
+        "title": "Gulf Coast",
+        "description": "Explore mangrove waterways, boat tours, and remote backcountry routes.",
+        "link": ""
+      },
+      {
+        "title": "Royal Palm / Anhinga Trail",
+        "description": "Iconic boardwalks with some of the best wildlife viewing in the park.",
+        "link": ""
+      },
+      {
+        "title": "Mahogany Hammock",
+        "description": "A raised boardwalk through a dense tropical hardwood forest with ancient mahogany trees.",
+        "link": ""
+      },
+      {
+        "title": "Pineland Trail",
+        "description": "A short, easy walk through the pine rock lands. Home to unique plants and abundant wildlife.",
+        "link": ""
+      }
+    ]
+  },
+  "gaar": {
+    "url": "https://www.nps.gov/gaar/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Gateway Communities",
+        "description": "Explore local communities where you can access the park",
+        "link": "https://www.nps.gov/gaar/planyourvisit/gateway-communities.htm"
+      },
+      {
+        "title": "National Natural Landmarks",
+        "description": "Explore special places of beauty and wonder",
+        "link": "https://www.nps.gov/gaar/planyourvisit/national-natural-landmarks.htm"
+      },
+      {
+        "title": "Visitor Centers",
+        "description": "Learn about the visitor centers of Gates of the Arctic",
+        "link": "https://www.nps.gov/gaar/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "Wild and Scenic Rivers",
+        "description": "Six different experiences to discover",
+        "link": "https://www.nps.gov/gaar/learn/nature/wildandscenicrivers.htm"
+      }
+    ]
+  },
+  "jeff": {
+    "url": "https://www.nps.gov/jeff/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "glba": {
+    "url": "https://www.nps.gov/glba/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "glac": {
+    "url": "https://www.nps.gov/glac/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Road Conditions & Directions",
+        "description": "Transportation is a critical part of trip planning. Glacier's roads all have various restrictions and season lengths.",
+        "link": ""
+      },
+      {
+        "title": "Shuttle System",
+        "description": "The shuttle can move you along Going-to-the-Sun Road but requires flexibility.",
+        "link": ""
+      },
+      {
+        "title": "Construction Projects",
+        "description": "Learn about current road construction projects in and around the park.",
+        "link": ""
+      },
+      {
+        "title": "Visitor Centers",
+        "description": "Glacier has three main visitor centers. At each, you will find knowledgable staff ready to answer questions and help in trip planning.",
+        "link": ""
+      },
+      {
+        "title": "Tips for Dealing with Crowds",
+        "description": "The summer season, May through September, is extremely busy, especially along the Going-to-the-Sun Road corridor.",
+        "link": ""
+      }
+    ]
+  },
+  "grca": {
+    "url": "https://www.nps.gov/grca/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Current Status and Closures",
+        "description": "The North Rim, or \"other side\" of the Grand Canyon is visited by only 10% of all Grand Canyon visitors.",
+        "link": "https://www.nps.gov/grca/northrimstatus.htm"
+      }
+    ]
+  },
+  "grte": {
+    "url": "https://www.nps.gov/grte/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Hike in Grand Teton",
+        "description": "Explore hikes throughout Grand Teton National Park.",
+        "link": ""
+      },
+      {
+        "title": "Boating and Floating",
+        "description": "Paddle on Jenny, String, Leigh, or Jackson Lake.",
+        "link": ""
+      },
+      {
+        "title": "Biking",
+        "description": "Bike in Grand Teton.",
+        "link": ""
+      },
+      {
+        "title": "Fishing",
+        "description": "Fish for trout within valley and alpine lakes.",
+        "link": ""
+      },
+      {
+        "title": "Climbing and Mountaineering",
+        "description": "Climb in the Teton Range.",
+        "link": ""
+      },
+      {
+        "title": "Scenic Drives",
+        "description": "Take a scenic drive for spectacular views.",
+        "link": ""
+      },
+      {
+        "title": "Wildlife Viewing",
+        "description": "Learn more about the wildlife in Grand Teton.",
+        "link": ""
+      },
+      {
+        "title": "Bear and Wildlife Safety",
+        "description": "Learn how to stay safe in bear country.",
+        "link": ""
+      },
+      {
+        "title": "Explore the Backcountry",
+        "description": "Travel into the Teton backcountry for an overnight stay.",
+        "link": ""
+      },
+      {
+        "title": "Find A Campground",
+        "description": "Find a place to camp in Grand Teton.",
+        "link": ""
+      },
+      {
+        "title": "Talk to a Park Ranger",
+        "description": "Find a visitor center in Grand Teton.",
+        "link": ""
+      },
+      {
+        "title": "Attend a Ranger Led Program",
+        "description": "Learn more about Grand Teton by attending a ranger led program.",
+        "link": ""
+      },
+      {
+        "title": "Become a Junior Ranger",
+        "description": "Experience Grand Teton and become a Junior Ranger. Open to all ages.",
+        "link": ""
+      },
+      {
+        "title": "Concessionaire Activities",
+        "description": "Explore concessionaires in Grand Teton.",
+        "link": ""
+      },
+      {
+        "title": "Nearby Attractions",
+        "description": "Explore nearby attractions.",
+        "link": ""
+      }
+    ]
+  },
+  "grba": {
+    "url": "https://www.nps.gov/grba/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Activity Ideas",
+        "description": "Whether visiting for a day, or week, endless opportunities abound for recreation and relaxation in Great Basin National Park!",
+        "link": ""
+      },
+      {
+        "title": "Programs and Tours",
+        "description": "Programs and tours are offered daily, ask a ranger at a visitor center for more information and program schedule.",
+        "link": ""
+      },
+      {
+        "title": "Hiking Trails",
+        "description": "Check out the dozens of miles of trails available in the park, taking you to gorgeous lakes, bristlecone pines, and solitude.",
+        "link": ""
+      },
+      {
+        "title": "Sights to See",
+        "description": "Beauty abounds, from stars to wildlife to wildflowers, Great Basin provides amazing scenery in every direction and from every view.",
+        "link": ""
+      },
+      {
+        "title": "Explore on Your Own",
+        "description": "Great Basin is a beautiful and wild place to explore on your own. From high mountains to deep caves, adventure is around every turn.",
+        "link": ""
+      },
+      {
+        "title": "Fishing and Gathering",
+        "description": "Fishing and gathering pine nuts are two great ways to experience the bounty of Great Basin National Park.  Please follow all regulations.",
+        "link": ""
+      }
+    ]
+  },
+  "grsa": {
+    "url": "https://www.nps.gov/grsa/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Hiking and Backpacking",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/hiking.htm"
+      },
+      {
+        "title": "Sandboarding and Sand Sledding",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/sandboardingsandsledding.htm"
+      },
+      {
+        "title": "Splashing in Medano Creek",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/medano-creek.htm"
+      },
+      {
+        "title": "Free Ranger Programs",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/guidedtours.htm"
+      },
+      {
+        "title": "4WD Medano Pass Road",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/medano-pass-road.htm"
+      },
+      {
+        "title": "Visitor Center",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/visitor-center.htm"
+      },
+      {
+        "title": "Sandhill Crane Migration (Spring and Fall)",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/sandhill-crane-migration.htm"
+      },
+      {
+        "title": "Fishing",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/fishing.htm"
+      },
+      {
+        "title": "Sketching the Dunes",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/sketch-the-dunes.htm"
+      },
+      {
+        "title": "Commercial Tours and Jeep Rentals",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/grsa/planyourvisit/guided-tours-and-4wd-vehicle-rentals.htm"
+      },
+      {
+        "title": "Hunting",
+        "description": "(only in national preserve during legal seasons)",
+        "link": "https://www.nps.gov/grsa/learn/management/hunting.htm"
+      }
+    ]
+  },
+  "grsm": {
+    "url": "https://www.nps.gov/grsm/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "TENNESSE/NORTH CAROLINA\n\nVisitor Centers",
+        "description": "Get your questions answered at Cades Cove, Sugarlands, Oconaluftee, or Clingmans Dome.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "TENNESSEE\n\nGreenbrier",
+        "description": "Greenbrier is a heavily forested cove in the park’s northeast area approximately 20 minutes east of Gatlinburg.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/greenbrier.htm"
+      },
+      {
+        "title": "NORTH CAROLINA\n\nFontana",
+        "description": "Fontana is one of the most remote sections of the park. Find solitude, scenic cascades, spring wildflowers, and remnants of logging history.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/fontana.htm"
+      },
+      {
+        "title": "TENNESSEE\n\nCosby",
+        "description": "Cosby is a less-traveled area on the northeast edge of the park near the communities of Cosby and Hartford. Enjoy peaceful trails and more.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/cosby.htm"
+      },
+      {
+        "title": "NORTH CAROLINA\n\nOconaluftee",
+        "description": "Oconaluftee is the southern gateway to the Smokies neighboring Cherokee, NC, and the Qualla Boundary. Enjoy elk, trails, and more.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/oconaluftee.htm"
+      },
+      {
+        "title": "NORTH CAROLINA/TENNESSEE BORDER\n\nKuwohi & Newfound Gap",
+        "description": "Kuwohi & Newfound Gap area straddles the pinnacle of the Smokies where an important high-elevation pass connects the two sides of the park.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/kuwohi-nfg.htm"
+      },
+      {
+        "title": "TENNESSEE\n\nSugarlands",
+        "description": "Sugarlands is the northern gateway to the Smokies near Gatlinburg, Tennessee. Several trails lead to peaceful streams and more.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/sugarlands.htm"
+      },
+      {
+        "title": "NORTH CAROLINA\n\nDeep Creek",
+        "description": "The Deep Creek area just north of Bryson City and west of Cherokee, North Carolina, is celebrated for its many streams and waterfalls.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/deepcreek.htm"
+      },
+      {
+        "title": "NORTH CAROLINA\n\nBig Creek",
+        "description": "In Big Creek, a dense forest has reclaimed the former site of a logging town. Today, find a shady campground, picnic area, and trails.",
+        "link": "https://www.nps.gov/grsm/planyourvisit/big-creek.htm"
+      }
+    ]
+  },
+  "gumo": {
+    "url": "https://www.nps.gov/gumo/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Pine Springs",
+        "description": "Pine Springs is home to park headquarters, our largest campground, and the trailhead for some of the most popular trails.",
+        "link": ""
+      },
+      {
+        "title": "Frijole Ranch",
+        "description": "Frijole Ranch is a delightful oasis on the edge of the eastern slopes of the Guadalupe escarpment which captures the spirit of the West.",
+        "link": ""
+      },
+      {
+        "title": "McKittrick Canyon",
+        "description": "Rich with history, rich in diversity, glorified by its beauty, and famous for  fall colors, this location of the park is a \"must-see!\"",
+        "link": ""
+      },
+      {
+        "title": "Salt Basin Dunes",
+        "description": "Located on the remote west side of the park, these striking dunes cover nearly 2,000 acres.",
+        "link": ""
+      },
+      {
+        "title": "Dog Canyon",
+        "description": "Dog Canyon lies in a secluded, forested canyon on the north end of the park at an elevation of 6,300 feet.",
+        "link": ""
+      },
+      {
+        "title": "Williams Ranch",
+        "description": "Here, a single, well-preserved house, long since abandoned, stands as a testament of human struggle and survival.",
+        "link": ""
+      },
+      {
+        "title": "Visitor Centers",
+        "description": "Get oriented to the park at a visitor center.",
+        "link": ""
+      },
+      {
+        "title": "Guadalupe Mountains Wilderness",
+        "description": "The park is home to the largest and oldest Wilderness area in Texas with many recreational opportunities.",
+        "link": ""
+      },
+      {
+        "title": "Where is the Scenic Drive?",
+        "description": "A frequently asked question is “where is the scenic drive?” The answer to that question reflects the history of conservation and the park.",
+        "link": ""
+      },
+      {
+        "title": "Peaks and Highpoints",
+        "description": "Eight of the ten highest peaks in Texas are located in the park. Let altitude change your attitude.",
+        "link": ""
+      }
+    ]
+  },
+  "hale": {
+    "url": "https://www.nps.gov/hale/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Make connections\n\nVisitor Centers",
+        "description": "",
+        "link": "https://www.nps.gov/hale/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "Mountain views\n\nSummit District",
+        "description": "Learn about what to expect in the Summit District.",
+        "link": "https://www.nps.gov/hale/planyourvisit/summit-district.htm"
+      },
+      {
+        "title": "Coastal forest\n\nKīpahulu District",
+        "description": "",
+        "link": "https://www.nps.gov/hale/planyourvisit/kipahulu.htm"
+      },
+      {
+        "title": "Crater exploration\n\nWilderness Area",
+        "description": "",
+        "link": "https://www.nps.gov/hale/planyourvisit/wilderness.htm"
+      }
+    ]
+  },
+  "havo": {
+    "url": "https://www.nps.gov/havo/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Day Hiking",
+        "description": "Get up-close-and-personal with the volcanic terrain on a short hike or walk",
+        "link": ""
+      },
+      {
+        "title": "Backcountry Hiking",
+        "description": "Hawaiʻi Volcanoes National Park includes over 123,000 acres of legally designated wilderness, providing ample opportunity to explore",
+        "link": ""
+      },
+      {
+        "title": "Crater Rim Drive Tour",
+        "description": "A scenic drive around the summit of Kīlauea",
+        "link": ""
+      },
+      {
+        "title": "Chain of Craters Road Tour",
+        "description": "A spectacular drive down the slopes of Kīlauea to the sea",
+        "link": ""
+      },
+      {
+        "title": "The Kahuku Unit",
+        "description": "Kahuku is a place of dynamic volcanism, rich Hawaiian traditions and a fascinating history of ranching.",
+        "link": ""
+      }
+    ]
+  },
+  "hosp": {
+    "url": "https://www.nps.gov/hosp/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Experience the Water",
+        "description": "Learn about the various ways that you can experience the thermal springs in the Park.",
+        "link": ""
+      },
+      {
+        "title": "Hiking",
+        "description": "With 26 miles of hiking trails in the Park, you can find great views, beautiful forest scenery, and feel like you're not in the City.",
+        "link": ""
+      },
+      {
+        "title": "Bathhouse Row",
+        "description": "Bathhouse Row is home to the Park's historic bathhouses. Learn about what is available in each of the bathhouses today.",
+        "link": ""
+      },
+      {
+        "title": "Birding",
+        "description": "Birding in the Park is a popular activity year-round. Learn more about the birds in the Park and our annual bird count.",
+        "link": ""
+      },
+      {
+        "title": "Photography",
+        "description": "Learn about the many opportunities to take great pictures in the Park.",
+        "link": ""
+      },
+      {
+        "title": "Biking in the Park",
+        "description": "Learn about the opportunities and rules for biking in the Park!",
+        "link": ""
+      },
+      {
+        "title": "Become a Junior Ranger",
+        "description": "Explore! Learn! Protect! Become a Junior Ranger at Hot Springs National Park.",
+        "link": ""
+      },
+      {
+        "title": "Ranger-led Programs",
+        "description": "Join a park ranger for a guided hike, a water talk, or an evening campground program!",
+        "link": ""
+      },
+      {
+        "title": "History & Culture",
+        "description": "Learn more about Hot Spring National Park's unique cultural and natural history.",
+        "link": ""
+      },
+      {
+        "title": "Education",
+        "description": "Learn more about the educational opportunities at the park - planning a field trip, curriculum resources, and suggested reading.",
+        "link": ""
+      },
+      {
+        "title": "Pets",
+        "description": "Learn about the pet-friendly activities for you and your furry companions in the park!",
+        "link": ""
+      },
+      {
+        "title": "Gulpha Gorge Campground",
+        "description": "Learn more about camping, picnicking, and swimming at Gulpha Gorge Campground",
+        "link": ""
+      },
+      {
+        "title": "Soak in the Springs",
+        "description": "Fully submerge yourself in the thermal water and let your worries melt away.",
+        "link": ""
+      },
+      {
+        "title": "Hot Springs Mountain Tower",
+        "description": "View Hot Springs from atop the Mountain Tower. Learn more about the history of this Hot Springs icon.",
+        "link": ""
+      },
+      {
+        "title": "Picnic by the Tower",
+        "description": "Enjoy a Peaceful Picnic in the Park.",
+        "link": ""
+      }
+    ]
+  },
+  "indu": {
+    "url": "https://www.nps.gov/indu/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "isro": {
+    "url": "https://www.nps.gov/isro/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Rock Harbor",
+        "description": "A more developed area located on the northeast end of the island.",
+        "link": "https://www.nps.gov/isro/planyourvisit/rock-harbor.htm"
+      },
+      {
+        "title": "Windigo",
+        "description": "Southwest end of Isle Royale.",
+        "link": "https://www.nps.gov/isro/planyourvisit/windigo.htm"
+      },
+      {
+        "title": "Houghton, Michigan",
+        "description": "Isle Royale's mainland headquarters.",
+        "link": "https://www.nps.gov/isro/planyourvisit/houghton.htm"
+      },
+      {
+        "title": "Minong Ridge Overlook",
+        "description": "A moderate to hard hike on the west end overlooking the island and Lake Superior.",
+        "link": "https://www.nps.gov/thingstodo/hike-to-minong-ridge-overlook.htm"
+      },
+      {
+        "title": "Grace Creek Overlook",
+        "description": "Grace Creek overlook is located along the Feldtmann trail.",
+        "link": "https://www.nps.gov/thingstodo/hike-to-grace-creek-overlook.htm"
+      },
+      {
+        "title": "Mount Ojibway",
+        "description": "A rocky ridge located near the Ojibway tower.",
+        "link": "https://www.nps.gov/thingstodo/greenstone-section-3-hike-from-mount-ojibway-to-chickenbone-lake.htm"
+      },
+      {
+        "title": "Lookout Louise",
+        "description": "Located on the east end of Isle Royale, looking towards Duncan Bay.",
+        "link": "https://www.nps.gov/places/lookout-louise.htm"
+      },
+      {
+        "title": "Mount Franklin",
+        "description": "Located on the east end of Isle Royale along the Greenstone Ridge Trail.",
+        "link": "https://www.nps.gov/places/mount-franklin.htm"
+      },
+      {
+        "title": "Scoville Point",
+        "description": "A rocky trail with one of the best views in the park.",
+        "link": "https://www.nps.gov/thingstodo/stoll-memorial-trail.htm"
+      },
+      {
+        "title": "Feldtmann Tower",
+        "description": "Located on the Feldtmann Ridge, this tower provides 360 views of the west end of Isle Royale.",
+        "link": "https://www.nps.gov/places/feldtmann-tower.htm"
+      },
+      {
+        "title": "Ishpeming Tower",
+        "description": "Located at the junction of the Greenstone Ridge Trail and Ishpeming Trail.",
+        "link": "https://www.nps.gov/places/ishpeming-tower.htm?utm_source=place&utm_medium=website&utm_campaign=experience_more&utm_content=small"
+      },
+      {
+        "title": "Ojibway Tower",
+        "description": "Located on the Greenstone Ridge on the eastern end of Isle Royale.",
+        "link": "https://www.nps.gov/places/ojibway-tower.htm?utm_source=place&utm_medium=website&utm_campaign=experience_more&utm_content=small"
+      },
+      {
+        "title": "Passage Island Lighthouse",
+        "description": "Guides ships on the northeast side of Isle Royale.",
+        "link": "https://www.nps.gov/places/passage-island-lighthouse.htm"
+      },
+      {
+        "title": "Rock Harbor Lighthouse",
+        "description": "This protector of the Rock Harbor channel is the most viewed and most visited.",
+        "link": "https://www.nps.gov/places/rock-harbor-lighthouse.htm"
+      },
+      {
+        "title": "Rock of Ages Lighthouse",
+        "description": "Rock of Ages can be found outside of Washington Harbor.",
+        "link": "https://www.nps.gov/places/rock-of-ages-lighthouse.htm?utm_source=place&utm_medium=website&utm_campaign=experience_more&utm_content=small"
+      }
+    ]
+  },
+  "jotr": {
+    "url": "https://www.nps.gov/jotr/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Explore the wilderness\n\nHiking",
+        "description": "Joshua Tree has about 300 miles of hiking trails for you to explore. Which one is calling to you?",
+        "link": "https://www.nps.gov/jotr/planyourvisit/hiking.htm"
+      },
+      {
+        "title": "Sleep under the stars\n\nCamping",
+        "description": "Camp out in one of Joshua Tree's nine developed campgrounds.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/campgrounds.htm"
+      },
+      {
+        "title": "World Class Climbing & Bouldering\n\nRock Climbing",
+        "description": "With an estimated 8,000 established routes and 2,000 bouldering problems, Joshua Tree is a premier destination for climbers.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/climbing.htm"
+      },
+      {
+        "title": "Half the Park is After Dark\n\nStargazing",
+        "description": "Can't see the Milky Way from where you live? You're not alone. Joshua Tree offers outstanding night-sky viewing.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/stargazing.htm"
+      },
+      {
+        "title": "Find desert solitude\n\nWilderness Backpacking",
+        "description": "Backpacking can be a great way to get out into the park for those who are prepared.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/backpacking.htm"
+      },
+      {
+        "title": "A dazzling display of colors\n\nWildflower Viewing",
+        "description": "Winter showers bring spring flowers.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/blooms.htm"
+      },
+      {
+        "title": "The Road to Adventure\n\n4x4 Backcountry Roads",
+        "description": "Joshua Tree offers many miles of backcountry dirt roads for four-wheel drive vehicles and mountain bikers to explore.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/backcountry-roads.htm"
+      },
+      {
+        "title": "Join the park paparazzi\n\nPhotography",
+        "description": "Capture your memories to share with others.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/photography.htm"
+      },
+      {
+        "title": "Desert riding\n\nBiking",
+        "description": "Miles of dirt and paved roads to explore.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/mountain-biking.htm"
+      },
+      {
+        "title": "Flocks and feathers\n\nBirding",
+        "description": "With over 250 recorded bird species, what birds can you spot?",
+        "link": "https://www.nps.gov/jotr/planyourvisit/birding.htm"
+      },
+      {
+        "title": "Giddy up!\n\nHorseback Riding",
+        "description": "Ride through the wild west landscape of Joshua Tree.",
+        "link": "https://www.nps.gov/jotr/planyourvisit/horseback-riding.htm"
+      }
+    ]
+  },
+  "katm": {
+    "url": "https://www.nps.gov/katm/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "kefj": {
+    "url": "https://www.nps.gov/kefj/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visit Exit Glacier",
+        "description": "The Exit Glacier area is the only part of the park accessible by road. Witness up close how a glacier re-shapes a landscape.",
+        "link": ""
+      },
+      {
+        "title": "Join a Ranger-Led Program",
+        "description": "Join a park ranger on a journey to deepen your connection to Kenai Fjords' beautiful, changing landscape.",
+        "link": ""
+      },
+      {
+        "title": "Exit Glacier Campground",
+        "description": "Exit Glacier has 12 first-come first-served tent sites in summer.",
+        "link": ""
+      },
+      {
+        "title": "Winter Activities",
+        "description": "Discover what winter holds at Kenai Fjords National Park. A Public Use Cabin is also available in winter at Exit Glacier.",
+        "link": ""
+      },
+      {
+        "title": "Exit Glacier Nature Center",
+        "description": "Learn about how glaciers are formed, go over your hiking plans with a ranger, find your stamp, and do a little shopping.",
+        "link": ""
+      },
+      {
+        "title": "Boat Tours",
+        "description": "Local boat companies seek playful wildlife and calving glaciers along Kenai Fjords' rugged coastline.",
+        "link": ""
+      },
+      {
+        "title": "Kayaking",
+        "description": "By dipping your paddle into these waters, you're participating in the long history of human powered travel along the Kenai Peninsula coast.",
+        "link": ""
+      },
+      {
+        "title": "Coastal Camping & Landing Beaches",
+        "description": "Finding your own way along the coast? Make sure you are properly prepared.",
+        "link": ""
+      },
+      {
+        "title": "Public Use Cabins",
+        "description": "Want a roof over your head? Two public use cabins in Aialik Bay are available for reservation in summer.",
+        "link": ""
+      },
+      {
+        "title": "Port Graham Corporation Owned Lands",
+        "description": "Some land along Kenai Fjords coastline is owned by Port Graham Corporation, an Alaska Native Corporation. See if you need a land use permit.",
+        "link": ""
+      },
+      {
+        "title": "The Harding Icefield Trail",
+        "description": "Completing the strenuous Harding Icefield Trail represents quite an accomplishment. The 8.2-mile round trip provides a spectacular day hike.",
+        "link": ""
+      },
+      {
+        "title": "Current Conditions & Alerts",
+        "description": "Make sure you know the trail conditions before you set out.",
+        "link": ""
+      },
+      {
+        "title": "Mountaineering",
+        "description": "Parties wishing to explore the icefield should be well versed in glacier travel and crevasse rescue techniques and experienced skiers",
+        "link": ""
+      },
+      {
+        "title": "Flightseeing",
+        "description": "Overflights provide dramatic views of the park's glaciers, fjords, and wildlife.",
+        "link": ""
+      },
+      {
+        "title": "Outfitters & Guides",
+        "description": "Commercial visitor service providers can often help with trip planning, transportation, equipment, and guides.",
+        "link": ""
+      }
+    ]
+  },
+  "kova": {
+    "url": "https://www.nps.gov/kova/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Backpacking & Camping",
+        "description": "Far from any roads, trails or signs of civilization, camping in Kobuk Valley National Park is a once-in-a-lifetime experience.",
+        "link": ""
+      },
+      {
+        "title": "Boating & Floating",
+        "description": "Floating down one of Kobuk Valley's Rivers it the change of a lifetime.",
+        "link": ""
+      },
+      {
+        "title": "Fishing",
+        "description": "Learn about the different species of fish that swim through the rivers of Kobuk Valley",
+        "link": ""
+      },
+      {
+        "title": "Flight-Seeing",
+        "description": "Enjoy a bird's eye view of Kobuk Valley National Park",
+        "link": ""
+      },
+      {
+        "title": "Nearby Attractions",
+        "description": "Explore your gateway to adventure in Kotzebue, Alaska",
+        "link": ""
+      }
+    ]
+  },
+  "lacl": {
+    "url": "https://www.nps.gov/lacl/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Port Alsworth",
+        "description": "Port Alsworth offers visitor services such as lodging, air taxis, guide services, gear rentals, post office, and park visitor center.",
+        "link": ""
+      },
+      {
+        "title": "Tanalian Trails",
+        "description": "The Tanalian trails network begins in town. Hike options include a beaver pond, Tanalian Falls, Kontrashibuna Lake, and Tanalian Mountain.",
+        "link": ""
+      },
+      {
+        "title": "Kontrashibuna Lake",
+        "description": "Intrepid hikers with more time can extend a trip beyond Kontrashibuna Lake into the trailless high country.",
+        "link": ""
+      },
+      {
+        "title": "Priest Rock Cabin",
+        "description": "Reserve an overnight stay in the Priest Rock public use cabin.",
+        "link": ""
+      },
+      {
+        "title": "How To Visit The Proenneke Cabin",
+        "description": "See Dick Proenneke's cabin at Upper Twin Lake",
+        "link": ""
+      },
+      {
+        "title": "The Story of Richard Proenneke",
+        "description": "Learn how Dick Proenneke came to live in Lake Clark country.",
+        "link": ""
+      },
+      {
+        "title": "Proenneke's Cabin",
+        "description": "Explore details of how Proenneke built his cabin.",
+        "link": ""
+      },
+      {
+        "title": "Crescent Lake",
+        "description": "Crescent Lake is tucked into the coastal Chigmit Mountains, with views of Redoubt Volcano, high bear populations, and strong salmon runs.",
+        "link": ""
+      },
+      {
+        "title": "Chinitna Bay",
+        "description": "At times, visitors are able to see twenty or more brown bears in the salt marsh and on the tidal flats east of Middle Glacier Creek.",
+        "link": ""
+      },
+      {
+        "title": "Silver Salmon Creek",
+        "description": "Located midway up the park's Cook Inlet coast, this is the place to be if you are interested in bear viewing or fishing.",
+        "link": ""
+      }
+    ]
+  },
+  "lavo": {
+    "url": "https://www.nps.gov/lavo/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Park Highway",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/thingstodo/driveparkhwy.htm"
+      },
+      {
+        "title": "Butte Lake Area",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/places/bl-day-use-area.htm"
+      },
+      {
+        "title": "Warner Valley",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/places/wv_day_use_area.htm"
+      },
+      {
+        "title": "Juniper Lake",
+        "description": "Explore this section for more information.",
+        "link": "https://www.nps.gov/places/jl_day_use_area.htm"
+      }
+    ]
+  },
+  "maca": {
+    "url": "https://www.nps.gov/maca/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Mammoth Cave Visitor Center",
+        "description": "Tour tickets, museum exhibits, trip planning information, restrooms, gifts -- the Visitor Center serves many of your needs and more!",
+        "link": "https://www.nps.gov/maca/planyourvisit/mammoth-cave-visitor-center.htm"
+      },
+      {
+        "title": "Explore the Visitor Center Area",
+        "description": "There are plenty of things to see only a short walk from the visitor center.",
+        "link": "https://www.nps.gov/maca/planyourvisit/visitor-center-area.htm"
+      },
+      {
+        "title": "Overlooks",
+        "description": "Discover viewpoints in the park.",
+        "link": "https://www.nps.gov/maca/planyourvisit/overlooks.htm"
+      },
+      {
+        "title": "Access the Green and Nolin Rivers",
+        "description": "Find areas to see the rivers or to start your next paddle trip.",
+        "link": "https://www.nps.gov/maca/planyourvisit/river-access.htm"
+      },
+      {
+        "title": "Visit a Historic Church or Cemetery",
+        "description": "Discover the history of the communities that once existed in the park.",
+        "link": "https://nps.gov/maca/planyourvisit/historic-churches-and-cemeteries.htm"
+      }
+    ]
+  },
+  "meve": {
+    "url": "https://www.nps.gov/meve/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Hike Mesa Verde",
+        "description": "Learn more about hiking in Mesa Verde National Park.",
+        "link": ""
+      },
+      {
+        "title": "Birding",
+        "description": "Native birds, migrators, and those common to the desert are found in the diverse landscape of the park. Get to know where and when to look.",
+        "link": ""
+      },
+      {
+        "title": "Stargaze",
+        "description": "Mesa Verde is certified as the 100th International Dark Sky Park. Join a ranger program, or stargaze on your own.",
+        "link": ""
+      },
+      {
+        "title": "Visiting Wetherill Mesa",
+        "description": "Formerly home to families, farms, villages and cliff dwellings. Today, it offers opportunities for hiking, biking, and exploring the sites.",
+        "link": ""
+      },
+      {
+        "title": "Winter Activities",
+        "description": "Once the snow builds up, so does the winter excitement for skiing and snowshoeing. Click for information and current trail conditions.",
+        "link": ""
+      },
+      {
+        "title": "Junior Ranger Activities",
+        "description": "Pick up a booklet at the Visitor & Research Center or entrance station and complete the activities to earn a Junior Ranger badge.",
+        "link": ""
+      }
+    ]
+  },
+  "mora": {
+    "url": "https://www.nps.gov/mora/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Lodging",
+        "description": "Stay in one of the park's historic inns.",
+        "link": ""
+      },
+      {
+        "title": "Camping",
+        "description": "Find the perfect spot for a night outdoors in one of Mount Rainier's three campgrounds.",
+        "link": ""
+      },
+      {
+        "title": "Wilderness Hiking, Camping, & Climbing",
+        "description": "Information and permits for exploring Mount Rainier's backcountry.",
+        "link": ""
+      },
+      {
+        "title": "Paradise",
+        "description": "Experience the colorful subalpine meadows of Paradise.",
+        "link": ""
+      },
+      {
+        "title": "Longmire",
+        "description": "With historic buildings and low elevation hiking, Longmire is open year-round.",
+        "link": ""
+      },
+      {
+        "title": "Sunrise",
+        "description": "Drive into the subalpine zone for some of the best views in the park from Sunrise.",
+        "link": ""
+      },
+      {
+        "title": "Trails of Mount Rainier",
+        "description": "The park has over 275 miles of maintained trails to take you from forest paths to subalpine ridges. Find the trail for you!",
+        "link": ""
+      },
+      {
+        "title": "Carbon River & Mowich",
+        "description": "Stroll through the temperate rain forests of Carbon River or visit the park's largest lake at Mowich.",
+        "link": ""
+      },
+      {
+        "title": "Ohanapecosh",
+        "description": "Feel the spray of waterfalls and the calm of the old growth forests at Ohanapecosh.",
+        "link": ""
+      },
+      {
+        "title": "Mount Rainier Virtual Tour",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "npsa": {
+    "url": "https://www.nps.gov/npsa/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Visiting Tutuila Island!",
+        "description": "The main island for American Samoa is Tutuila; discover how to get there and activities to do while on island.",
+        "link": ""
+      },
+      {
+        "title": "Visiting the Manu'a Islands!",
+        "description": "Wanting to venture further to the Manu'a Islands of Ofu and Ta'ū? Check out how to get there and what each island is known for.",
+        "link": ""
+      },
+      {
+        "title": "Stop in Your Visitor Center",
+        "description": "Looking for your passport stamp or simply curious about American Samoan culture and ecosystems? Swing by your Visitor Center in Pago Pago.",
+        "link": ""
+      }
+    ]
+  },
+  "npnh": {
+    "url": "https://www.nps.gov/npnh/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "neri": {
+    "url": "https://www.nps.gov/neri/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers",
+        "description": "Stop by one of the park's four visitor centers to find maps, information, learning opportunities, and help planning your visit",
+        "link": ""
+      },
+      {
+        "title": "New River Gorge Bridge",
+        "description": "Learn about the New River Gorge Bridge and information about Bridge Day.",
+        "link": ""
+      },
+      {
+        "title": "Grandview",
+        "description": "Perched on the edge of the gorge 1400 feet above the river, Grandview provides some of the best views of the gorge",
+        "link": ""
+      },
+      {
+        "title": "Sandstone Falls",
+        "description": "The largest waterfall on the New River, the spectacular Sandstone Falls drops the river 15 to 25 feet around a series of islands.",
+        "link": ""
+      },
+      {
+        "title": "Nuttallburg",
+        "description": "The remains of a tipple, coal conveyor, coke ovens, and buildings tell the story of one of the gorge's most significant coal mining towns.",
+        "link": ""
+      },
+      {
+        "title": "Thurmond",
+        "description": "Learn about the historic railroad town of Thurmond, one of the few towns in New River Gorge that was not a mining town.",
+        "link": ""
+      },
+      {
+        "title": "Fayette Station Road",
+        "description": "Exploring Fayette Station Road is to travel back in time before the modern New River Gorge Bridge was built in 1977.",
+        "link": ""
+      },
+      {
+        "title": "Kaymoor",
+        "description": "Learn about how to visit the Kaymoor Mine site",
+        "link": ""
+      },
+      {
+        "title": "Richmond Hamilton Farm",
+        "description": "This early subsistence farm offers a glimpse of what life was like for early settlers in this region.",
+        "link": ""
+      },
+      {
+        "title": "Trump-Lilly Farm",
+        "description": "The collection of buildings preserved at Trump-Lilly Farm take visitors back to the early days of Appalachian subsistence farming.",
+        "link": ""
+      },
+      {
+        "title": "Glade Creek/Hamlet",
+        "description": "The piers of the abandoned Glade Creek Bridge today mark the site of a former lumber mill and the remains of company logging towns.",
+        "link": ""
+      }
+    ]
+  },
+  "noca": {
+    "url": "https://www.nps.gov/noca/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers",
+        "description": "Step inside a visitor center and explore the exhibits and interpretive offerings, or talk to a ranger.",
+        "link": "https://www.nps.gov/noca/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "North Cascades Highway",
+        "description": "Drive State Route 20, the northernmost route across the Cascade Mountains  in Washington.",
+        "link": "https://www.nps.gov/noca/planyourvisit/north-cascades-highway.htm"
+      },
+      {
+        "title": "Ross Lake",
+        "description": "Ross Lake provides opportunities for visitors to experience a scenic reservoir surrounded by mountain wilderness.",
+        "link": "https://www.nps.gov/noca/planyourvisit/boating-on-ross-lake.htm"
+      },
+      {
+        "title": "The Magic of Stehekin Valley\n\nStehekin",
+        "description": "The Stehekin Valley has long served as a passageway for travelers, linking Washington's interior wilderness to the rugged Cascade Mountains.",
+        "link": "https://www.nps.gov/noca/planyourvisit/stehekin.htm"
+      },
+      {
+        "title": "Hozomeen",
+        "description": "Visit remote Hozomeen at the north end of Ross Lake.",
+        "link": "https://www.nps.gov/noca/planyourvisit/hozomeen.htm"
+      },
+      {
+        "title": "Wilderness Trip Planner",
+        "description": "Plan a trip into the backcountry of the North Cascades.",
+        "link": "https://www.nps.gov/noca/planyourvisit/wilderness-trip-planner.htm"
+      }
+    ]
+  },
+  "olym": {
+    "url": "https://www.nps.gov/olym/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Boating and Paddling",
+        "description": "Boat safe, and keep invasive species out with new boat cleaning stations at lake boat launches!",
+        "link": ""
+      },
+      {
+        "title": "Fishing",
+        "description": "Anglers can enjoy their favorite pastime in all seasons at Olympic.",
+        "link": ""
+      },
+      {
+        "title": "Tidepooling",
+        "description": "Olympic's rugged shoreline is rich with life. Where to go, when to go and tidepooling etiquette.",
+        "link": ""
+      },
+      {
+        "title": "Camping",
+        "description": "Plan your camping trip and stay at one of Olympic's 14 campgrounds.",
+        "link": ""
+      },
+      {
+        "title": "Day Hikes",
+        "description": "Plan an exciting day hike or short walk on one of the many trail options in the park.",
+        "link": ""
+      },
+      {
+        "title": "Backpacking",
+        "description": "Plan your wilderness overnight backpacking experience.",
+        "link": ""
+      },
+      {
+        "title": "Wildlife Viewing",
+        "description": "Interested in encountering wildlife in the wilderness? Learn about the best places to see animals in the park.",
+        "link": ""
+      },
+      {
+        "title": "When can I go to a ranger program?",
+        "description": "Explore Olympic's diverse ecosystems and history with a ranger during scheduled programs.",
+        "link": ""
+      },
+      {
+        "title": "Night Sky Programs",
+        "description": "Away from the city lights, join a ranger and gaze up at Olympic's starry skies.",
+        "link": ""
+      },
+      {
+        "title": "NPS Passport Program",
+        "description": "Track your park adventures with the NPS Passport Program!",
+        "link": ""
+      },
+      {
+        "title": "Visiting in Winter",
+        "description": "There's so much to do at Olympic National Park in the winter! Learn more here.",
+        "link": ""
+      },
+      {
+        "title": "Responsible Wildlife Viewing",
+        "description": "You are responsible for their own safety and for the safety of the animals, too.",
+        "link": ""
+      }
+    ]
+  },
+  "pefo": {
+    "url": "https://www.nps.gov/pefo/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "pinn": {
+    "url": "https://www.nps.gov/pinn/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Hiking in Pinnacles",
+        "description": "From short, easy trails for the whole family to strenuous hikes for the serious adventurer, Pinnacles has it all!",
+        "link": ""
+      },
+      {
+        "title": "Climbing at Pinnacles",
+        "description": "Pinnacles has a variety of routes for climbers of all abilities.",
+        "link": ""
+      },
+      {
+        "title": "Camping at Pinnacles",
+        "description": "The Pinnacles Campground is located near the Visitor Center. Backpacking is not allowed.",
+        "link": ""
+      },
+      {
+        "title": "Birdwatching",
+        "description": "Pinnacles National Park is a fantastic destination for birdwatching enthusiasts.",
+        "link": ""
+      }
+    ]
+  },
+  "romo": {
+    "url": "https://www.nps.gov/romo/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Take a Hike",
+        "description": "With over 350 miles of trails to explore, there is a trail for everyone to enjoy!",
+        "link": "https://www.nps.gov/romo/planyourvisit/hiking.htm"
+      },
+      {
+        "title": "Enjoy a ranger-led walk, talk or program",
+        "description": "Enjoy a ranger-led walk, talk or program!",
+        "link": "https://www.nps.gov/romo/planyourvisit/ranger-led-programs.htm"
+      },
+      {
+        "title": "Wildlife Viewing",
+        "description": "Rocky Mountain National Park is home to a wide variety of wildlife. Enjoy viewing wildlife in their natural habitat.",
+        "link": "https://www.nps.gov/romo/planyourvisit/wildlife_view.htm"
+      },
+      {
+        "title": "Take a Scenic Drive",
+        "description": "Enjoy a scenic drive in RMNP! There are many roads to explore. Keep an eye out for wildlife along the way.",
+        "link": "https://www.nps.gov/romo/planyourvisit/road_status.htm"
+      },
+      {
+        "title": "Go Camping",
+        "description": "Enjoy a camping trip in Rocky! Sites are available for tents and RVs year-round.",
+        "link": "https://www.nps.gov/romo/planyourvisit/camping.htm"
+      },
+      {
+        "title": "Horseback Riding",
+        "description": "Interested in going horseback riding? Many trails are open to horseback riding for both private trips and commercially guided trips.",
+        "link": "https://www.nps.gov/romo/planyourvisit/horses.htm"
+      }
+    ]
+  },
+  "sagu": {
+    "url": "https://www.nps.gov/sagu/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Hiking in Saguaro National Park",
+        "description": "Planning on taking a hike? Here is some information you need to know.",
+        "link": ""
+      },
+      {
+        "title": "Camping at Saguaro National Park",
+        "description": "Permitted back-country camping at Saguaro National Park is available year-round. Sites must be reserved through recreation.gov",
+        "link": ""
+      },
+      {
+        "title": "Guided Programs",
+        "description": "There is always something happening in the park.",
+        "link": ""
+      },
+      {
+        "title": "Outdoor Activities",
+        "description": "Additional information for outdoor activities beyond light day hiking such as longer, wilderness hiking and basic camping information.",
+        "link": ""
+      },
+      {
+        "title": "Bicycling at Saguaro",
+        "description": "There are a handful of biking opportunities at Saguaro National Park. Learn where you can ride.",
+        "link": ""
+      }
+    ]
+  },
+  "seki": {
+    "url": "https://www.nps.gov/seki/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Sequoia National Park",
+        "description": "Learn more about Sequoia National Park and the features within!",
+        "link": ""
+      },
+      {
+        "title": "Foothills",
+        "description": "A diverse landscape ruled by the seasons.",
+        "link": ""
+      },
+      {
+        "title": "Giant Forest and Lodgepole",
+        "description": "Two areas combined into one, Giant Forest and Lodgepole make up a large part of Sequoia National Park.",
+        "link": ""
+      },
+      {
+        "title": "Mineral King",
+        "description": "A steep, winding road leads to a place of rugged beauty. Between 7,800 – 14,000 feet in elevation it’s the highest accessible location.",
+        "link": ""
+      },
+      {
+        "title": "Kings Canyon National Park",
+        "description": "Learn more about the features, trails, and locations in Kings Canyon National Park.",
+        "link": ""
+      },
+      {
+        "title": "Grant Grove",
+        "description": "Originally General Grant National Park, Grant Grove",
+        "link": ""
+      },
+      {
+        "title": "Cedar Grove",
+        "description": "This district holds the features that gave Kings Canyon National Park it's name.",
+        "link": ""
+      },
+      {
+        "title": "Sequoia National Forest",
+        "description": "Just outside national park boundaries, Sequoia National Forest offers camping, lodging restaurants, markets, and more.",
+        "link": ""
+      },
+      {
+        "title": "Nearby Attractions",
+        "description": "Read more about nearby attractions around the parks.",
+        "link": ""
+      },
+      {
+        "title": "Wilderness",
+        "description": "The high Sierra provide outstanding opportunities for recreation.",
+        "link": ""
+      }
+    ]
+  },
+  "shen": {
+    "url": "https://www.nps.gov/shen/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers",
+        "description": "",
+        "link": "https://www.nps.gov/shen/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "Exhibits",
+        "description": "",
+        "link": "https://www.nps.gov/shen/planyourvisit/exhibits.htm"
+      },
+      {
+        "title": "Old Rag Mountain",
+        "description": "",
+        "link": "https://www.nps.gov/places/old-rag.htm"
+      },
+      {
+        "title": "Big Meadows",
+        "description": "",
+        "link": "https://www.nps.gov/places/big-meadows.htm"
+      },
+      {
+        "title": "Skyland",
+        "description": "",
+        "link": "https://www.nps.gov/places/000/skyland.htm"
+      }
+    ]
+  },
+  "thro": {
+    "url": "https://www.nps.gov/thro/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Little Missouri River Floodplains\n\nNorth Unit",
+        "description": "Experience wilderness and the park's most dramatic scenery.",
+        "link": "https://www.nps.gov/thro/planyourvisit/north-unit.htm"
+      },
+      {
+        "title": "Wildlife and Wonder\n\nSouth Unit",
+        "description": "View animals and scenery iconic of the American West.",
+        "link": "https://www.nps.gov/thro/planyourvisit/south-unit.htm"
+      },
+      {
+        "title": "Cradle of Conservation\n\nElkhorn Ranch Unit",
+        "description": "Walk to the secluded spot where Roosevelt found adventure, healing, and inspiration.",
+        "link": "https://www.nps.gov/thro/planyourvisit/elkhorn-ranch-unit.htm"
+      },
+      {
+        "title": "Get info and get out there!\n\nVisitor Centers",
+        "description": "Check out exhibits, shop the bookstores, and get help planning your visit.",
+        "link": "https://www.nps.gov/thro/planyourvisit/visitorcenters.htm"
+      },
+      {
+        "title": "Sleep under the stars!\n\nCampgrounds",
+        "description": "Find a campground that's just right for you - no matter what time of year!",
+        "link": "https://www.nps.gov/thro/planyourvisit/camping.htm"
+      },
+      {
+        "title": "While you're here...\n\nNearby Places",
+        "description": "There's so much to do and discover in Western North Dakota. Here are some ideas for while you're here...",
+        "link": "https://www.nps.gov/thro/planyourvisit/nearbyattractions.htm"
+      }
+    ]
+  },
+  "viis": {
+    "url": "https://www.nps.gov/viis/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "voya": {
+    "url": "https://www.nps.gov/voya/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "whsa": {
+    "url": "https://www.nps.gov/whsa/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "wica": {
+    "url": "https://www.nps.gov/wica/planyourvisit/things2do.htm",
+    "places": []
+  },
+  "wotr": {
+    "url": "https://www.nps.gov/wotr/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Filene Center Activities",
+        "description": "Prior to performances at the Filene Center, there are opportunities for recreation and relaxation throughout the park.",
+        "link": ""
+      },
+      {
+        "title": "Children's Theater Activities",
+        "description": "There are many activities that are centered around a visit to Theatre-in-the-Woods beyond a performance.",
+        "link": ""
+      },
+      {
+        "title": "Take A Hike!",
+        "description": "Wind through the woods and over Wolf Trap Run to explore the park's natural areas on the Wolf Trap Trail or TRACK Trail.",
+        "link": ""
+      },
+      {
+        "title": "Guided Tours of the Filene Center",
+        "description": "Park rangers give backstage tours of the Filene Center from October - April.",
+        "link": ""
+      },
+      {
+        "title": "Become A Junior Ranger",
+        "description": "Learn what makes Wolf Trap so special by completing the booklet and associated activities and earning a badge or patch.",
+        "link": ""
+      }
+    ]
+  },
+  "wrst": {
+    "url": "https://www.nps.gov/wrst/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Day Hiking",
+        "description": "There are a variety of day hikes found along the three main roads and the park and preserve.",
+        "link": ""
+      },
+      {
+        "title": "Backpacking",
+        "description": "Wrangell-St. Elias is full of amazing and awe-inspiring sights and scenery. Come explore our mountains; you won't regret it.",
+        "link": ""
+      },
+      {
+        "title": "Mountaineering",
+        "description": "Our park and preserve has a vast variety of challenging mountains; if you're looking for a challenge, you won't be disappointed.",
+        "link": ""
+      },
+      {
+        "title": "For Kids",
+        "description": "Bring your kid for a fun time at our park and preserve, where we have special programs and activities made with your child in mind!",
+        "link": ""
+      },
+      {
+        "title": "Wildlife Viewing",
+        "description": "Beavers, bears, birds and bugs are all happy residents here, along with many other amazing creatures.",
+        "link": ""
+      },
+      {
+        "title": "Outfitters and Guides",
+        "description": "First time in our park? Not to worry! Don't know the terrain? We have what you need! Check out the guides and services available to you.",
+        "link": ""
+      },
+      {
+        "title": "River Floating and Boating",
+        "description": "Come enjoy the twists and turns of a rushing river with your family and friends. Guides are available for beginners.",
+        "link": ""
+      },
+      {
+        "title": "Sport Hunting and Fishing",
+        "description": "Wrangell-St. Elias National Park and Preserve offers unparalleled opportunities for hunting and fishing.",
+        "link": ""
+      },
+      {
+        "title": "Ranger Guided Tours",
+        "description": "Come witness the wonders of our park with knowledgeable guidance from experienced rangers.",
+        "link": ""
+      },
+      {
+        "title": "Winter Activities",
+        "description": "Summer is a popular time to visit, but our park and preserve is enjoyable in the winter too. There are plenty of things to do in the snow.",
+        "link": ""
+      },
+      {
+        "title": "Motorized Vehicle Use",
+        "description": "Please see our regulations and requirements for motorized vehicle usage in our park and preserve.",
+        "link": ""
+      }
+    ]
+  },
+  "yell": {
+    "url": "https://www.nps.gov/yell/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Visitor Centers",
+        "description": "Step inside a visitor center and explore the exhibits and interpretive offerings, or talk to a ranger.",
+        "link": ""
+      },
+      {
+        "title": "Plan Your Visit",
+        "description": "Yellowstone is seasonal. Plan your visit by learning about current conditions, seasons, road conditions, services, activities, and more.",
+        "link": ""
+      },
+      {
+        "title": "Canyon Village and the Grand Canyon",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Fishing Bridge, Lake, and Bridge Bay",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Madison and the West",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Mammoth Hot Springs and the North",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Norris Geyser Basin",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Old Faithful",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "Tower–Roosevelt and the Northeast",
+        "description": "Major park area and highlights.",
+        "link": ""
+      },
+      {
+        "title": "West Thumb, Grant, and the South",
+        "description": "Major park area and highlights.",
+        "link": ""
+      }
+    ]
+  },
+  "yose": {
+    "url": "https://www.nps.gov/yose/planyourvisit/placestogo.htm",
+    "places": [
+      {
+        "title": "Yosemite Valley",
+        "description": "Yosemite Valley is world famous for its impressive waterfalls, meadows, cliffs, and unusual rock formations; accessible by car year-round.",
+        "link": ""
+      },
+      {
+        "title": "Hetch Hetchy",
+        "description": "Hidden in Yosemite National Park’s peaceful northwest corner, Hetch Hetchy Valley is a treasure worth visiting in all seasons.",
+        "link": ""
+      },
+      {
+        "title": "Glacier Point",
+        "description": "Glacier Point is an overlook with a commanding view of Yosemite Valley, Half Dome, Yosemite Falls, and Yosemite’s high country.",
+        "link": ""
+      },
+      {
+        "title": "Wawona",
+        "description": "Wawona is the home to the historic Wawona Hotel and the Yosemite History Center.",
+        "link": ""
+      },
+      {
+        "title": "Mariposa Grove",
+        "description": "The Mariposa Grove of Giant Sequoias is the largest sequoia grove in Yosemite and is home to over 500 mature sequoias.",
+        "link": ""
+      },
+      {
+        "title": "Tuolumne Meadows and Tioga Road",
+        "description": "Tuolumne Meadows is a large, open sub-alpine meadow graced by the winding Tuolumne River and surrounded by majestic peaks and domes.",
+        "link": ""
+      },
+      {
+        "title": "Crane Flat Area",
+        "description": "Crane Flat is a pleasant forest and meadow area located 16 miles (30 minutes) from Yosemite Valley.",
+        "link": ""
+      },
+      {
+        "title": "Waterfalls",
+        "description": "Yosemite is home to countless waterfalls. The best time to see waterfalls is during spring, when most of the snowmelt occurs.",
+        "link": ""
+      },
+      {
+        "title": "Rock Formations",
+        "description": "Over eons, rivers and glaciers somehow carved 3,000 feet into solid granite to create Yosemite Valley forming spectacular rock formations.",
+        "link": ""
+      },
+      {
+        "title": "Viewpoints",
+        "description": "There are many different viewpoints in Yosemite; Tunnel View, Olmsted Point, Glacier Point, just to name a few!",
+        "link": ""
+      },
+      {
+        "title": "Lakes and Rivers",
+        "description": "Very few lakes are easily accessible in Yosemite National Park. Rivers flow through Wawona, Yosemite Valley, and Tuolumne Meadows.",
+        "link": ""
+      },
+      {
+        "title": "Meadows and Wetlands",
+        "description": "What's so special about meadows and wetlands? Nowhere else in Yosemite will you find a greater diversity of plants and animals.",
+        "link": ""
+      },
+      {
+        "title": "Accessibility",
+        "description": "Yosemite's goal is to provide the highest possible level of accessibility to our visitors.",
+        "link": ""
+      },
+      {
+        "title": "Museums, Buildings, and Cemeteries",
+        "description": "Yosemite is filled with history and there are numerous places in the park where you can visit a museum, historic building, or cemetery.",
+        "link": ""
+      }
+    ]
+  },
+  "zion": {
+    "url": "https://www.nps.gov/zion/planyourvisit/things2do.htm",
+    "places": [
+      {
+        "title": "Map and Guide",
+        "description": "Planning a trip to Zion National Park can be challenging. The park newspaper contains a wealth of information to help you plan your visit.",
+        "link": ""
+      },
+      {
+        "title": "Backpacking",
+        "description": "Spend a night backpacking in the impressive Zion Wilderness.",
+        "link": ""
+      },
+      {
+        "title": "Biking",
+        "description": "The Pa'rus Trail and Zion Canyon Scenic Drive are accessible to bicycles.",
+        "link": ""
+      },
+      {
+        "title": "Birds",
+        "description": "Zion is home to 291 species of birds. Bird checklists are available at the visitor centers.",
+        "link": ""
+      },
+      {
+        "title": "Camping",
+        "description": "Zion has three campgrounds. Watchman Campground takes reservations from March through late November.",
+        "link": ""
+      },
+      {
+        "title": "Canyoneering",
+        "description": "Learn about canyoneering in Zion and how to get a permit.",
+        "link": ""
+      },
+      {
+        "title": "Climbing",
+        "description": "Find out about climbing in Zion and how to get a permit for overnight bivouacs.",
+        "link": ""
+      },
+      {
+        "title": "Hiking",
+        "description": "Zion offers many trails ranging from short walks to strenuous adventures.",
+        "link": ""
+      },
+      {
+        "title": "Guided Horseback Riding",
+        "description": "Guided trips are available March through October. Call\n1-435-679-8665 or visit www.canyonrides.com.",
+        "link": ""
+      },
+      {
+        "title": "Kolob Canyons",
+        "description": "Kolob Canyons, located in the northwest corner of Zion National Park, offers different scenery from the main canyon.",
+        "link": ""
+      },
+      {
+        "title": "The Narrows",
+        "description": "Plan your hike into the Virgin River Narrows. Hiking options include day hikes from the bottom-up and top-down, and overnight from top-down.",
+        "link": ""
+      },
+      {
+        "title": "Ranger-led Activities",
+        "description": "Join a park ranger and learn more about Zion. Check the Park Map and Guide for times, places, and subjects.",
+        "link": ""
+      },
+      {
+        "title": "River Trips",
+        "description": "Learn about rules and regulations for float trips in Zion. Find out when the Virgin River in Zion is open for boating.",
+        "link": ""
+      },
+      {
+        "title": "Stock Use",
+        "description": "Horses and other stock animals are allowed on select Wilderness trails. Learn the rules and regulations here.",
+        "link": ""
+      },
+      {
+        "title": "Sunrise and Sunset",
+        "description": "While the red cliffs surrounding Zion are impressive in every light, they are extraordinary in the warm hues of sunrise and sunset.",
+        "link": ""
+      }
+    ]
+  }
+}

@@ -6,6 +6,8 @@ import { NPS_API_KEY, NPS_BASE_URL } from '../config/npsConfig';
 import SUMMIT_SCOUT_DATA from '../data/summit_scout.json';
 import CAMPING_DATA from '../data/intelligence/camping.json';
 import PERMITS_DATA from '../data/intelligence/vehicle_permits.json';
+import FEES_DATA from '../data/intelligence/fees.json';
+import GETTING_THERE_DATA from '../data/intelligence/getting-there.json';
 
 const FAMOUS_LANDMARKS = {
     'yose': ['Half Dome', 'El Capitan', 'Yosemite Falls', 'Mirror Lake'],
@@ -313,7 +315,7 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                     overflowX: 'auto',
                                     paddingBottom: '2px'
                                 }} className="no-scrollbar">
-                                    {['Summary', 'Basics', 'Getting There', 'CAMPING', 'Permits', 'Reviews', 'Related'].map((tab) => (
+                                    {['Summary', 'Basics', 'Getting There', 'Fees', 'CAMPING', 'Permits', 'Reviews', 'Related'].map((tab) => (
                                         <button
                                             key={tab}
                                             onClick={(e) => { e.stopPropagation(); setActiveTab(tab); }}
@@ -466,32 +468,140 @@ const ParkCard = ({ park, isSelected, onClick, activeStyle, viewMode, isVisited,
                                     )}
 
                                     {activeTab === 'Getting There' && (
-                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                                            {info.logistics.map((item, i) => (
-                                                <div key={i} style={{
-                                                    display: 'flex',
-                                                    gap: '12px',
-                                                    background: '#fcfcfc',
-                                                    padding: '10px',
-                                                    border: '1px solid #eee'
-                                                }}>
-                                                    <div style={{
-                                                        width: '24px',
-                                                        height: '24px',
-                                                        opacity: 0.6
-                                                    }}>
-                                                        <img
-                                                            src={getNPSIcon(item.icon)}
-                                                            alt=""
-                                                            style={{ width: '100%', height: '100%' }}
-                                                        />
-                                                    </div>
-                                                    <div style={{ flex: 1 }}>
-                                                        <div style={{ fontSize: '0.6rem', color: '#999', fontWeight: 'bold', letterSpacing: '1px', marginBottom: '2px' }}>{item.label}</div>
-                                                        <div style={{ fontSize: '0.85rem', color: '#333', fontFamily: '"PT Serif", serif', fontStyle: 'italic' }}>{item.value}</div>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                                            {/* Transport Cards */}
+                                            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                                {(() => {
+                                                    const transport = GETTING_THERE_DATA[park.parkCode]?.transportation || {};
+                                                    const config = [
+                                                        { key: 'car', icon: 'automobiles', label: 'BY CAR' },
+                                                        { key: 'plane', icon: 'airport', label: 'BY PLANE' },
+                                                        { key: 'train', icon: 'rail-station', label: 'BY TRAIN' },
+                                                        { key: 'bus', icon: 'bus-stop', label: 'BY BUS' },
+                                                        { key: 'shuttle_taxi', icon: 'tram-tour', label: 'SHUTTLE / TAXI' }
+                                                    ];
+
+                                                    return config.map(item => {
+                                                        const value = transport[item.key];
+                                                        if (!value || value.toLowerCase().includes('none') || value.toLowerCase().includes('no public')) return null;
+
+                                                        return (
+                                                            <div key={item.key} style={{
+                                                                display: 'flex',
+                                                                gap: '12px',
+                                                                background: '#fcfcfc',
+                                                                padding: '12px',
+                                                                border: '1px solid #eee',
+                                                                borderRadius: '4px'
+                                                            }}>
+                                                                <div style={{
+                                                                    width: '28px',
+                                                                    height: '28px',
+                                                                    flexShrink: 0,
+                                                                    opacity: 0.7
+                                                                }}>
+                                                                    <img
+                                                                        src={getNPSIcon(item.icon)}
+                                                                        alt=""
+                                                                        style={{ width: '100%', height: '100%' }}
+                                                                    />
+                                                                </div>
+                                                                <div style={{ flex: 1 }}>
+                                                                    <div style={{ fontSize: '0.65rem', color: '#999', fontWeight: 'bold', letterSpacing: '1px', marginBottom: '4px' }}>{item.label}</div>
+                                                                    <div style={{ fontSize: '0.85rem', color: '#444', fontFamily: '"PT Serif", serif', lineHeight: '1.4' }}>{value}</div>
+                                                                </div>
+                                                            </div>
+                                                        );
+                                                    });
+                                                })()}
+                                            </div>
+
+                                            {/* Key Places */}
+                                            {GETTING_THERE_DATA[park.parkCode]?.places?.length > 0 && (
+                                                <div style={{ marginTop: '5px' }}>
+                                                    <div style={{ fontSize: '0.65rem', color: '#999', fontWeight: 'bold', letterSpacing: '1px', marginBottom: '8px' }}>KEY ENTRY POINTS / PLACES</div>
+                                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                                                        {GETTING_THERE_DATA[park.parkCode].places.map((place, i) => (
+                                                            <span key={i} style={{
+                                                                fontSize: '0.7rem',
+                                                                background: '#f0f0f0',
+                                                                padding: '4px 10px',
+                                                                borderRadius: '0',
+                                                                color: '#555',
+                                                                fontFamily: '"PT Sans Narrow", sans-serif',
+                                                                fontWeight: 'bold',
+                                                                border: '1px solid #e0e0e0'
+                                                            }}>
+                                                                {place.toUpperCase()}
+                                                            </span>
+                                                        ))}
                                                     </div>
                                                 </div>
-                                            ))}
+                                            )}
+
+                                            {GETTING_THERE_DATA[park.parkCode]?.url && (
+                                                <a
+                                                    href={GETTING_THERE_DATA[park.parkCode].url}
+                                                    target="_blank"
+                                                    rel="noopener noreferrer"
+                                                    style={{
+                                                        display: 'inline-flex',
+                                                        alignItems: 'center',
+                                                        gap: '6px',
+                                                        color: '#cd5c5c',
+                                                        textDecoration: 'none',
+                                                        fontSize: '0.75rem',
+                                                        fontWeight: 'bold',
+                                                        fontFamily: '"PT Sans Narrow", sans-serif',
+                                                        textTransform: 'uppercase',
+                                                        letterSpacing: '1px',
+                                                        marginTop: '10px'
+                                                    }}
+                                                    onClick={(e) => e.stopPropagation()}
+                                                >
+                                                    <MapPin size={14} /> OFFICIAL DIRECTIONS & MAPS
+                                                </a>
+                                            )}
+                                        </div>
+                                    )}
+
+                                    {activeTab === 'Fees' && (
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
+                                            {FEES_DATA[park.parkCode]?.entranceFees?.length > 0 && (
+                                                <div style={{ background: '#fcfcfc', border: '1px solid #eee', borderRadius: '4px', overflow: 'hidden' }}>
+                                                    <div style={{ background: '#f5f5f5', padding: '8px 12px', fontSize: '0.7rem', fontWeight: 'bold', color: '#666', borderBottom: '1px solid #eee' }}>ENTRANCE FEES</div>
+                                                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem' }}>
+                                                        <tbody>
+                                                            {FEES_DATA[park.parkCode].entranceFees.map((fee, i) => (
+                                                                <tr key={i} style={{ borderBottom: i === FEES_DATA[park.parkCode].entranceFees.length - 1 ? 'none' : '1px solid #f0f0f0' }}>
+                                                                    <td style={{ padding: '10px 12px', color: '#333', fontWeight: '500' }}>{fee.title}</td>
+                                                                    <td style={{ padding: '10px 12px', color: '#cd5c5c', fontWeight: 'bold', textAlign: 'right', whiteSpace: 'nowrap' }}>{fee.cost}</td>
+                                                                </tr>
+                                                            ))}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            )}
+                                            {FEES_DATA[park.parkCode]?.entrancePasses?.length > 0 && (
+                                                <div style={{ background: '#fcfcfc', border: '1px solid #eee', borderRadius: '4px', overflow: 'hidden' }}>
+                                                    <div style={{ background: '#f5f5f5', padding: '8px 12px', fontSize: '0.7rem', fontWeight: 'bold', color: '#666', borderBottom: '1px solid #eee' }}>ANNUAL PASSES</div>
+                                                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.85rem' }}>
+                                                        <tbody>
+                                                            {FEES_DATA[park.parkCode].entrancePasses.map((pass, i) => (
+                                                                <tr key={i} style={{ borderBottom: i === FEES_DATA[park.parkCode].entrancePasses.length - 1 ? 'none' : '1px solid #f0f0f0' }}>
+                                                                    <td style={{ padding: '10px 12px', color: '#333', fontWeight: '500' }}>{pass.title}</td>
+                                                                    <td style={{ padding: '10px 12px', color: '#cd5c5c', fontWeight: 'bold', textAlign: 'right', whiteSpace: 'nowrap' }}>{pass.cost}</td>
+                                                                </tr>
+                                                            ))}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            )}
+                                            {(!FEES_DATA[park.parkCode] || (FEES_DATA[park.parkCode].entranceFees?.length === 0 && FEES_DATA[park.parkCode].entrancePasses?.length === 0)) && (
+                                                <div style={{ padding: '20px', textAlign: 'center', color: '#999', fontSize: '0.9rem', fontStyle: 'italic' }}>
+                                                    No standard entrance fees found for this park.
+                                                </div>
+                                            )}
                                         </div>
                                     )}
 
